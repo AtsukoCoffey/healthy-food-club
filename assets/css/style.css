@@ -30,34 +30,48 @@ body {
 /* Header */
 header {
   background-color: rgb(59,115,57);
-  padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
-
   justify-content: space-between;
-
+  box-shadow: 0 2px 1px #3a3a3a
 }
 
 h1 {
   color: rgb(239,255,239);
 /* Title logo font */
   font-family: "Poiret One", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  letter-spacing: -0.5px;
+  padding: 0 1rem;
 }
 
+nav {
+  position:absolute;
+  background-color: rgb(59,115,57);
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  box-shadow: 0 2px 1px #3a3a3a;
+  display: none;
+}
 
 header ul {
   list-style: none;
+  color: inherit;
+}
+
+header li {
+  font-size: 110%;
+  letter-spacing: 4px;
+  padding-bottom: 1rem;
 }
 
 
 
-div.hero-image {
-  min-height: 60vh;
-  background: url(../images/young-smiling-woman-hero1200.jpg) bottom center/cover no-repeat;
-
+.active {
+  text-decoration: underline;
 }
 
 /* Main */
@@ -67,4 +81,10 @@ main {
   width: 100%;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
+}
+
+div.hero-image {
+  min-height: 60vh;
+  background: url(../images/young-smiling-woman-hero1200.jpg) bottom center/cover no-repeat;
+
 }
