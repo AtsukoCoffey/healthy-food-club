@@ -39,38 +39,38 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 ## Scope Plane 
 ### General user stories
->	As a user, I want to clearly understand what services are offered on this website.
->	As a user, I want to be able to easily navigate through to find contents.
->	As a user, I want the website to work on different devices and formats that I use.
->	As a user, I want a simple sign up process to select my preferred option.
->	As a user, I want to feel that healthy cooking is easy and interesting.
->	As a user, I want to see varieties of perspectives articles about health to fit my problem awareness.
+*	As a user, I want to clearly understand what services are offered on this website.
+*	As a user, I want to be able to easily navigate through to find contents.
+*	As a user, I want the website to work on different devices and formats that I use.
+*	As a user, I want a simple sign up process to select my preferred option.
+*	As a user, I want to feel that healthy cooking is easy and interesting.
+*	As a user, I want to see varieties of perspectives articles about health to fit my problem awareness.
 
 ### Target users and who are interested in this website
->	As a user, I want to find when is the next cooking session and what is the lecture subject clearly.
-> As a user, I want to find what kind of people are organising the Healthy Food Club and are they trustworthy or not.
-> As a user, I want to find out the schedules of future sessions.
+*	As a user, I want to find when is the next cooking session and what is the lecture subject clearly.
+* As a user, I want to find what kind of people are organising the Healthy Food Club and are they trustworthy or not.
+* As a user, I want to find out the schedules of future sessions.
 
 ### The website owner stories
->	As a site owner, I want to gather people for cooking & lecture sessions.
->	As a site owner, I want to convey clearly who we are and our purpose, to give users a sense of trust and confidence.
->	As a site owner, I want to share useful information and chemical studies.
->	As a site owner, I want to encourage people’s awareness about chemicals in our life.
->	As a site owner, I want to inform and educate about European and national regulations on food additives.
->	As a site owner, I want to provide inspiration for alternative cooking ideas.
->	As a site owner, I want to convey clearly that the Healthy Food Club is not just recipes cooking club.
+*	As a site owner, I want to gather people for cooking & lecture sessions.
+*	As a site owner, I want to convey clearly who we are and our purpose, to give users a sense of trust and confidence.
+*	As a site owner, I want to share useful information and chemical studies.
+*	As a site owner, I want to encourage people’s awareness about chemicals in our life.
+*	As a site owner, I want to inform and educate about European and national regulations on food additives.
+*	As a site owner, I want to provide inspiration for alternative cooking ideas.
+*	As a site owner, I want to convey clearly that the Healthy Food Club is not just recipes cooking club.
 
 ## Structure Plane
 
-> The website should have a Navigation menu that is consistent across all pages.
-> The website should have a fixed footer to access anytime to see this site's SNS.  
-> The website should give the user a way to contact through a form.
-> The website should have breadcrumbs to let user know strong sense of place and give access to index and former pages. 
-> The website should have hover interaction for links and some objects also abbreviation and tooltips with additional information to enhance user experience.
-> The landing page should show what this site is offering intuitively.
-> The Info page should have a variety of articles that are categorized by different perspectives.
-> Burger icon is commonly used to smaller screen, so the website use this convention to represent the navigation for suit users' expectation.
-> The SignUp page's submit button should be clearly visible and interact when hover it. Also changes colour and text after submit to let user knows the form was sent.
+* The website should have a Navigation menu that is consistent across all pages.
+* The website should have a fixed footer to access anytime to see this site's SNS.  
+* The website should give the user a way to contact through a form.
+* The website should have breadcrumbs to let user know strong sense of place and give access to index and former pages. 
+* The website should have hover interaction for links and some objects also abbreviation and tooltips with additional information to enhance user experience.
+* The landing page should show what this site is offering intuitively.
+* The Info page should have a variety of articles that are categorized by different perspectives.
+* Burger icon is commonly used to smaller screen, so the website use this convention to represent the navigation for suit users' expectation.
+* The SignUp page's submit button should be clearly visible and interact when hover it. Also changes colour and text after submit to let user knows the form was sent.
 
 ##  Skeleton Plane
 
