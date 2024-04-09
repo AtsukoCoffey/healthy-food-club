@@ -32,13 +32,13 @@ body {
 
 /* Header */
 header {
-  background-color: rgb(59, 115, 57);
-  position: fixed;
-  z-index: 95;
-  width: 100%;
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: baseline;
+  z-index: 95;
+  width: 100%;
+  background-color: rgb(59, 115, 57);
   box-shadow: 0 2px 1px #3a3a3a;
 }
 
@@ -65,7 +65,7 @@ h1, h2, h3 {
 /* Navbar styles - dropdown toggle */
 nav {
   display: none;
-  /* position:absolute for place nav just under the parent element */
+  /* position:absolute top:100% for place nav just under the parent element */
   position: absolute;
   top: 100%;
   left: 0;
@@ -86,18 +86,19 @@ nav {
 
 .nav-toggle-label {
   z-index: 96;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 
 header ul {
   list-style: none;
   color: inherit;
+  text-transform: uppercase;
+  font-size: 120%;
+  letter-spacing: 4px;
 }
 
 header li {
-  font-size: 110%;
-  letter-spacing: 4px;
   padding-bottom: 1rem;
 }
 
