@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   /* project 1 styles */
-  color: rgb(131,166,5);
+  color: rgb(131, 166, 5);
   font-family: "Josefin Sans", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -30,11 +30,11 @@ body {
 
 /* Header */
 header {
-  background-color: rgb(59,115,57);
+  background-color: rgb(59, 115, 57);
   position: fixed;
   z-index: 95;
   width: 100%;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
   box-shadow: 0 2px 1px #3a3a3a;
@@ -46,24 +46,26 @@ header a {
 }
 
 h1 {
-  color: rgb(239,255,239);
-/* Title logo font */
+  color: rgb(239, 255, 239);
+  /* Title logo font */
   font-family: "Poiret One", sans-serif;
   font-weight: 200;
   font-style: normal;
   letter-spacing: 0px;
-  flex: 1 1;
+  /* flex: 1 1; */
+  padding: 0.5rem;
 }
 
 /* Navbar styles - dropdown toggle */
 nav {
-  position:absolute;
-  background-color: rgb(59,115,57);
-  width: 100%;
-  text-align: left;
-  box-shadow: 0 2px 1px #3a3a3a;
   display: none;
+  /* position:absolute for place nav just under the parent element */
+  position: absolute;
   top: 100%;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 1px #3a3a3a;
+  background-color: rgb(59, 115, 57);
   padding: 0 1rem;
 }
 
@@ -114,5 +116,38 @@ main {
 div.hero-image {
   min-height: 60vh;
   background: url(../images/young-smiling-woman-hero1200.jpg) center center/cover no-repeat;
+
+}
+
+
+/* Media query: General smart phone (320px and up) */
+@media screen and (min-width:320px) {
+  h1 {
+    padding: 1rem;
+  }
+
+}
+
+/* Media query: General smart phone (768px and up) */
+@media screen and (min-width:768px) {
+  nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    box-shadow: none;
+    padding-right: 1rem;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu>li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
 
 }
