@@ -34,7 +34,7 @@ body {
 header {
   display: flex;
   position: fixed;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
   z-index: 95;
   width: 100%;
@@ -56,10 +56,11 @@ h1, h2, h3 {
   color: rgb(239, 255, 239);
   /* Title logo font */
   font-family: "Poiret One", sans-serif;
+  font-size: 1.7rem;
   font-weight: 200;
   font-style: normal;
   line-height: 50px;
-  padding: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 /* Navbar styles - dropdown toggle */
@@ -86,7 +87,8 @@ nav {
 
 .nav-toggle-label {
   z-index: 96;
-  font-size: 120%;
+  font-size: 140%;
+  padding-right: 0.5rem;
 }
 
 
@@ -129,9 +131,14 @@ div.hero-image {
 
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
+  header {
+    justify-content: space-between;
+  }
+  
   #logo {
     padding-left: 1rem;
   }
+  
 
 }
 
