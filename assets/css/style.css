@@ -1,6 +1,8 @@
 /* Google fonts import */
 /* Title logo */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* Headings */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* regular font */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -21,7 +23,7 @@ body {
   /* project 1 styles */
   color: rgb(131, 166, 5);
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -45,14 +47,18 @@ header a {
   color: inherit;
 }
 
-h1 {
+h1, h2, h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+}
+
+#logo {
   color: rgb(239, 255, 239);
   /* Title logo font */
   font-family: "Poiret One", sans-serif;
   font-weight: 200;
   font-style: normal;
   letter-spacing: 0px;
-  /* flex: 1 1; */
   padding: 0.5rem;
 }
 
@@ -148,6 +154,10 @@ div.hero-image {
 
   .nav-toggle-label {
     display: none;
+  }
+
+  h1 {
+    font-size: 200%;
   }
 
 }
