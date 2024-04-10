@@ -131,21 +131,24 @@ div.hero-image {
   min-height: 60vh;
   background: url(../images/young-smiling-woman-hero1200.jpg) center center/cover no-repeat;
 
-    /* animates zoom effect on loading page : refering to Love Running - Code Institute*/
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  /* animates zoom effect on loading page : refering to Love Running - Code Institute*/
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
 }
+
 
 div.hero-image>div {
   position: absolute;
@@ -160,6 +163,23 @@ div.hero-image>div {
   font-size: 115%;
   line-height: 210%;
   border-radius: 20px;
+}
+
+/* Upcoming info section */
+
+#upcoming-info {
+  z-index: 80;
+  background-color: rgb(242, 92, 5);
+  color: rgb(239, 255, 239);
+  width: 100%;
+  padding: 1rem;
+}
+
+#upcoming-info img {
+  float: left;
+  width: 30%;
+  height: 50%;
+  margin-right: 0.5rem;
 }
 
 /* Footer */
