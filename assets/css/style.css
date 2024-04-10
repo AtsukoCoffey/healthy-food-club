@@ -120,8 +120,7 @@ nav {
 
 /* Main */
 main {
-  position: relative;
-  top: 49px;
+  margin-top: 49px;
   width: 100%;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
@@ -139,7 +138,7 @@ div.hero-image>div {
   max-width: 1000px;
   min-height: 200px;
   margin-left: 1rem;
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 10px;
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(85, 32, 1, 0.4);
@@ -187,7 +186,7 @@ footer a:hover {
 
   /* Main */
   main {
-    top: 64px;
+    margin-top: 64px;
 
   }
 
@@ -221,7 +220,7 @@ footer a:hover {
 
   /* Main */
   main {
-    top: 75px;
+    margin-top: 75px;
   }
 }
 
