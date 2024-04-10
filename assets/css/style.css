@@ -51,7 +51,7 @@ h1,
 h2,
 h3 {
   font-family: "Quicksand", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 #logo {
@@ -121,7 +121,7 @@ nav {
 /* Main */
 main {
   position: relative;
-  top: 38px;
+  top: 49px;
   width: 100%;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
@@ -133,6 +133,20 @@ div.hero-image {
 
 }
 
+div.hero-image>div {
+  position: absolute;
+  top: 0;
+  max-width: 1000px;
+  min-height: 200px;
+  margin-left: 1rem;
+  margin-top: 40px;
+  padding: 10px;
+  /* Final rgba value sets the opacity so it is semi-transparent */
+  background-color: rgba(85, 32, 1, 0.4);
+  color: rgb(239, 255, 239);
+  font-size: 130%;
+
+}
 
 /* Footer */
 footer {
@@ -148,7 +162,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: #f25C05;
+  color: rgb(242, 92, 5);
 }
 
 #social-networks {
@@ -171,6 +185,11 @@ footer a:hover {
     padding-left: 1rem;
   }
 
+  /* Main */
+  main {
+    top: 64px;
+
+  }
 
 }
 
@@ -200,12 +219,16 @@ footer a:hover {
     line-height: 75px;
   }
 
+  /* Main */
+  main {
+    top: 75px;
+  }
 }
 
 
 /* Media query: General smart phone (1024px and up) */
 @media screen and (min-width:1024px) {
-#menu {
-font-size: 120%;
-}
+  #menu {
+    font-size: 120%;
+  }
 }
