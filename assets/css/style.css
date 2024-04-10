@@ -47,7 +47,9 @@ header a {
   color: inherit;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Quicksand", sans-serif;
   font-weight: 200;
 }
@@ -132,6 +134,31 @@ div.hero-image {
 }
 
 
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #83BF73;
+}
+
+footer a,
+footer a:visited {
+  color: rgb(239, 255, 239);
+}
+
+footer a:hover {
+  color: #f25C05;
+}
+
+#social-networks {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px 15%;
+}
+
+
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
   header {
@@ -143,7 +170,7 @@ div.hero-image {
     line-height: 65px;
     padding-left: 1rem;
   }
-  
+
 
 }
 
