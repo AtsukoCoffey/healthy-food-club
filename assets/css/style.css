@@ -98,7 +98,7 @@ nav {
   list-style: none;
   color: inherit;
   text-transform: uppercase;
-  font-size: 120%;
+  font-size: 110%;
   letter-spacing: 2px;
 }
 
@@ -200,4 +200,12 @@ footer a:hover {
     line-height: 75px;
   }
 
+}
+
+
+/* Media query: General smart phone (1024px and up) */
+@media screen and (min-width:1024px) {
+#menu {
+font-size: 120%;
+}
 }
