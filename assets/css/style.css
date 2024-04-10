@@ -24,7 +24,7 @@ body {
   color: rgb(131, 166, 5);
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
-  font-style: normal;
+  line-height: 150%;
 }
 
 
@@ -177,10 +177,10 @@ div.hero-image>div {
 
 #upcoming-info img {
   float: left;
-  width: 30%;
-  height: 50%;
-  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 0.5rem;
 }
+
 
 /* Footer */
 footer {
@@ -263,6 +263,7 @@ footer a:hover {
     font-size: 130%;
     padding: 2rem;
   }
+
 }
 
 
