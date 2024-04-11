@@ -128,6 +128,10 @@ main {
   flex: 1 0 auto;
 }
 
+section, article {
+  padding: 1rem;
+}
+
 #hero-outer {
   position: relative;
   overflow: hidden;
@@ -179,7 +183,6 @@ main {
   background-color: rgb(242, 92, 5);
   color: rgb(239, 255, 239);
   width: 100%;
-  padding: 1rem;
 }
 
 #upcoming-info img {
@@ -193,6 +196,11 @@ main {
   line-height: 150%;
 }
 
+/* About Us section */
+
+#about-us {
+  clear: left;
+}
 
 /* Footer */
 footer {
@@ -234,7 +242,6 @@ footer a:hover {
   /* Main */
   main {
     margin-top: 64px;
-
   }
 
 }
@@ -275,6 +282,16 @@ footer a:hover {
     left: 10%;
     font-size: 130%;
     padding: 2rem;
+  }
+
+  #section-layout {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0;
+  }
+
+  #upcoming-info, #about-us {
+    width: 50%;
   }
 
 }
