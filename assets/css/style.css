@@ -24,6 +24,7 @@ body {
   color: rgb(131, 166, 5);
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
+  font-size: 1.1rem;
   line-height: 150%;
 }
 
@@ -52,6 +53,7 @@ h2,
 h3 {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  line-height: 150%;
 }
 
 #logo {
@@ -126,8 +128,15 @@ main {
   flex: 1 0 auto;
 }
 
-div.hero-image {
+#hero-outer {
   position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+}
+
+#hero-image {
+  width: 100%;
   min-height: 60vh;
   background: url(../images/young-smiling-woman-hero1200.jpg) center center/cover no-repeat;
 
@@ -135,7 +144,6 @@ div.hero-image {
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
-  z-index: -1;
 }
 
 /* creates the level of zoom for hero image */
@@ -150,17 +158,17 @@ div.hero-image {
 }
 
 
-div.hero-image>div {
+#hero-text {
   position: absolute;
   top: 33%;
   max-width: 1000px;
   min-height: 200px;
-  margin: 1rem;
+  margin: 1.5rem;
   padding: 1rem;
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(85, 32, 1, 0.7);
   color: rgb(239, 255, 239);
-  font-size: 115%;
+  font-size: 95%;
   line-height: 210%;
   border-radius: 20px;
 }
@@ -168,7 +176,6 @@ div.hero-image>div {
 /* Upcoming info section */
 
 #upcoming-info {
-  z-index: 80;
   background-color: rgb(242, 92, 5);
   color: rgb(239, 255, 239);
   width: 100%;
@@ -249,6 +256,7 @@ footer a:hover {
   }
 
   #logo {
+    padding-top: 10px;
     font-size: 2.8rem;
     line-height: 75px;
   }
@@ -258,7 +266,7 @@ footer a:hover {
     margin-top: 75px;
   }
 
-  div.hero-image>div {
+  #hero-text {
     left: 10%;
     font-size: 130%;
     padding: 2rem;
