@@ -87,8 +87,12 @@ I looked around adobe color website for researching suitable color scheme. I pic
 ![Color scheme](assets/images/readme-img/Color-scheme.gif)
 
 ### Typography
-Logo *Healthy Food Club*
-I chose "Poiret One" from Google font's web site. It has a strong charactor but feeling not pointy.
+> Logo  - Healthy Food Club
+I choose "Poiret One" from Google font's web site. It has a strong charactor but feeling not pointy.
+
+> Headings
+
+> basic
 ---------------------------------------------------
 
 <a name="features"></a>
