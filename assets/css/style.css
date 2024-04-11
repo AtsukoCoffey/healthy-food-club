@@ -188,6 +188,11 @@ main {
   margin-top: 0.5rem;
 }
 
+#upcoming-info figcaption {
+  font-size: 130%;
+  line-height: 150%;
+}
+
 
 /* Footer */
 footer {
