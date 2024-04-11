@@ -302,4 +302,16 @@ footer a:hover {
   #menu {
     font-size: 120%;
   }
+
+  #section-layout, article {
+    margin: 0 10%;
+  }
+
+  #upcoming-info, #about-us {
+    width: 66%;
+  }
+
+  #about-us {
+    width: 33%;
+  }
 }
