@@ -226,6 +226,29 @@ This section shows sample pictures with dates, lecture’s title and cooking men
 
 <a name="credits"></a>
 
+# Bugs
+
+> figure tag
+In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity. So I asked perplexity whether I could use both elements together.
+![Youtube height technique](assets/images/readme-img/Credit-perplex-figure.png)
+
+> Youtube iframe video
+I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.
+![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height.png)
+![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height2.png)
+
+> Youtube iframe align center
+I struggled again to set this `<iframe>` setting align center. Tried setting properties to the outer `<div>` and the parent `<article>` elements. After the search, I found this fantastic technique persuaded me very well.
+![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe1.png)
+![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe2.png)
+
+> `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
+I wondered what is this meta tag for and after my research, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.  
+![Youtube iframe set align center](assets/images/readme-img/Credit-perplex-meta-xua-compatible1.png)
+![Youtube iframe set align center](assets/images/readme-img/Credit-perplex-meta-xua-compatible2.png)
+
+
+
 # Credits
 
 
