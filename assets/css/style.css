@@ -92,7 +92,6 @@ nav {
   padding-right: 0.5rem;
 }
 
-
 #menu {
   list-style: none;
   color: inherit;
@@ -109,13 +108,9 @@ nav {
   color: rgb(239, 255, 239);
 }
 
-
 .active {
   text-decoration: underline;
 }
-
-
-
 
 /* Main */
 main {
@@ -201,6 +196,7 @@ article {
 
 #about-us figure {
   float: right;
+  display: none;
 }
 
 #about-us .more-info {
@@ -272,6 +268,10 @@ footer a:hover {
   main {
     margin-top: 64px;
   }
+ 
+#about-us figure {
+  display: block;
+}
 
 }
 
