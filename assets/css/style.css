@@ -32,7 +32,7 @@ body {
 header {
   display: flex;
   position: fixed;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
   z-index: 95;
   width: 100%;
@@ -57,11 +57,11 @@ h3 {
   color: rgb(239, 255, 239);
   /* Title logo font */
   font-family: "Poiret One", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 500;
   font-style: normal;
   line-height: 50px;
-  padding-left: 0.5rem;
+  padding-left: 0.7rem;
 }
 
 /* Navbar styles - dropdown toggle */
@@ -89,7 +89,7 @@ nav {
 .nav-toggle-label {
   z-index: 96;
   font-size: 1.5rem;
-  padding-right: 0.5rem;
+  padding-right: 0.7rem;
 }
 
 #menu {
@@ -251,26 +251,44 @@ footer a:hover {
   padding: 10px 15%;
 }
 
-
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
-  header {
-    justify-content: space-between;
-  }
 
+  /* header */
   #logo {
     font-size: 2rem;
     line-height: 65px;
-    padding-left: 1rem;
+    padding-left: 5%;
+  }
+
+  .nav-toggle-label {
+    padding-right: 5%;
   }
 
   /* Main */
   main {
     margin-top: 64px;
   }
- 
-#about-us figure {
-  display: block;
+
+  #about-us figure {
+    display: block;
+  }
+
+}
+
+/* Media query: General smart phone (390px and up) */
+@media screen and (min-width:390px) {
+  #logo {
+    font-size: 2.4rem;
+    line-height: 70px;
+  }
+  .nav-toggle-label {
+    font-size: 2rem;
+  }
+
+ /* Main */
+  section, article {
+    padding: 5%;
 }
 
 }
@@ -298,7 +316,6 @@ footer a:hover {
   }
 
   #logo {
-    padding-top: 10px;
     padding-left: 4%;
     font-size: 2.8rem;
     line-height: 75px;
@@ -329,7 +346,6 @@ footer a:hover {
 
   #upcoming-info,
   #about-us {
-    margin-top: 15px;
     width: 50%;
   }
 
@@ -337,6 +353,10 @@ footer a:hover {
   article {
     margin: 0 5%;
   }
+
+  section, article {
+    padding: 3%;
+}
 
 }
 
@@ -351,14 +371,6 @@ footer a:hover {
   article {
     margin: 0 7%;
   }
-
-  /* #upcoming-info, #about-us {
-    width: 33%;
-  }
-
-  #about-us {
-    width: 66%;
-  } */
 
   /* video section */
   .video-container {
