@@ -203,6 +203,12 @@ article {
   clear: right;
 }
 
+/* Youtube article section */
+#youtube {
+  background-color: rgb(131,166,3);
+  color: rgb(239, 255, 239);
+}
+
 /* Youtube video fixed aspect ratio technique : stackoverflow - credit */
 .video-container {
   position: relative;
@@ -252,6 +258,14 @@ footer a:hover {
   list-style-type: none;
   padding: 10px 15%;
 }
+
+/* Info page */
+
+.breadcrumb {
+  color: rgb(131,166,3);
+  font-size: 0.7rem;
+}
+
 
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
@@ -351,8 +365,7 @@ footer a:hover {
     width: 50%;
   }
 
-  #section-layout,
-  article {
+  #section-layout {
     margin: 0 5%;
   }
 
@@ -369,8 +382,7 @@ footer a:hover {
     font-size: 110%;
   }
 
-  #section-layout,
-  article {
+  #section-layout {
     margin: 0 7%;
   }
 

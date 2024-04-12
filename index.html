@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- For older versions of IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Additional Meta tags -->
   <meta name="discription"
@@ -13,8 +15,9 @@
   <!-- Title -->
   <title>Healthy Food Club</title>
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -65,23 +68,24 @@
       <section id="about-us">
         <h2>About Us</h2>
         <p>
-          <figure>
-            <picture>
-              <source media="(min-width: 1024px)" srcset="assets\images\tus-campus-map-233x260.png">
-              <source media="(min-width: 424px)" srcset="assets\images\tus-campus-map-179x200.png">
-              <img src="assets\images\tus-campus-map-179x200.png" alt="Technological University of the Shannon (TUS)">
-            </picture>
-            <figcaption>Map of TUS campus</figcaption>
-          </figure>
-          We are an ordinary mum&apos;s group dedicated to promoting a healthy lifestyle for young people, based in
-          Athlone in
-          the midlands. Lectures and cooking sessions take place at the Technological University of the Shannon (TUS).
+        <figure>
+          <picture>
+            <source media="(min-width: 1024px)" srcset="assets\images\tus-campus-map-233x260.png">
+            <source media="(min-width: 424px)" srcset="assets\images\tus-campus-map-179x200.png">
+            <img src="assets\images\tus-campus-map-179x200.png" alt="Technological University of the Shannon (TUS)">
+          </picture>
+          <figcaption>Map of TUS campus</figcaption>
+        </figure>
+        We are an ordinary mum&apos;s group dedicated to promoting a healthy lifestyle for young people, based in
+        Athlone in
+        the midlands. Lectures and cooking sessions take place at the Technological University of the Shannon (TUS).
         </p>
         <p class="more-info">More information >></p>
       </section>
     </div>
-    <article>
-      <h2 class="video-title">A healthy diet, a healthier world (<abbr title="World Health Organization">WHO</abbr>)</h2>
+    <article id="youtube">
+      <h2 class="video-title">A healthy diet, a healthier world (<abbr title="World Health Organization">WHO</abbr>)
+      </h2>
       <div class="video-container">
         <iframe src="https://www.youtube-nocookie.com/embed/XMcab1MFaLc?si=Js68DUkcs7yKN2Vq"
           title="YouTube video player" frameborder="0"
