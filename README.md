@@ -265,6 +265,11 @@ Picture pastrami beef
 <a href="https://www.freepik.com/free-photo/sliced-beef-pastrami-pastrami-with-turkish-bacon-closeup-top-view-traditional-turkish-food_37833736.htm#query=pastrami&position=0&from_view=keyword&track=sph&uuid=26cf64d1-d161-45da-a382-231c4d0c2ee6" width="300">Image by ededchechine on Freepik </a>
 
 
+vege 
+<a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
+
+
+
 Youtube: 
 A healthy diet, a healthier world (WHO)
 [https://www.youtube.com/watch?v=XMcab1MFaLc](https://www.youtube.com/watch?v=XMcab1MFaLc)
