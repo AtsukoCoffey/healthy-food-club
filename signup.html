@@ -23,22 +23,113 @@
 </head>
 
 <body>
-  <!-- Header : Toggled navigation is refering to Love Running [Code Institute] -->
+  <!-- Header : Toggled navigation is refer to Love Running [Code Institute] -->
   <header>
     <h1 id="logo">Healthy Food Club</h1>
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
     <nav class="global">
       <ul id="menu">
-        <li><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href=""><i class="fa-solid fa-circle-info"></i>Info</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="info.html"><i class="fa-solid fa-circle-info"></i>Info</a></li>
         <li><a href="" class="active"><i class="fa-solid fa-square-pen"></i>SignUp</a></li>
       </ul>
     </nav>
   </header>
   <!-- Main -->
   <main>
-    
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="index.html">Top page</a></li>
+        <li><a href="" aria-current="page">Sign up page</a></li>
+      </ol>
+    </nav>
+    <section id="signup">
+      <h2>Let's Signed up!</h2>
+      <form id="" action="https://formdump.codeinstitute.net" method="post">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" class="text-input" required>
+        <br>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name" class="text-input" required>
+        <br>
+        <label for="email-address">Email Address</label>
+        <input type="email" name="email_address" id="email-address" class="text-input" required>
+        <br>
+        <label for="phone-number">Phon No.</label>
+        <input type="text" name="phone_number" id="phone-number" class="text-input">
+        <br>
+        <label for="user-experience">What kind of experience</label>
+        <select name="user_experience" id="user-experience" class="text-input">
+          <option value="beginner" selected>Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="expert">Expert</option>
+          <option value="proffesional">Proffesional</option>
+        </select>
+        <fieldset>
+          <legend>Please choose the session below</legend>
+          <div class="radio-buttons">
+            <div>
+              <input type="radio" name="cooking_experience" id="02-05-2024" value="02-05-2024" required checked>
+              <label for="02-05-2024">On : 02 /05 /2024</label>
+              <p>Pastrami Beef<br>Theme : Sodium nitrite & nitrates</p>
+            </div>
+            <div>
+              <input type="radio" name="cooking_experience" id="02-06-2024" value="02-06-2024" required>
+              <label for="02-06-2024">On : 02 /06 /2024</label>
+              <p>Apple Cider Vinegar Drinks<br>Theme : Leaky gut</p>
+            </div>
+            <div>
+              <input type="radio" name="cooking_experience" id="02-07-2024" value="02-07-2024" required>
+              <label for="02-07-2024">On : 02 /07 /2024</label>
+              <p>Baking with Unrefined Flour<br>Theme : Refined flour</p>
+            </div>
+            <div>
+              <input type="radio" name="cooking_experience" id="mailing-list" value="mailing-list" required>
+              <label for="mailing-list">Join our mailing list</label>
+            </div>
+          </div>
+        </fieldset>
+        <input type="submit" value="Let&apos;s Join!">
+      </form>
+    </section>
+    <section id="session-schedule">
+      <h2>Upcoming session</h2>
+      <div>
+        <h3>On 02/05/2024<br>Pastrami Beef</h3>
+        <p>Let&apos;s make a healthy & non-toxic beef pastrami! Join this cooking session and learn about sodium nitrite
+          & nitrates.</p>
+      </div>
+      <div>
+        <h3>On 02/06/2024<br>Apple Cider Vinegar Drink</h3>
+        <p>We&apos;ll talk about your gut. It is said the gut is your second brain. Let&apos;s learn about it and keep
+          it in good condition!</p>
+      </div>
+      <div>
+        <h3>On 02/07/2024<br>Baking with Unrefined Flour</h3>
+        <p>Everything is refined too much! Especially sugar, salt and _our are contributing to health issues. Let&apos;s
+          use simple natural ingredients!</p>
+      </div>
+    </section>
+    <section id="where-to-find-us">
+      <h2>Where to find us</h2>
+      <address>
+        Healthy Food Club <br>
+        <div>Address : </div>
+        <div>Lower Clonbrusk, Coosan West, Athlone, Co. Westmeath</div>
+        <div>Venue : </div>
+        <div>Technological University of the Shannon (TUS).</div>
+        <div>E-mail :</div>
+        <div>atsucoffey@gmail.com</div>
+        <div>Phone :</div>
+        <div>086-827-2620</div>
+      </address>
+      <div id="map">
+        <div class="video-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3998.9829624511217!2d-7.907571025396328!3d53.41823308725541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sie!4v1713048223543!5m2!1sja!2sie" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- Footer -->
   <footer>

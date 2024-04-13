@@ -137,7 +137,7 @@ article {
   min-height: 60vh;
   background: url(../images/young-smiling-woman-hero1200.jpg) center center/cover no-repeat;
 
-  /* animates zoom effect on loading page : refering to Love Running - Code Institute*/
+  /* animates zoom effect on loading page : refer to Love Running - Code Institute*/
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -205,7 +205,7 @@ article {
 
 /* Youtube article section */
 #youtube {
-  background-color: rgb(131,166,3);
+  background-color: rgb(131, 166, 3);
   color: rgb(239, 255, 239);
 }
 
@@ -260,12 +260,12 @@ footer a:hover {
 }
 
 /* Info page */
-
+/* Breadcrumb  */
 nav.breadcrumb {
   margin-top: 5px;
   padding: 0.3rem;
   background-color: rgb(239, 255, 239);
-  color: rgb(131,166,3);
+  color: rgb(131, 166, 3);
   font-size: 0.9rem;
 }
 
@@ -278,7 +278,7 @@ nav.breadcrumb li {
   display: inline;
 }
 
-nav.breadcrumb li + li::before {
+nav.breadcrumb li+li::before {
   display: inline-block;
   margin: 0 0.25em;
   transform: rotate(15deg);
@@ -288,7 +288,7 @@ nav.breadcrumb li + li::before {
 }
 
 nav.breadcrumb [aria-current="page"] {
-  color: rgb(131,166,3);
+  color: rgb(131, 166, 3);
   font-weight: 700;
   text-decoration: none;
 }
@@ -298,7 +298,12 @@ nav.breadcrumb a:hover {
 }
 
 nav.breadcrumb a:visited {
-  color: rgb(131,166,3);
+  color: rgb(131, 166, 3);
+}
+
+/* Sign up page */
+#map {
+  margin-bottom: 5%;
 }
 
 /* Media query: General smart phone (320px and up) */
@@ -332,14 +337,16 @@ nav.breadcrumb a:visited {
     font-size: 2.4rem;
     line-height: 70px;
   }
+
   .nav-toggle-label {
     font-size: 2rem;
   }
 
- /* Main */
-  section, article {
+  /* Main */
+  section,
+  article {
     padding: 5%;
-}
+  }
 
 }
 
@@ -403,9 +410,10 @@ nav.breadcrumb a:visited {
     margin: 0 5%;
   }
 
-  section, article {
+  section,
+  article {
     padding: 3%;
-}
+  }
 
 }
 
@@ -423,7 +431,7 @@ nav.breadcrumb a:visited {
   .video-title {
     max-width: 1061px;
     margin: 0 auto;
-  } 
+  }
 
   /* video section */
   .video-container {
