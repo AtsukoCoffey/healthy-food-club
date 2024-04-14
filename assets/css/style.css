@@ -301,9 +301,47 @@ nav.breadcrumb a:visited {
   color: rgb(131, 166, 3);
 }
 
+/* Useful Info */
+#useful-info {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 2rem;
+}
+#useful-info > div {
+  border: 2px solid #ffffff;
+  flex: 1 1 250px;
+}
+
+#basic-knowledge {
+  background: url(../images/kitchen-7471627_640.jpg) no-repeat top center/100%;
+}
+
+#healthy-gut {
+  background: url(../images/womans-hands-belly_640.jpg) no-repeat top center/100%;
+}
+
+#research-sickness {
+  background: url(../images/stethoscope-prescription-laptop_640.jpg) no-repeat top center/100%;
+}
+
+#tips-tricks {
+  background: url(../images/vegetables-6064523_640.jpg) no-repeat top center/100%;
+}
+
+#useful-info > div > div {
+  background-color: rgb(24, 48, 24, .7);
+  color: rgb(239, 255, 239);
+  padding: 1rem;
+}
+
+#useful-info > div > div:hover {
+  color: rgb(242, 92, 5);
+}
+
 /* Sign up page */
 #map {
-  margin-bottom: 5%;
+  margin-bottom: 50px;
 }
 
 /* Media query: General smart phone (320px and up) */
