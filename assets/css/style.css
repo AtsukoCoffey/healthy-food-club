@@ -309,9 +309,15 @@ nav.breadcrumb a:visited {
   margin-top: 2rem;
 }
 
+#useful-info h3 {
+  margin: 1rem 0;
+  line-height: 150%;
+}
+
 #useful-info>div {
-  border: 2px solid #ffffff;
-  flex: 1 1 250px;
+  border: 3px solid #ffffff;
+  flex: 1 1 300px;
+  background-color: #ffffff;
 }
 
 #basic-knowledge {
@@ -461,7 +467,7 @@ nav.breadcrumb a:visited {
   }
 
   #useful-info>div {
-    background-size: 50%;
+    background-size: contain;
   }
 
   #useful-info>div>div {
@@ -513,14 +519,32 @@ nav.breadcrumb a:visited {
     flex-direction: row;
   }
 
+  #basic-knowledge {
+    background: url(../images/kitchen-7471627_640-gra.jpg) no-repeat top center/100%;
+  }
+  
+  #healthy-gut {
+    background: url(../images/womans-hands-belly_640-gra.jpg) no-repeat top center/100%;
+  }
+  
+  #research-sickness {
+    background: url(../images/stethoscope-prescription-laptop_640-gra.jpg) no-repeat top center/100%;
+  }
+  
+  #tips-tricks {
+    background: url(../images/vegetables-6064523_640-gra.jpg) no-repeat top center/100%;
+  }
+
   #useful-info>div {
-    background-size: 100%;
     flex: 1 1 400px;
+    /* max-width: 460px; */
+    height: 430px;
   }
 
   #useful-info>div>div {
     width: 100%;
-    margin-top: 66%;
+    height: 53%;
+    margin-top: 35%;
   }
 
   #basic-knowledge, #research-sickness {
