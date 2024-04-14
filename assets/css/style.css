@@ -308,34 +308,36 @@ nav.breadcrumb a:visited {
   list-style: none;
   margin-top: 2rem;
 }
-#useful-info > div {
+
+#useful-info>div {
   border: 2px solid #ffffff;
   flex: 1 1 250px;
 }
 
 #basic-knowledge {
-  background: url(../images/kitchen-7471627_640.jpg) no-repeat top center/100%;
+  background: url(../images/kitchen-7471627_640.jpg) no-repeat top center/cover;
 }
 
 #healthy-gut {
-  background: url(../images/womans-hands-belly_640.jpg) no-repeat top center/100%;
+  background: url(../images/womans-hands-belly_640.jpg) no-repeat top center/cover;
 }
 
 #research-sickness {
-  background: url(../images/stethoscope-prescription-laptop_640.jpg) no-repeat top center/100%;
+  background: url(../images/stethoscope-prescription-laptop_640.jpg) no-repeat top center/cover;
 }
 
 #tips-tricks {
-  background: url(../images/vegetables-6064523_640.jpg) no-repeat top center/100%;
+  background: url(../images/vegetables-6064523_640.jpg) no-repeat top center/cover;
 }
 
-#useful-info > div > div {
+#useful-info>div>div {
   background-color: rgb(24, 48, 24, .7);
   color: rgb(239, 255, 239);
   padding: 1rem;
+  height: 100%;
 }
 
-#useful-info > div > div:hover {
+#useful-info>div>div:hover {
   color: rgb(242, 92, 5);
 }
 
@@ -453,6 +455,30 @@ nav.breadcrumb a:visited {
     padding: 3%;
   }
 
+  /* Useful Info page */
+  #useful-info {
+    flex-direction: column;
+  }
+
+  #useful-info>div {
+    background-size: 50%;
+  }
+
+  #useful-info>div>div {
+    width: 50%;
+  }
+
+  #basic-knowledge, #research-sickness {
+    background-position: right;
+  }
+
+  #healthy-gut, #tips-tricks {
+    background-position: left;
+  }
+
+  #healthy-gut>div, #tips-tricks>div {
+    margin-left: 50%;
+  }
 }
 
 
@@ -481,4 +507,32 @@ nav.breadcrumb a:visited {
     width: 1061px;
     height: 597px;
   }
+
+  /* Useful Info page */
+  #useful-info {
+    flex-direction: row;
+  }
+
+  #useful-info>div {
+    background-size: 100%;
+    flex: 1 1 400px;
+  }
+
+  #useful-info>div>div {
+    width: 100%;
+    margin-top: 66%;
+  }
+
+  #basic-knowledge, #research-sickness {
+    background-position: top;
+  }
+
+  #healthy-gut, #tips-tricks {
+    background-position: top;
+  }
+
+  #healthy-gut>div, #tips-tricks>div {
+    margin-left: 0%;
+  }
+
 }
