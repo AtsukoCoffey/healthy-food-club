@@ -130,7 +130,7 @@ article {
 #hero-image {
   width: 100%;
   min-height: 60vh;
-  background: url(../images/young-smiling-woman-hero1200.jpg) center center/cover no-repeat;
+  background: url(../images/young-smiling-woman-hero1200.webp) center center/cover no-repeat;
 
   /* animates zoom effect on loading page : refer to Love Running - Code Institute*/
   animation-name: hero-zoom;
@@ -316,19 +316,19 @@ nav.breadcrumb a:visited {
 }
 
 #basic-knowledge {
-  background: url(../images/kitchen-7471627_640.jpg) no-repeat top center/cover;
+  background: url(../images/kitchen-7471627_640.webp) no-repeat top center/cover;
 }
 
 #healthy-gut {
-  background: url(../images/womans-hands-belly_640.jpg) no-repeat top center/cover;
+  background: url(../images/womans-hands-belly_640.webp) no-repeat top center/cover;
 }
 
 #research-sickness {
-  background: url(../images/stethoscope-prescription-laptop_640.jpg) no-repeat top center/cover;
+  background: url(../images/stethoscope-prescription-laptop_640.webp) no-repeat top center/cover;
 }
 
 #tips-tricks {
-  background: url(../images/vegetables-6064523_640.jpg) no-repeat top center/cover;
+  background: url(../images/vegetables-6064523_640.webp) no-repeat top center/cover;
 }
 
 #useful-info>div>div {
@@ -580,19 +580,19 @@ input[type="submit"]:hover {
   }
 
   #basic-knowledge {
-    background: url(../images/kitchen-7471627_640-gra.jpg) no-repeat top center/100%;
+    background: url(../images/kitchen-7471627_640-gra.webp) no-repeat top center/100%;
   }
 
   #healthy-gut {
-    background: url(../images/womans-hands-belly_640-gra.jpg) no-repeat top center/100%;
+    background: url(../images/womans-hands-belly_640-gra.webp) no-repeat top center/100%;
   }
 
   #research-sickness {
-    background: url(../images/stethoscope-prescription-laptop_640-gra.jpg) no-repeat top center/100%;
+    background: url(../images/stethoscope-prescription-laptop_640-gra.webp) no-repeat top center/100%;
   }
 
   #tips-tricks {
-    background: url(../images/vegetables-6064523_640-gra.jpg) no-repeat top center/100%;
+    background: url(../images/vegetables-6064523_640-gra.webp) no-repeat top center/100%;
   }
 
   #useful-info>div {
