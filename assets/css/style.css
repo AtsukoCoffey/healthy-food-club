@@ -343,9 +343,12 @@ nav.breadcrumb a:visited {
 }
 
 /* Sign up page */
-#map {
-  margin-bottom: 50px;
+#form-outer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
 }
+
 
 .text-input {
   padding: 3px;
@@ -358,10 +361,10 @@ nav.breadcrumb a:visited {
 
 select.text-input {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 fieldset {
-  margin-top: 20px;
   border: none;
 }
 
@@ -378,6 +381,7 @@ div.radio-buttons label {
 }
 
 input[type="submit"] {
+  margin: 5px 35%;
   padding: 8px;
   border-color: rgb(59, 115, 57);
   border-radius: 5px;
@@ -392,6 +396,9 @@ input[type="submit"]:hover {
   color: rgb(239, 255, 239);
 }
 
+#map {
+  margin-bottom: 50px;
+}
 
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
@@ -529,6 +536,15 @@ input[type="submit"]:hover {
   #tips-tricks>div {
     margin-left: 50%;
   }
+
+  /* Sign up page */
+  #form-outer {
+    flex-flow: row wrap;
+  }
+
+  #form-outer>div {
+    flex: 1 1 300px;
+  }
 }
 
 
@@ -606,4 +622,19 @@ input[type="submit"]:hover {
     margin-left: 0%;
   }
 
+  /* Sign up page */
+
+  div#fieldset {
+    flex: 2 1 600px;
+  }
+
+  .radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .radio-buttons div {
+    flex: 1 1 300px;
+  }
+  
 }
