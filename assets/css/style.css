@@ -490,9 +490,10 @@ input[type="submit"]:hover {
   }
 
   #upcoming-info {
+    position: relative;
+    top: -20px;
     border-radius: 8px;
     box-shadow: 2px 2px 3px #3a3a3a;
-    margin-bottom: 20px;
   }
 
   #upcoming-info,
