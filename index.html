@@ -30,9 +30,12 @@
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
     <nav class="global">
       <ul id="menu">
-        <li><a href="" class="active" aria-label="This is Home - Top page" title="This is Home - Top page"><i class="fa-solid fa-house"></i>Home</a></li>
-        <li><a href="info.html" aria-label="Link to Information page" title="Link to Information page"><i class="fa-solid fa-circle-info"></i>Info</a></li>
-        <li><a href="signup.html" aria-label="Link to Sign Up page" title="Link to Sign Up page"><i class="fa-solid fa-square-pen"></i>SignUp</a></li>
+        <li><a href="" class="active" aria-label="This is Home - Top page" title="This is Home - Top page"><i
+              class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="info.html" aria-label="Link to Information page" title="Link to Information page"><i
+              class="fa-solid fa-circle-info"></i>Info</a></li>
+        <li><a href="signup.html" aria-label="Link to Sign Up page" title="Link to Sign Up page"><i
+              class="fa-solid fa-square-pen"></i>SignUp</a></li>
       </ul>
     </nav>
   </header>
@@ -63,7 +66,9 @@
         nitrite
         &amp; nitrates.</p>
         <p>Day:02 /05 /2024</p>
-        <p class="more-info"><a href="signup.html#session-schedule" aria-label="Link to Sign Up page - Session schedule section" title="Link to Sign Up page - Session schedule section">More information >></a></p>
+        <p class="more-info"><a href="signup.html#session-schedule"
+            aria-label="Link to Sign Up page - Session schedule section"
+            title="Link to Sign Up page - Session schedule section">More information >></a></p>
       </section>
       <section id="about-us">
         <h2>About Us</h2>
@@ -72,7 +77,8 @@
           <picture>
             <source media="(min-width: 1024px)" srcset="assets\images\tus-campus-map-233x260.webp">
             <source media="(min-width: 424px)" srcset="assets\images\tus-campus-map-179x200.webp">
-            <img src="assets\images\tus-campus-map-179x200.webp" alt="Map of Technological University of the Shannon (TUS) campus">
+            <img src="assets\images\tus-campus-map-179x200.webp"
+              alt="Map of Technological University of the Shannon (TUS) campus">
           </picture>
           <figcaption>Map of TUS campus</figcaption>
         </figure>
@@ -80,19 +86,45 @@
         Athlone in
         the midlands. Lectures and cooking sessions take place at the Technological University of the Shannon (TUS).
         </p>
-        <p class="more-info"><a href="signup.html#where-to-find-us" aria-label="Link to Sign Up page - Where to find us section" title="Link to Sign Up page - Where to find us section">More information >></a></p>
+        <p class="more-info"><a href="signup.html#where-to-find-us"
+            aria-label="Link to Sign Up page - Where to find us section"
+            title="Link to Sign Up page - Where to find us section">More information >></a></p>
       </section>
     </div>
     <article id="youtube">
       <h2 class="video-title">A healthy diet, a healthier world (<abbr title="World Health Organization">WHO</abbr>)
       </h2>
       <div class="video-container">
-        <iframe src="https://www.youtube-nocookie.com/embed/XMcab1MFaLc?si=Js68DUkcs7yKN2Vq"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <!-- loading when the video clicked using the srcdoc attribute - Reference: https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse -->
+        <iframe srcdoc="
+          <style>
+              body, .full {
+                  width: 100%;
+                  height: 100%;
+                  margin: 0;
+                  position: absolute;
+                  display: flex;
+                  justify-content: center;
+                  object-fit: cover;
+              }
+          </style>
+          <a href='https://www.youtube.com/embed/XMcab1MFaLc' class='full'>
+              <img src='assets/images/youtube-placeholder.webp' class='full'>
+              <svg
+                  version='1.1'
+                  viewBox='0 0 68 48'
+                  width='68px'
+                  style='position: relative;'>
+                  <path d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path>
+                  <path d='M 45,24 27,14 27,34' fill='#fff'></path>
+              </svg>
+          </a>
+          " style="max-width: 1076px; width: 100%; aspect-ratio: 16/9;" frameborder="0">
+        </iframe>
+        <!-- Original Youtube iframe <iframe width="1076" height="605" src="https://www.youtube.com/embed/XMcab1MFaLc" title="A healthy diet, a healthier world" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
       </div>
-      <p class="more-info"><a href="info.html" aria-label="Link to Information page" title="Link to Information page">More information >></a></p>
+      <p class="more-info"><a href="info.html" aria-label="Link to Information page"
+          title="Link to Information page">More information >></a></p>
     </article>
   </main>
   <!-- Footer -->
