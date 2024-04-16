@@ -297,19 +297,21 @@ nav.breadcrumb a:visited {
 }
 
 /* Useful Info */
-#useful-info {
+#flex-outer {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   margin-top: 2rem;
 }
 
-#useful-info h3 {
+#flex-outer h3 {
   margin: 1rem 0;
   line-height: 150%;
 }
 
-#useful-info>div {
+#basic-knowledge,
+#healthy-gut,
+#research-sickness,
+#tips-tricks {
   border: 3px solid #ffffff;
   flex: 1 1 300px;
   background-color: #ffffff;
@@ -331,14 +333,17 @@ nav.breadcrumb a:visited {
   background: url(../images/vegetables-6064523_640.webp) no-repeat top center/cover;
 }
 
-#useful-info>div>div {
+#basic-knowledge>div,
+#healthy-gut>div,
+#research-sickness>div,
+#tips-tricks>div {
   background-color: rgb(24, 48, 24, .7);
   color: rgb(239, 255, 239);
   padding: 1rem;
   height: 100%;
 }
 
-#useful-info>div>div:hover {
+#flex-outer>div>div:hover {
   color: rgb(242, 92, 5);
 }
 
@@ -395,6 +400,23 @@ input[type="submit"]:hover {
   background-color: rgb(242, 92, 5);
   color: rgb(239, 255, 239);
 }
+
+/* Session schedule section */
+#session-schedule>div#flex-outer {
+  background: url(../images/vege-human-body.webp) center center/cover no-repeat;
+}
+
+#session-schedule>div#flex-outer>div {
+  background-color: rgb(24, 48, 24, .7);
+  color: rgb(239, 255, 239);
+  padding: 1rem;
+  height: 100%;
+  border: 3px solid #ffffff;
+}
+
+
+
+/* Where to find us section */
 
 #map {
   margin-bottom: 50px;
@@ -511,15 +533,15 @@ input[type="submit"]:hover {
   }
 
   /* Useful Info page */
-  #useful-info {
+  #flex-outer {
     flex-direction: column;
   }
 
-  #useful-info>div {
+  #basic-knowledge>div,
+  #healthy-gut>div,
+  #research-sickness>div,
+  #tips-tricks>div {
     background-size: contain;
-  }
-
-  #useful-info>div>div {
     width: 50%;
   }
 
@@ -546,6 +568,17 @@ input[type="submit"]:hover {
   #form-outer>div {
     flex: 1 1 300px;
   }
+
+  /* Session schedule section */
+#flex-outer>div.right {
+  width: 50%;
+  margin-left: 50%;
+}
+
+#flex-outer>div.left {
+  width: 50%;
+  margin-right: 50%;
+}
 }
 
 
@@ -576,7 +609,7 @@ input[type="submit"]:hover {
   }
 
   /* Useful Info page */
-  #useful-info {
+  #flex-outer {
     flex-direction: row;
   }
 
@@ -596,13 +629,13 @@ input[type="submit"]:hover {
     background: url(../images/vegetables-6064523_640-gra.webp) no-repeat top center/100%;
   }
 
-  #useful-info>div {
+  #flex-outer>div {
     flex: 1 1 400px;
     /* max-width: 460px; */
     height: 430px;
   }
 
-  #useful-info>div>div {
+  #flex-outer>div>div {
     width: 100%;
     height: 53%;
     margin-top: 35%;
@@ -637,5 +670,5 @@ input[type="submit"]:hover {
   .radio-buttons div {
     flex: 1 1 300px;
   }
-  
+
 }
