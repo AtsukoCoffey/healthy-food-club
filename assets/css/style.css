@@ -44,7 +44,7 @@ h1,
 h2,
 h3 {
   font-family: "Quicksand", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
 }
 
@@ -170,6 +170,7 @@ article {
   background-color: rgb(242, 92, 5);
   color: rgb(239, 255, 239);
   width: 100%;
+  font-weight: 400;
 }
 
 #upcoming-info img {
@@ -642,10 +643,7 @@ input[type="submit"]:hover {
   }
 
   #basic-knowledge,
-  #research-sickness {
-    background-position: top;
-  }
-
+  #research-sickness,
   #healthy-gut,
   #tips-tricks {
     background-position: top;
