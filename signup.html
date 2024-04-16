@@ -38,14 +38,16 @@
   </header>
   <!-- Main -->
   <main>
+    <!-- Breadcrumb -->
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li><a href="index.html">Top page</a></li>
         <li><a href="" aria-current="page">Sign up page</a></li>
       </ol>
     </nav>
+    <!-- Sign up form section -->
     <section id="signup">
-      <h2>Let's Signed up!</h2>
+      <h2>Let's Sign up!</h2>
       <form id="" action="https://formdump.codeinstitute.net" method="post">
         <label for="first-name">First Name</label>
         <input type="text" name="first_name" id="first-name" class="text-input" required>
@@ -56,11 +58,11 @@
         <label for="email-address">Email Address</label>
         <input type="email" name="email_address" id="email-address" class="text-input" required>
         <br>
-        <label for="phone-number">Phon No.</label>
+        <label for="phone-number">Phone No.</label>
         <input type="text" name="phone_number" id="phone-number" class="text-input">
         <br>
-        <label for="user-experience">What kind of experience</label>
-        <select name="user_experience" id="user-experience" class="text-input">
+        <label for="cooking-experience">What kind of experience</label>
+        <select name="cooking_experience" id="cooking-experience" class="text-input">
           <option value="beginner" selected>Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="expert">Expert</option>
@@ -70,22 +72,22 @@
           <legend>Please choose the session below</legend>
           <div class="radio-buttons">
             <div>
-              <input type="radio" name="cooking_experience" id="02-05-2024" value="02-05-2024" required checked>
-              <label for="02-05-2024">On : 02 /05 /2024</label>
-              <p>Pastrami Beef<br>Theme : Sodium nitrite & nitrates</p>
+              <input type="radio" name="cooking_session" id="02-05-2024" value="02-05-2024" required checked>
+              <label for="02-05-2024">Pastrami Beef</label>
+              <p>Theme : Sodium nitrite & nitrates<br>On : 02 /05 /2024</p>
             </div>
             <div>
-              <input type="radio" name="cooking_experience" id="02-06-2024" value="02-06-2024" required>
-              <label for="02-06-2024">On : 02 /06 /2024</label>
-              <p>Apple Cider Vinegar Drinks<br>Theme : Leaky gut</p>
+              <input type="radio" name="cooking_session" id="02-06-2024" value="02-06-2024" required>
+              <label for="02-06-2024">Apple Cider Vinegar Drinks</label>
+              <p>Theme : Leaky gut<br>On : 02 /06 /2024</p>
             </div>
             <div>
-              <input type="radio" name="cooking_experience" id="02-07-2024" value="02-07-2024" required>
-              <label for="02-07-2024">On : 02 /07 /2024</label>
-              <p>Baking with Unrefined Flour<br>Theme : Refined flour</p>
+              <input type="radio" name="cooking_session" id="02-07-2024" value="02-07-2024" required>
+              <label for="02-07-2024">Baking with Unrefined Flour</label>
+              <p>Theme : Refined flour<br>On : 02 /07 /2024</p>
             </div>
             <div>
-              <input type="radio" name="cooking_experience" id="mailing-list" value="mailing-list" required>
+              <input type="radio" name="cooking_session" id="mailing-list" value="mailing-list" required>
               <label for="mailing-list">Join our mailing list</label>
             </div>
           </div>
@@ -93,6 +95,7 @@
         <input type="submit" value="Let&apos;s Join!">
       </form>
     </section>
+    <!-- Session schedule section -->
     <section id="session-schedule">
       <h2>Upcoming session</h2>
       <div>
@@ -111,6 +114,7 @@
           use simple natural ingredients!</p>
       </div>
     </section>
+    <!-- Where to find us section -->
     <section id="where-to-find-us">
       <h2>Where to find us</h2>
       <address>

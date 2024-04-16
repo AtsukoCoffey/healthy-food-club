@@ -1,10 +1,5 @@
 /* Google fonts import */
-/* Title logo */
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-/* Headings */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-/* regular font */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -352,6 +347,52 @@ nav.breadcrumb a:visited {
   margin-bottom: 50px;
 }
 
+.text-input {
+  padding: 3px;
+  margin: 2px;
+  color: rgb(59, 115, 57);
+  font-family: "Quicksand";
+  border: rgb(59, 115, 57) 1px solid;
+  border-radius: 4px;
+}
+
+select.text-input {
+  width: 150px;
+}
+
+fieldset {
+  margin-top: 20px;
+  border: none;
+}
+
+div.radio-buttons label {
+  font-weight: 500;
+}
+
+.radio-buttons p {
+  margin-left: 1.5rem;
+}
+
+.radio-buttons div {
+  margin-bottom: 0.8rem;
+}
+
+input[type="submit"] {
+  padding: 8px;
+  border-color: rgb(59, 115, 57);
+  border-radius: 5px;
+  background-color: rgb(131, 166, 5);
+  color: rgb(239, 255, 239);
+  font-weight: 600;
+}
+
+input[type="submit"]:hover {
+  border-color: rgb(59, 115, 57);
+  background-color: rgb(242, 92, 5);
+  color: rgb(239, 255, 239);
+}
+
+
 /* Media query: General smart phone (320px and up) */
 @media screen and (min-width:320px) {
 
@@ -474,15 +515,18 @@ nav.breadcrumb a:visited {
     width: 50%;
   }
 
-  #basic-knowledge, #research-sickness {
+  #basic-knowledge,
+  #research-sickness {
     background-position: right;
   }
 
-  #healthy-gut, #tips-tricks {
+  #healthy-gut,
+  #tips-tricks {
     background-position: left;
   }
 
-  #healthy-gut>div, #tips-tricks>div {
+  #healthy-gut>div,
+  #tips-tricks>div {
     margin-left: 50%;
   }
 }
@@ -522,15 +566,15 @@ nav.breadcrumb a:visited {
   #basic-knowledge {
     background: url(../images/kitchen-7471627_640-gra.jpg) no-repeat top center/100%;
   }
-  
+
   #healthy-gut {
     background: url(../images/womans-hands-belly_640-gra.jpg) no-repeat top center/100%;
   }
-  
+
   #research-sickness {
     background: url(../images/stethoscope-prescription-laptop_640-gra.jpg) no-repeat top center/100%;
   }
-  
+
   #tips-tricks {
     background: url(../images/vegetables-6064523_640-gra.jpg) no-repeat top center/100%;
   }
@@ -547,15 +591,18 @@ nav.breadcrumb a:visited {
     margin-top: 35%;
   }
 
-  #basic-knowledge, #research-sickness {
+  #basic-knowledge,
+  #research-sickness {
     background-position: top;
   }
 
-  #healthy-gut, #tips-tricks {
+  #healthy-gut,
+  #tips-tricks {
     background-position: top;
   }
 
-  #healthy-gut>div, #tips-tricks>div {
+  #healthy-gut>div,
+  #tips-tricks>div {
     margin-left: 0%;
   }
 
