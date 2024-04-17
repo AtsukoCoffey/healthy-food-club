@@ -190,8 +190,11 @@ nav.global {
 
 #upcoming-info img {
   float: left;
-  padding-right: 0.5rem;
+  margin-right: 0.8rem;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(85, 32, 1);
 }
 
 #upcoming-info figcaption {
@@ -524,7 +527,7 @@ input[type="submit"]:hover {
     position: relative;
     top: -20px;
     border-radius: 8px;
-    box-shadow: 2px 2px 3px rgb(24, 48, 24);
+    box-shadow: 2px 2px 3px rgb(85, 32, 1);
   }
 
   #upcoming-info,
