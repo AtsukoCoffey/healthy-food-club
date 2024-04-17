@@ -182,7 +182,6 @@ nav.global {
 }
 
 /* Upcoming info section */
-
 #upcoming-info {
   background-color: rgb(230, 87, 5);
   color: rgb(20, 20, 20);
@@ -201,7 +200,6 @@ nav.global {
 }
 
 /* About Us section */
-
 #about-us figure {
   float: right;
   display: none;
@@ -270,13 +268,12 @@ footer a:hover {
   padding: 10px 15%;
 }
 
-/* Info page */
+/* Useful Info & Sign up page */
 /* Breadcrumb  */
 nav.breadcrumb {
   margin-top: 5px;
   padding: 0.3rem;
   background-color: rgb(239, 255, 239);
-  color: rgb(98, 122, 37);
   font-size: 0.9rem;
 }
 
@@ -299,7 +296,6 @@ nav.breadcrumb li+li::before {
 }
 
 nav.breadcrumb [aria-current="page"] {
-  color: rgb(98, 122, 37);
   font-weight: 700;
   text-decoration: none;
 }
@@ -308,11 +304,7 @@ nav.breadcrumb a:hover {
   color: rgb(230, 87, 5);
 }
 
-nav.breadcrumb a:visited {
-  color: rgb(98, 122, 37);
-}
-
-/* Useful Info */
+/* Flex box outer div */
 #flex-outer {
   display: flex;
   flex-wrap: wrap;
@@ -324,6 +316,7 @@ nav.breadcrumb a:visited {
   line-height: 150%;
 }
 
+/* Useful Info page */
 #basic-knowledge,
 #healthy-gut,
 #research-sickness,
