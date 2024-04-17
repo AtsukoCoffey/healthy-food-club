@@ -16,12 +16,48 @@ body {
   display: flex;
   flex-direction: column;
   /* project 1 styles */
-  color: rgb(131, 166, 5);
+  color: rgb(98, 122, 37);
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 1.1rem;
   line-height: 150%;
 }
+
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+a, a:visited {
+  color: rgb(24, 48, 24);
+}
+
+a:hover {
+  color: #A9E560;
+}
+
+section,
+article {
+  padding: 1rem;
+}
+
+main {
+  margin-top: 49px;
+  width: 100%;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+}
+
 
 /* Header */
 header {
@@ -32,20 +68,12 @@ header {
   z-index: 95;
   width: 100%;
   background-color: rgb(59, 115, 57);
-  box-shadow: 0 2px 1px #3a3a3a;
+  box-shadow: 0 2px 1px rgb(24, 48, 24);
 }
 
-header a {
+header a, header a:visited {
   text-decoration: none;
-  color: inherit;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  line-height: 150%;
+  color: rgb(239, 255, 239);
 }
 
 #logo {
@@ -59,7 +87,7 @@ h3 {
   padding-left: 0.7rem;
 }
 
-/* Navbar styles - dropdown toggle */
+/* Navbar styles - dropdown toggle - Reference : Love Running [Code Institute] */
 nav.global {
   display: none;
   /* position:absolute top:100% for place nav just under the parent element */
@@ -67,7 +95,7 @@ nav.global {
   top: 100%;
   left: 0;
   width: 100%;
-  box-shadow: 0 2px 1px #3a3a3a;
+  box-shadow: 0 2px 1px rgb(24, 48, 24);
   background-color: rgb(59, 115, 57);
   padding: 0 1rem;
 }
@@ -85,22 +113,23 @@ nav.global {
   z-index: 96;
   font-size: 1.5rem;
   padding-right: 0.7rem;
+  color: #83BF73;
 }
 
 #menu {
   list-style: none;
   color: inherit;
   text-transform: uppercase;
-  font-size: 100%;
+  font-size: 95%;
   letter-spacing: 2px;
 }
 
 #menu li {
-  padding-bottom: 1rem;
+  padding-bottom: 0.6rem;
 }
 
-#menu li:hover {
-  color: rgb(239, 255, 239);
+#menu a:hover {
+  color: #A9E560;
 }
 
 .active {
@@ -108,18 +137,6 @@ nav.global {
 }
 
 /* Main */
-main {
-  margin-top: 49px;
-  width: 100%;
-  /* Make main element take up any surplus space to push footer down */
-  flex: 1 0 auto;
-}
-
-section,
-article {
-  padding: 1rem;
-}
-
 #hero-outer {
   position: relative;
   overflow: hidden;
@@ -159,7 +176,7 @@ article {
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(85, 32, 1, 0.7);
   color: rgb(239, 255, 239);
-  font-size: 95%;
+  font-size: 110%;
   line-height: 210%;
   border-radius: 20px;
 }
@@ -167,10 +184,9 @@ article {
 /* Upcoming info section */
 
 #upcoming-info {
-  background-color: rgb(242, 92, 5);
-  color: rgb(239, 255, 239);
+  background-color: rgb(230, 87, 5);
+  color: rgb(20, 20, 20);
   width: 100%;
-  font-weight: 400;
 }
 
 #upcoming-info img {
@@ -184,10 +200,6 @@ article {
   line-height: 150%;
 }
 
-#upcoming-info .more-info {
-  clear: left;
-}
-
 /* About Us section */
 
 #about-us figure {
@@ -195,13 +207,13 @@ article {
   display: none;
 }
 
-#about-us .more-info {
-  clear: right;
+#about-us .more-info a:hover {
+  color: rgb(230, 87, 5);
 }
 
 /* Youtube article section */
 #youtube {
-  background-color: rgb(131, 166, 3);
+  background-color: rgb(98, 122, 37);
   color: rgb(239, 255, 239);
 }
 
@@ -212,6 +224,7 @@ article {
   overflow: hidden;
   text-align: center;
   max-width: 1061px;
+  margin-top: 10px;
 }
 
 iframe {
@@ -224,7 +237,9 @@ iframe {
 }
 
 .more-info {
+  clear: both;
   text-align: right;
+  margin-top: 15px;
 }
 
 article p {
@@ -236,7 +251,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #83BF73;
+  background-color: rgb(98, 122, 37);
 }
 
 footer a,
@@ -245,7 +260,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: rgb(59, 115, 57);
+  color: #A9E560;
 }
 
 #social-networks {
@@ -261,7 +276,7 @@ nav.breadcrumb {
   margin-top: 5px;
   padding: 0.3rem;
   background-color: rgb(239, 255, 239);
-  color: rgb(131, 166, 3);
+  color: rgb(98, 122, 37);
   font-size: 0.9rem;
 }
 
@@ -284,17 +299,17 @@ nav.breadcrumb li+li::before {
 }
 
 nav.breadcrumb [aria-current="page"] {
-  color: rgb(131, 166, 3);
+  color: rgb(98, 122, 37);
   font-weight: 700;
   text-decoration: none;
 }
 
 nav.breadcrumb a:hover {
-  color: rgb(242, 92, 5);
+  color: rgb(230, 87, 5);
 }
 
 nav.breadcrumb a:visited {
-  color: rgb(131, 166, 3);
+  color: rgb(98, 122, 37);
 }
 
 /* Useful Info */
@@ -345,7 +360,7 @@ nav.breadcrumb a:visited {
 }
 
 #flex-outer>div>div:hover {
-  color: rgb(242, 92, 5);
+  color: rgb(230, 87, 5);
 }
 
 /* Sign up page */
@@ -391,14 +406,14 @@ input[type="submit"] {
   padding: 8px;
   border-color: rgb(59, 115, 57);
   border-radius: 5px;
-  background-color: rgb(131, 166, 5);
+  background-color: rgb(98, 122, 37);
   color: rgb(239, 255, 239);
   font-weight: 600;
 }
 
 input[type="submit"]:hover {
   border-color: rgb(59, 115, 57);
-  background-color: rgb(242, 92, 5);
+  background-color: rgb(230, 87, 5);
   color: rgb(239, 255, 239);
 }
 
@@ -516,7 +531,7 @@ input[type="submit"]:hover {
     position: relative;
     top: -20px;
     border-radius: 8px;
-    box-shadow: 2px 2px 3px #3a3a3a;
+    box-shadow: 2px 2px 3px rgb(24, 48, 24);
   }
 
   #upcoming-info,
