@@ -228,74 +228,57 @@ This section shows sample pictures with dates, lecture’s title and cooking men
 
 # Bugs
 
-> figure tag
+> figure tagbe  <br>
 In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity. So I asked perplexity whether I could use both elements together.
 ![Youtube height technique](assets/images/readme-img/Credit-perplex-figure.png)
 
-> Youtube iframe video
+> Youtube iframe video<br>
 I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.
 ![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height.png)
 ![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height2.png)
 
-> Youtube iframe align center
+> Youtube iframe align center<br>
 I struggled again to set this `<iframe>` setting align center. Tried setting properties to the outer `<div>` and the parent `<article>` elements. After the search, I found this fantastic technique persuaded me very well.
 ![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe1.png)
 ![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe2.png)
 
-> `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
-I wondered what is this meta tag for and after my research, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.  
-![Youtube iframe set align center](assets/images/readme-img/Credit-perplex-meta-xua-compatible1.png)
-![Youtube iframe set align center](assets/images/readme-img/Credit-perplex-meta-xua-compatible2.png)
+> Meta element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`<br>
+I researched that what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.  <br>
+![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible1.png)
+![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible2.png)
 
 
 
 # Credits
 
 
-Adobe color
+Adobe color <br>
 
-Hero image
+
+Hero image<br>
 <a href="https://www.freepik.com/free-photo/young-smiling-woman-making-bruschetta-with-healthy-ingredients-while-preparing-food-kitchen_25777232.htm#fromView=search&page=1&position=49&uuid=0bc03e1b-f752-44c6-9880-1b484845ce49" width="500">Image by Drazen Zigic on Freepik</a>
 
 
-Noodle
+Noodle<br>
 Photo by Jane Trang Doan: https://www.pexels.com/photo/pasta-with-vegetable-dish-on-gray-plate-beside-tomato-fruit-on-white-table-769969/
 
-Picture pastrami beef
+Picture pastrami beef<br>
 <a href="https://www.freepik.com/free-photo/sliced-beef-pastrami-pastrami-with-turkish-bacon-closeup-top-view-traditional-turkish-food_37833736.htm#query=pastrami&position=0&from_view=keyword&track=sph&uuid=26cf64d1-d161-45da-a382-231c4d0c2ee6" width="300">Image by ededchechine on Freepik </a>
 
 
-vege 
+vege <br>
 <a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
 
 
-
-Youtube: 
+Youtube: <br>
 A healthy diet, a healthier world (WHO)
 [https://www.youtube.com/watch?v=XMcab1MFaLc](https://www.youtube.com/watch?v=XMcab1MFaLc)
 
-[https://www.youtube.com/watch?v=JU51f737Obg](https://www.youtube.com/watch?v=JU51f737Obg)
 
-
-people-group
-<code>
-<i class="fa-solid fa-people-group"></i>
-Facebook
-<i class="fa-brands fa-square-facebook"></i>
-x-twitter
-<i class="fa-brands fa-square-x-twitter"></i>
-Youtube
-<i class="fa-brands fa-youtube"></i>
-Instagram
-<i class="fa-brands fa-instagram"></i>
-
-Circle info
-<i class="fa-solid fa-circle-info"></i>
-</code>
-
-Map of TUS
+Map of TUS<br>
 [https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
 
+<!-- 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
@@ -335,3 +318,4 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+ -->
