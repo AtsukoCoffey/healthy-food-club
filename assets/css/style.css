@@ -188,6 +188,15 @@ nav.global {
   width: 100%;
 }
 
+#upcoming-info a,
+#upcoming-info a:visited {
+  color: rgb(20, 20, 20);
+}
+
+#upcoming-info a:hover {
+  color: #A9E560;
+}
+
 #upcoming-info img {
   float: left;
   margin-right: 0.8rem;
