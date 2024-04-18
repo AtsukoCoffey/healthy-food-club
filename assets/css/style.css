@@ -435,7 +435,18 @@ input[type="submit"]:hover {
   border: 3px solid #ffffff;
 }
 
+#session-schedule figure {
+  float: right;
+}
 
+#session-schedule img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(24, 48, 24);
+}
+
+#flex-outer figure {
+  margin: 0 1rem;
+}
 
 /* Where to find us section */
 
