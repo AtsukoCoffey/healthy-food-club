@@ -369,10 +369,19 @@ nav.breadcrumb a:hover {
 }
 
 /* Sign up page */
+#signup-form {
+  text-align: center;
+}
+
 #form-outer {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+  text-align: left;
+}
+
+#signup-form label {
+  font-weight: 800;
 }
 
 
@@ -407,7 +416,7 @@ div.radio-buttons label {
 }
 
 input[type="submit"] {
-  margin: 5px 35%;
+  margin-top: 5px;
   padding: 8px;
   border-color: rgb(59, 115, 57);
   border-radius: 5px;
