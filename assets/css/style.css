@@ -329,6 +329,10 @@ nav.breadcrumb a:hover {
 }
 
 /* Useful Info page */
+#useful-info {
+  margin-bottom: 50px;
+}
+
 #basic-knowledge,
 #healthy-gut,
 #research-sickness,
