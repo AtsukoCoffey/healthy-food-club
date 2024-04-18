@@ -54,16 +54,18 @@
           <!-- Personal information -->
           <div>
             <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="given-name" required>
+            <!-- pattern attribute set only alphabet accepted to fill in -->
+            <input type="text" name="first_name" id="first-name" class="text-input" autocomplete="given-name" pattern="[A-Za-z]{2,}" title="First name - Only alphabet please" required>
             <br>
             <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" autocomplete="family-name" required>
+            <input type="text" name="last_name" id="last-name" class="text-input" autocomplete="family-name" pattern="[A-Za-z]{2,}" title="Last name - Only alphabet please" required>
             <br>
             <label for="email-address">Email Address</label>
-            <input type="email" name="email_address" id="email-address" class="text-input" autocomplete="email" required>
+            <input type="email" name="email_address" id="email-address" class="text-input" autocomplete="email" title="Correct E-mail address please" required>
             <br>
             <label for="phone-number">Phone No.</label>
-            <input type="text" name="phone_number" id="phone-number" class="text-input" autocomplete="tel">
+            <!-- pattern attribute set only numbers and + for country code accepted to fill in -->
+            <input type="text" name="phone_number" id="phone-number" class="text-input" autocomplete="tel" pattern="[+0-9]{8,13}" title="Phone number - Only number please">
             <br>
             <label for="cooking-experience">What kind of experience</label>
             <select name="cooking_experience" id="cooking-experience" class="text-input">
