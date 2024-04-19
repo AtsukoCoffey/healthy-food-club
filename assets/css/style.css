@@ -171,7 +171,6 @@ nav.global {
   position: absolute;
   top: 33%;
   max-width: 1000px;
-  min-height: 200px;
   margin: 1.5rem;
   padding: 1rem;
   /* Final rgba value sets the opacity so it is semi-transparent */
@@ -449,6 +448,8 @@ input[type="submit"]:hover {
 
 #session-schedule figure {
   float: right;
+  text-align: right;
+  font-size: 80%;
 }
 
 #session-schedule img {
@@ -675,6 +676,10 @@ input[type="submit"]:hover {
     flex: 1 1 400px;
     /* max-width: 460px; */
     height: 430px;
+  }
+
+  #flex-outer>.useful-empty-div {
+    height: 30px;
   }
 
   #flex-outer>div>div {
