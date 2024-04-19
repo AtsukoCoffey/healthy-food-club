@@ -141,12 +141,12 @@ nav.global {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
 }
 
 #hero-image {
   width: 100%;
-  min-height: 60vh;
+  min-height: 70vh;
   background: url(../images/young-smiling-woman-hero1200.webp) center center/cover no-repeat;
 
   /* animates zoom effect on loading page : refer to Love Running - Code Institute*/
@@ -636,7 +636,7 @@ input[type="submit"]:hover {
   }
 
   #hero-outer {
-    min-height: 45vh;
+    min-height: 50vh;
   }
 
   #section-layout {
