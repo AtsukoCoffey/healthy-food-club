@@ -636,6 +636,10 @@ input[type="submit"]:hover {
     font-size: 110%;
   }
 
+  #hero-outer {
+    min-height: 45vh;
+  }
+
   #section-layout {
     margin: 0 7%;
   }
