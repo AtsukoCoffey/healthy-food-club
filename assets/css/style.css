@@ -32,6 +32,7 @@ h3 {
 
 h2 {
   font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -320,7 +321,6 @@ nav.breadcrumb a:hover {
 #flex-outer {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2rem;
 }
 
 #flex-outer h3 {
@@ -380,7 +380,6 @@ nav.breadcrumb a:hover {
 #form-outer {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
   text-align: left;
 }
 
@@ -462,6 +461,9 @@ input[type="submit"]:hover {
 }
 
 /* Where to find us section */
+.address-item {
+  font-weight: 800;
+}
 
 #map {
   margin-bottom: 50px;
@@ -635,11 +637,6 @@ input[type="submit"]:hover {
 
   #section-layout {
     margin: 0 7%;
-  }
-
-  .video-title {
-    max-width: 1061px;
-    margin: 0 auto;
   }
 
   /* video section */
