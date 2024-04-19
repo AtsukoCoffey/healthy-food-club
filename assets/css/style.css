@@ -643,7 +643,7 @@ input[type="submit"]:hover {
   /* video section */
   .video-container {
     padding-bottom: 597px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   iframe {
