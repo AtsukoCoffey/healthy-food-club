@@ -253,6 +253,15 @@ iframe {
 
 article p {
   margin-bottom: 40px;
+  color: #A9E560;
+}
+
+article p a:visited {
+  color: #A9E560;
+}
+
+article p a:hover {
+  color: rgb(239, 255, 239);
 }
 
 /* Footer */
