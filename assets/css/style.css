@@ -290,7 +290,7 @@ footer a:hover {
 }
 
 /* Useful Info & Sign up page */
-/* Breadcrumb  */
+/* Breadcrumb  - Reference : W3 website sample code and W3 school */
 nav.breadcrumb {
   margin-top: 5px;
   padding: 0.3rem;
@@ -389,6 +389,11 @@ nav.breadcrumb a:hover {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+#form-outer input:hover,
+#form-outer select:hover{
+  border-color: #A9E560;
 }
 
 #signup-form label {
