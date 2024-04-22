@@ -3,6 +3,7 @@ The Healthy Food Club is a community that hosts cooking sessions with brief heal
   
 During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact, specially focus on the food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
 
+![ Live site view ](assets/images/readme-img/amiresponsive.png "Live site view")
 ## **[Live site](https://atsukocoffey.github.io/healthy-food-club/)**
 
 
@@ -23,7 +24,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 # UX design
 
-## Strategy Plane
+## 1. Strategy Plane
 ### Target users 
 1.	Young people who are about to start living independently, as well as their parents
 2.	Everyone who cares about food additives, health and simply enjoys cooking.
@@ -38,7 +39,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 2.  The cooking menu for the session is aligned with the lecture content, making it more practical.
 
 
-## Scope Plane 
+## 2. Scope Plane 
 ### General user stories
 *	As a user, I want to clearly understand what services are offered on this website.
 *	As a user, I want to be able to easily navigate through to find contents.
@@ -74,23 +75,33 @@ During our activities, we strive to raise awareness about the prevalence of chem
 *	The Sign-up page submit button should be clearly visible and interactive when mouse hover it. It should also change colour and text after submitting to indicate that the form was sent.
 
 
-##  Skeleton Plane
+## 3. Skeleton Plane
 
-### Home page mobile Wireframe
+### Wireframes
+
+<details>
+<summary>Home page mobile Wireframe</summary>
+
 ![Home page mobile Wireframe](assets/images/wireframe/wireframe1.gif "Home page mobile Wireframe")
+</details>
 
-### Home page tablet and PC Wireframe
+<details>
+<summary>Home page tablet and PC Wireframes</summary>
+
 ![Home page tablet and PC Wireframe](assets/images/wireframe/wireframe2.gif "Home page tablet and PC Wireframe")
+</details>
 
-## Surface Plane
+
+## 4. Surface Plane
 
 ### Color
-I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website.
-![Color scheme](assets/images/readme-img/Color-scheme.gif "Color scheme")
+At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website.  
+  
+![Color scheme](assets/images/readme-img/colour-scheme1.png "Color scheme")
 
-However, using only these colors couldn’t provide enough contrast, so I adjusted the color scheme as below.
-
-![Color scheme 2](assets/images/readme-img/colour-scheme.png "Color scheme 2")
+However, using only these colors couldn’t provide enough contrast, so I adjusted the color scheme as below.  
+  
+![Color scheme 2](assets/images/readme-img/colour-scheme2.png "Color scheme 2")
 
 
 ### Typography
@@ -205,15 +216,18 @@ This section shows sample pictures with dates, lecture’s title and cooking men
 |--|--|
 |Home page, about, po
 
+## W3 Validator
 ![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")
 ![W3 validator info.html](assets/images/readme-img/test-w3validator-info.png "W3 validator info.html")
 ![W3 validator signup.html](assets/images/readme-img/test-w3validator-signup.png "W3 validator signup.html")
+## W3 CSS Validator
 ![W3 validator css](assets/images/readme-img/test-w3validator-css.png "W3 validator css")
-![Lighthouse validator index.html](assets/images/readme-img/test-lighthouse-info.png "Lighthouse validator index.html")
-![Lighthouse validator info.html](assets/images/readme-img/test-w3validator-info.png "Lighthouse validator info.html")
-
-
 ## Google Lighthouse Testing
+![Lighthouse validator index.html](assets/images/readme-img/test-lighthouse-index.png "Lighthouse validator index.html")
+![Lighthouse validator info.html](assets/images/readme-img/test-lighthouse-info.png "Lighthouse validator info.html")
+
+
+
 ------------------------------------------------
 
 <a name="deployment"></a>
@@ -244,55 +258,62 @@ This section shows sample pictures with dates, lecture’s title and cooking men
 
 # Bugs
 
-> figure tagbe  <br>
+## figure tag  <br>
 In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity. So I asked perplexity whether I could use both elements together.
 ![Youtube height technique](assets/images/readme-img/Credit-perplex-figure.png)
 
-> Youtube iframe video<br>
+## Youtube iframe video<br>
 I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.
 ![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height.png)
 ![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height2.png)
 
-> Youtube iframe align center<br>
+## Youtube iframe align center<br>
 I struggled again to set this `<iframe>` setting align center. Tried setting properties to the outer `<div>` and the parent `<article>` elements. After the search, I found this fantastic technique persuaded me very well.
 ![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe1.png)
 ![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe2.png)
 
-> Meta element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`<br>
+## Meta element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`<br>
 I researched that what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.  <br>
 ![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible1.png)
 ![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible2.png)
 
 
+<a name="credits"></a>
 
 # Credits
 
+## Adobe color API  
 
-Adobe color <br>
 
-
-Hero image<br>
+## Hero image  
 <a href="https://www.freepik.com/free-photo/young-smiling-woman-making-bruschetta-with-healthy-ingredients-while-preparing-food-kitchen_25777232.htm#fromView=search&page=1&position=49&uuid=0bc03e1b-f752-44c6-9880-1b484845ce49" width="500">Image by Drazen Zigic on Freepik</a>
 
 
-Noodle<br>
+## Noodle  
 Photo by Jane Trang Doan: https://www.pexels.com/photo/pasta-with-vegetable-dish-on-gray-plate-beside-tomato-fruit-on-white-table-769969/
 
-Picture pastrami beef<br>
+## Picture pastrami beef  
 <a href="https://www.freepik.com/free-photo/sliced-beef-pastrami-pastrami-with-turkish-bacon-closeup-top-view-traditional-turkish-food_37833736.htm#query=pastrami&position=0&from_view=keyword&track=sph&uuid=26cf64d1-d161-45da-a382-231c4d0c2ee6" width="300">Image by ededchechine on Freepik </a>
 
 
-vege <br>
+## vege  
 <a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
 
 
-Youtube: <br>
-A healthy diet, a healthier world (WHO)
+## Youtube: 
+A healthy diet, a healthier world (WHO)  
 [https://www.youtube.com/watch?v=XMcab1MFaLc](https://www.youtube.com/watch?v=XMcab1MFaLc)
 
 
-Map of TUS<br>
+## Map of TUS  
 [https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
+
+
+<a name="acknowledgements"></a>
+
+# Acknowledgements
+
+
 
 <!-- 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
