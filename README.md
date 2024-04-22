@@ -171,10 +171,10 @@ This section shows sample pictures with dates, lecture’s title and cooking men
 # Features left to implement
 
 ## Information Architecture (IA)
-> The info page, articles will be expanding by times so those pages are creat in each category folders for organizing purpose. Or develop the system using DOM for no need HTML file anymore. 
+In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organizational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
 
 ## Online session feature
-> Offline meeting can be limited number of atendees, for future growth think about the possibilities of online sessions.
+For future growth, an online session feature might be good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
 ------------------------------------------
 
 <a name="tech"></a>

@@ -526,6 +526,11 @@ input[type="submit"]:hover {
     padding: 5%;
   }
 
+  #upcoming-info img {
+    margin-right: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
 }
 
 /* Media query: General smart phone (768px and up) */
@@ -580,6 +585,12 @@ input[type="submit"]:hover {
     box-shadow: 2px 2px 3px rgb(85, 32, 1);
   }
 
+  #upcoming-info img {
+    margin-right: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
   #upcoming-info,
   #about-us {
     width: 50%;
