@@ -62,7 +62,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 *	As a site owner, I want to provide inspiration for alternative cooking ideas.
 *	As a site owner, I want to convey clearly that the Healthy Food Club is not just recipes cooking club.
 
-## Structure Plane
+## 3. Structure Plane
 
 * The website should have a Navigation menu that is consistent across all pages.
 * The website should have a fixed footer to access anytime to see this site's SNS.  
@@ -75,7 +75,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 *	The Sign-up page submit button should be clearly visible and interactive when mouse hover it. It should also change colour and text after submitting to indicate that the form was sent.
 
 
-## 3. Skeleton Plane
+## 4. Skeleton Plane
 
 ### Wireframes
 
@@ -92,7 +92,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 </details>
 
 
-## 4. Surface Plane
+## 5. Surface Plane
 
 ### Color
 At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website.  
@@ -111,33 +111,48 @@ I was considering using "Quicksand" for the best readability, however our target
 * "Poiret One"
 * "Josefin Sans"
 
+### Imagery
+
 
 <a name="features"></a>
 
 # Existing Features
 
-## Navigation Bar
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Information Page and Sign-up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+## Header and Navigation Bar
+![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
-## The landing page heto image
-The landing includes a photograph with text overlay to convey clearly this site is about cooking and learning something.
-This section introduces the user to Healthy Food Club with an eye catching animation to grab their attention
+The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme to appeal, along with unique logo. This header includes the navigation bar which is full responsive to all size of devices and it swaps to the toggle button to hide and show the navigation links for small screen sizes, less than 768px width. I borrowed this toggle button technic from “Love Running” project in Code Institute LMS. ( Credit section )  
+The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognize icons.  
+This feature is on all three pages and is identical in each page to allow for easy navigation.
 
-## Session schedule section.
-This section Inform about the next session details with Link and some information. This section deliverately is placed just under the hero image, and try to be visible for user's first loading view angle to appeal what exactly thing the Healthy Food club is offering. 
+
+## The landing page hero image
+![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture that a smiling girl preparing food in the kitchen.  
+The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish so I asked my family for help to consider making it more natural phrase. ( Credit section )  
+This section introduces the user to “Healthy Food Club” with an eye catching css animation which technique is borrowed from again “Love Running” project in Code Institute. . ( Credit section ) 
+
+
+## Upcoming Session info section.
+![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
+This section Informs about the next closest cooking session summary with a link to draw into the session schedule page.  
+This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.
+
 
 ## About us section
-Introduce about us and our purpose to give user feel confidence. Also let people who live around Athlone know this type of community is occurring at Technological University of the Shannon (TUS).
+![About us](assets/images/readme-img/feat-aboutus.png "About us")
+Introduce about us and our purpose to give user feel confidence. Also if the user is living around Athlone town, we’d like to let them know this community session is holding at Technological University of the Shannon (TUS) where everybody can visit freely.
 
 ## You Tube and navigate category section
-This section shows a video which made by WHO, it promote the overview of healthy life styles. This will pique interest and direct user to the info page.
+![Article Youtube](assets/images/readme-img/feat-article-youtube.png "Article Youtube")
+This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.
 
 ## The footer
-The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
+![The footer](assets/images/readme-img/feat-footer.png "The footer")
+The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website open and allow easy navigation for anytime user can visit the social media sites.
 
-## info page
-This page is showing all of the health information categories. There are only 4 categories at the moment, with sample pictures and explanation with some lead paragraphs.  
+## information page
+This page is for the varieties of health information, they are categorised and present some leading text that explains what kind of information in here. There are only 4 categories at the moment with sample pictures, however this page will be expand over the time with more information. 
 
 ### Cooking basic knowledge
 This category is for beginners ( young people who don’t have much cooking experiences ). Talk about tips like “Use different cutting board for meat and vegetables - preventing bacterial transmitting”…
