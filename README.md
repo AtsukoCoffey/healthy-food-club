@@ -8,21 +8,21 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 
 ## Table of contents
-1.	[ UX design ](#ux)
-2.	[ Existing Features ](#features)
-3.	[ Features left to implement ](#featureleft)
-4.	[ Technology used ](#Tech)
-5.	[ Testing ](#testing)
-6.	[ Bugs ](#bugs)
-7.	[ Deployment ](#deployment)
-8.  [ Credits ](#credits)
-9.  [ Content ](#content)
-10. [ Acknowledgements](#acknowledgements)
+1.	[ UX DESIGN ](#ux)
+2.	[ EXISTING FEATURES ](#features)
+3.	[ FEATURES LEFT TO IMPLEMENT ](#featureleft)
+4.	[ TECHNOLOGY USED ](#Tech)
+5.	[ TESTING ](#testing)
+6.	[ BUGS ](#bugs)
+7.	[ DEPLOYMENT ](#deployment)
+8.  [ CREDITS ](#credits)
+9.  [ CONTENT ](#content)
+10. [ ACKNOWLEDGEMENTS](#acknowledgements)
 
 
 <a name="ux"></a>
 
-# UX design
+# UX DESIGN
 
 ## 1. Strategy Plane
 ### Target users 
@@ -94,7 +94,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 ## 5. Surface Plane
 
-### Color
+### Colour
 At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website.  
   
 ![Color scheme](assets/images/readme-img/colour-scheme1.png "Color scheme")
@@ -116,9 +116,9 @@ I was considering using "Quicksand" for the best readability, however our target
 
 <a name="features"></a>
 
-# Existing Features
+# EXISTING FEATURES
 
-## Header and Navigation Bar
+## The header and navigation bar
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
 The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme to appeal, along with unique logo. This header includes the navigation bar which is full responsive to all size of devices and it swaps to the toggle button to hide and show the navigation links for small screen sizes, less than 768px width. I borrowed this toggle button technic from “Love Running” project in Code Institute LMS. ( Credit section )  
@@ -128,6 +128,7 @@ This feature is on all three pages and is identical in each page to allow for ea
 
 ## The landing page hero image
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
+
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture that a smiling girl preparing food in the kitchen.  
 The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish so I asked my family for help to consider making it more natural phrase. ( Credit section )  
 This section introduces the user to “Healthy Food Club” with an eye catching css animation which technique is borrowed from again “Love Running” project in Code Institute. . ( Credit section ) 
@@ -135,66 +136,105 @@ This section introduces the user to “Healthy Food Club” with an eye catching
 
 ## Upcoming Session info section.
 ![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
-This section Informs about the next closest cooking session summary with a link to draw into the session schedule page.  
-This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.
 
+This section Informs about the next closest cooking session summary with a link to draw into the session schedule page.  
+This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
+
+About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. ( Credit section )
 
 ## About us section
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
+
 Introduce about us and our purpose to give user feel confidence. Also if the user is living around Athlone town, we’d like to let them know this community session is holding at Technological University of the Shannon (TUS) where everybody can visit freely.
 
-## You Tube and navigate category section
+## Article YouTube section
 ![Article Youtube](assets/images/readme-img/feat-article-youtube.png "Article Youtube")
+
 This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.
 
 ## The footer
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
+
 The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website open and allow easy navigation for anytime user can visit the social media sites.
 
-## information page
+## Breadcrumb
+![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
+
+This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.
+
+## Information page
+
 This page is for the varieties of health information, they are categorised and present some leading text that explains what kind of information in here. There are only 4 categories at the moment with sample pictures, however this page will be expand over the time with more information. 
 
+
+
 ### Cooking basic knowledge
+![Info - Cooking basic knowledge](assets/images/readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
+
 This category is for beginners ( young people who don’t have much cooking experiences ). Talk about tips like “Use different cutting board for meat and vegetables - preventing bacterial transmitting”…
 
-### Healthy Gut
-This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.
-This is a kind of general knowledge and for who interested in our body systems.
+### Healthy gut
+![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
 
-### Study of food additives and sickness
-This category is Introduce some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level. Try to find the source from Academic papers and WHO information.
+This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.  
+This is a kind of general knowledge for who's interested in our body systems.
 
-### Tips and Tricks! 
-This category is for who just started to have interested in, but feeling expensive or difficult. Shows first easy steps.
+### Study on food additives and sickness
+![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
-## The Sign-up Page
-This page is showing sign-up form and the session schedules also contact information ( map ).
-Sign-up form is interactive for user experience also submission button has some functions as mentioned above ( Structure Plane ).
-This section will allow the user to get signed up to Healthy Food Club to join the sessions or the community mailing list. 
-The user will be able to specify if they would like to take part in which sessions. 
-The user will be asked to submit their full name and email address for required, phone number and experience inputs are optional.
-Add a link under the session information section to jump to the top of the current page (form section) incase of expanding the schedule section.
+This category Introduces some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
+I'd like to find the sources from Academic papers and public trusted information.
+
+### Tips and tricks! 
+![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
+
+This category is for those who have just become interested in, but feel expensive or difficult. It shows the first easy steps to start.
+
+
+## The sign-up form
+![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
+
+Sign-up form is interactive for user experience with mouse hovering colour, also submission button has some functions as mentioned above. ( Structure Plane ) This section will allow users to get signed up along with specifying which session if they would like to take part in or joining the community mailing list. The user will be asked to submit, their full name and email address for required information and phone number and cooking experience inputs are optional information.  
+My mentor Alan taught me “pattern” attribute for this form inputs. This can prevent incorrect user inputs to submit. ( Credit section )
+
+* First name, Last name inputs are texts only
+* Phone number input is numbers only
+* Email address needs "@"mark
+
 
 ## Session schedule
-This section shows sample pictures with dates, lecture’s title and cooking menu. 
+![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
+
+This feature informs future session dates, lecture titles and cooking menus with pictures. 
 
 ## Where to find us
--------------------------------
+![Where to find us](assets/images/readme-img/feat-wheretofind1.png "Where to find us")
+![Where to find us](assets/images/readme-img/feat-wheretofind2.png "Where to find us")
+
+This feature is showing contact information and map of the venue.  
+Added a link under the contact information section, I want to lead users back into the form section again.
+
+I had a problem with google map ( Bugs section ) Lighthouse auditing told me about third party cookies in this map. 
+
+
 
 <a name="featureleft"></a>
 
-# Features left to implement
+# FEATURES LEFT TO IMPLEMENT
 
 ## Information Architecture (IA)
+
 In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organizational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
 
 ## Online session feature
+
 For future growth, an online session feature might be good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
+
 ------------------------------------------
 
 <a name="tech"></a>
 
-# Technology used
+# TECHNOLOGY USED
 
 ## Html
 > Used to structure my webpages
@@ -211,10 +251,8 @@ For future growth, an online session feature might be good idea for meeting peop
 ## Googlemap API
 > 
 <a name="testing"></a>
-# Testing
-> 
 
-# Testing Phase
+# TESTING
 
 **Testing for links and Form**
 | Test |Outcome  |
@@ -229,7 +267,7 @@ For future growth, an online session feature might be good idea for meeting peop
 **Testing for responsiveness**
 | Test |Outcome  |
 |--|--|
-|Home page, about, po
+|Home page, , 
 
 ## W3 Validator
 ![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")
@@ -245,9 +283,59 @@ For future growth, an online session feature might be good idea for meeting peop
 
 ------------------------------------------------
 
+<a name="bugs"></a>
+
+# BUGS
+
+## Header
+
+I found unexpected spaces around the title and toggle button. It was making problem for middle size screen.
+  
+Solution : I found my mistake with “Flex justify-content” was “space-around”, I meant to set “space-between”. It took time to find out though it was good opportunity to use Google dev tool to inspect the css.
+
+
+## Youtube iframe video
+
+I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.  
+
+![Youtube height technique](assets/images/readme-img/bug-stackoverflow-youtube-height.png "Youtube height technique")
+![Youtube height technique](assets/images/readme-img/bug-stackoverflow-youtube-height2.png "Youtube height technique")
+
+
+## Youtube iframe align center
+
+I struggled again to set this 'iframe' 'align center', without using 'text-align' of 'flex' to the parent 'article' element or outer 'div' element’s properties setting. This simple and fantastic technique persuaded me very well.  
+
+![Youtube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe1.png "Youtube iframe align center")
+![Youtube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe2.png "Youtube iframe align center")
+
+
+## Hero image CSS animation scale 1 to 1.1 
+
+caused excess space around the page  
+Solution : 'overflow: hidden' for outside 'div'  
+
+![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
+
+
+## Youtube video optimizing for lighthouse
+Google Lighthouse audit told me, the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt it’s true, I think it’s necessary when user start video.  
+Alternatively we can stop reading Java Script when page loading, with using the source=doc attribute.  
+
+![Youtube video optimizing for lighthouse](assets/images/readme-img/bug-youtube-js.png "Youtube video optimizing for lighthouse")
+
+
+## Google Map – remove third-party cookies
+
+At beginning I had five third-party cookies related to google map. This cause SEO score of Lighthouse audit not high - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article, I consider to sign up to google map API for cookie-less map, however I had to register my credit card which I wasn’t willing to. Therefore I had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit Lighthouse with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
+
+* [Google Map – remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Map – remove third-party cookies")  
+* [MAPS.IE](https://www.maps.ie/ "MAPS.IE")
+
+
 <a name="deployment"></a>
 
-# Deployment
+# DEPLOYMENT
 
 > "Deployment" in web application development refers to the process of making a web application available for end users to access on the internet.  
 
@@ -267,35 +355,55 @@ For future growth, an online session feature might be good idea for meeting peop
 ![Deployment pic2](assets/images/readme-img/deploy2.png)
 
 ![Deployment pic3](assets/images/readme-img/deploy3.png)
----------------------------------------------------------------
 
-<a name="credits"></a>
-
-# Bugs
-
-## figure tag  <br>
-In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity. So I asked perplexity whether I could use both elements together.
-![Youtube height technique](assets/images/readme-img/Credit-perplex-figure.png)
-
-## Youtube iframe video<br>
-I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.
-![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height.png)
-![Youtube height technique](assets/images/readme-img/Credit-stackoverflow-youtube-height2.png)
-
-## Youtube iframe align center<br>
-I struggled again to set this `<iframe>` setting align center. Tried setting properties to the outer `<div>` and the parent `<article>` elements. After the search, I found this fantastic technique persuaded me very well.
-![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe1.png)
-![Youtube iframe set align center](assets/images/readme-img/Credit-stackoverflow-howtoalign-iframe2.png)
-
-## Meta element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`<br>
-I researched that what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.  <br>
-![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible1.png)
-![Meta tag X-UA-compatible](assets/images/readme-img/Credit-perplex-meta-xua-compatible2.png)
 
 
 <a name="credits"></a>
 
-# Credits
+# CREDITS
+
+## CSS [attribute='value'] selector
+
+I leaned this selector at “Love Running” walk through project, using this for button’s functions. For making it my tool, I checked at W3 schools web site for further more information.
+* [CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp "CSS Attribute Selectors")
+
+
+## Meta element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
+
+I researched that what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.   
+
+![Meta tag X-UA-compatible](assets/images/readme-img/credit-perplex-meta-xua-compatible1.png "Meta tag X-UA-compatible")
+![Meta tag X-UA-compatible](assets/images/readme-img/credit-perplex-meta-xua-compatible2.png "Meta tag X-UA-compatible")
+
+
+## Figure tag and picture tag 
+
+In the upcoming session section, I consider using the '<figure>' element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the '<picture>' element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around but couldn’t find out using both. I asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
+
+![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture.png "Figure tag and picture tag")
+![Figure tag and picture tag](assets/images/readme-img/credit-perplex-figure.png "Figure tag and picture tag")
+
+## Hero image CSS animation scale 1 to 1.1 
+When I learned this css animation technique through the “Love Running” project in Code Institute, I was amazed to discover that I could create animation without Java Script, which was common 20 years ago. 
+![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/credit-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
+
+## Breadcrumb
+I looked for what is suitable element for the breadcrumb links. In W3 website the answer was <nav> and using aria attribute for describing the location so I referred this css code.  
+
+![Breadcrumb](assets/images/readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")
+![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")
+
+
+## Form  autocomplete attribute
+Lighthouse validator suggested me to use autocomplete attribute for form, and I found this is really helpful for user.  
+
+* [Form  autocomplete attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete "Form  autocomplete attributer")
+
+## Form input pattern attribute
+My mentor Alan taught me about this '<input>' pattern attribute for preventing invalid form data to submit.
+EG. for alphabet only and 3 letters 'pattern="[A-Za-z]{3}"'  
+
+* [Form input pattern attribute](https://www.w3schools.com/tags/att_input_pattern.asp#:~:text=The%20pattern%20attribute%20specifies%20a,pattern%20to%20help%20the%20user "Form input pattern attribute")
 
 ## Adobe color API  
 
@@ -326,7 +434,7 @@ A healthy diet, a healthier world (WHO)
 
 <a name="acknowledgements"></a>
 
-# Acknowledgements
+# ACKNOWLEDGEMENTS
 
 
 
