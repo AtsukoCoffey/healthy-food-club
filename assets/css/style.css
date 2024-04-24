@@ -84,7 +84,7 @@ header a, header a:visited {
   font-weight: 500;
   font-style: normal;
   line-height: 50px;
-  padding-left: 0.7rem;
+  padding-left: 0.6rem;
 }
 
 /* Navbar styles - dropdown toggle - Reference : Love Running [Code Institute] */
@@ -112,7 +112,7 @@ nav.global {
 .nav-toggle-label {
   z-index: 96;
   font-size: 1.5rem;
-  padding-right: 0.7rem;
+  padding-right: 0.6rem;
   color: #83BF73;
 }
 
