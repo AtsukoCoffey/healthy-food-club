@@ -11,7 +11,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 1.	[ UX DESIGN ](#ux)
 2.	[ EXISTING FEATURES ](#features)
 3.	[ FEATURES LEFT TO IMPLEMENT ](#featureleft)
-4.	[ TECHNOLOGY USED ](#Tech)
+4.	[ TECHNOLOGY USED ](#tech)
 5.	[ TESTING ](#testing)
 6.	[ BUGS ](#bugs)
 7.	[ DEPLOYMENT ](#deployment)
@@ -73,7 +73,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 * The landing page should show what this site is offering intuitively.
 * The Info page should have a variety of articles that are categorized by different perspectives.
 * Burger icon is commonly used on smaller screens, so using this convention suits users' expectations.
-*	The Sign-up page submit button should be clearly visible and interactive when the mouse hovers over it. It should also change colour and text after submitting to indicate that the form was sent.
+*	The Sign-up page submit button should be clearly visible and interactive when the mouse hovers over it. 
 
 
 ## 4. Skeleton Plane
@@ -193,12 +193,12 @@ This category is for those who have just become interested in, but feel expensiv
 ## The Sign-up Form
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
-Sign-up form is interactive for user experience with mouse hovering colour, also submission button has some functions as mentioned above. ( Structure Plane ) This section will allow users to get signed up along with specifying which session if they would like to take part in or joining the community mailing list. The user will be asked to submit, their full name and email address for required information and phone number and cooking experience inputs are optional information.  
+Sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session if they would like to take part in or joining the community mailing list. The user will be asked to submit, their full name and email address for required information and phone number and cooking experience inputs are optional information.  
 My mentor Alan taught me “pattern” attribute for this form inputs. This can prevent incorrect user inputs to submit. ( Credit section )
 
-* First name, Last name inputs are texts only
-* Phone number input is numbers only
-* Email address needs "@"mark
+* First name, Last name : Texts only
+* Phone number : Numbers only
+* Email address : Need "@" mark
 
 
 ## Session Schedule
