@@ -259,17 +259,36 @@ For future growth, an online session feature might be good idea for meeting peop
 **Testing for links and Form**
 | Test |Outcome  |
 |--|--|
-|All links on Navigation lead to their correct pages| |
-|Contact us button leads to contact form on contact us page| 
-|Footer social links all lead to their respective social media sites ||
-|Contact form submits when all criteria is filled correctly|   |
-|User prevented from submitting form without correct elements| |
-|Form Validation presents when incorrect input type is entered ||
+|All links on Navigation lead to their correct pages| OK |
+|More information >> leads to the each target pages| OK |
+|Footer social links all lead to their respective social media sites | OK |
+|Contact form submits when all criteria is filled correctly| OK |
+|User prevented from submitting form without correct elements| OK |
+|Form Validation presents when incorrect input type is entered | OK |
 
 **Testing for responsiveness**
-| Test |Outcome  |
-|--|--|
-|Home page, , 
+| OS | Browser | Test | Outcome |
+|--|--|--|--|
+| Windows | Chrome | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens larger than 320px | OK |
+|  |  | All three pages display correctly on screens smaller than 320px | OK |
+|  | Edge | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens smaller than 768px | OK |
+|  | Firefox | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens smaller than 768px | OK |
+| Mac | Chrome | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens smaller than 768px | OK |
+|  | Safari | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens smaller than 768px | OK |
+|  | Firefox | All three pages display correctly on screens larger than 1024px | OK |
+|  |  | All three pages display correctly on screens larger than 768px | OK |
+|  |  | All three pages display correctly on screens smaller than 768px | OK |
+
 
 ## W3 Validator
 ![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")
