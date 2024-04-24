@@ -110,8 +110,7 @@ nav.global {
 }
 
 .nav-toggle-label {
-  z-index: 96;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding-right: 0.6rem;
   color: #83BF73;
 }
@@ -703,7 +702,6 @@ input[type="submit"]:hover {
 
   #flex-outer>div {
     flex: 1 1 400px;
-    /* max-width: 460px; */
     height: 430px;
   }
 
