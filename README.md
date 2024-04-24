@@ -80,23 +80,30 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 ### Wireframes
 
-<details>
-<summary>Home page mobile Wireframe</summary>
+For the mobile screen wireframe, I simply lined up important and necessary information under the flow of UX design strategy as I thought there wasn't much excess spaces.  
+<details open>
+<summary>Mobile - 320px - Wireframe</summary>
 
 ![Home page mobile Wireframe](assets/images/wireframe/wireframe1.gif "Home page mobile Wireframe")
-</details>
+</details>  
+
+I planned consciously to create contrast in sizes, information, and images for the tablet screen wireframe.  
+Also I placed paragraphs diagonally on the layout of the useful information page to use the space more playfully.  
+
+For PC monitor wireframe, I wanted to fit the contents for any width using flex box for the large monitor size layout.   
 
 <details>
-<summary>Home page tablet and PC Wireframes</summary>
+<summary>Tablet - 768px - and PC - 1440px - Wireframes</summary>
 
 ![Home page tablet and PC Wireframe](assets/images/wireframe/wireframe2.gif "Home page tablet and PC Wireframe")
 </details>
 
+  
 
 ## 5. Surface Plane
 
 ### Colour
-At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [Credit](#adobe-api) 
+At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [TECHNOLOGY USED - Adobe Color API](#tech) 
   
 ![Colour scheme](assets/images/readme-img/colour-scheme1.png "Colour scheme")
 
@@ -108,9 +115,13 @@ However, using only these colors couldn’t provide enough contrast, so I adjust
 ### Typography
 
 I selected "Poiret One" for the “Healthy Food Club” Logo from Google font API. It is attractive and has sharp features and it’s not too heavy.  
-I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [Technology](#google-fonts)
-* "Poiret One"
-* "Josefin Sans"
+I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [TECHNOLOGY USED - Google Fonts](#tech)  
+
+* "Poiret One"  
+![Typography Poiret One](assets/images/readme-img/typo-poiret1.png "Typography Poiret One")  
+
+* "Josefin Sans"  
+![Typography Josefin Sans](assets/images/readme-img/typo-josefinsans.png "Typography Josefin Sans")
 
 
 <a name="features"></a>
@@ -120,7 +131,7 @@ I was considering using "Quicksand" for the best readability, however our target
 ## The Header And Navigation Bar
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
-The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit] (#credit)  
+The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit - Code Institute learning material](#credit)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.
 
@@ -129,8 +140,8 @@ This feature is on all three pages and is identical in each page to allow for ea
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen.  
-The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish so I asked my family for help to consider making it more natural phrase.  [Credit] (#credit )  
-This section introduces the user to “Healthy Food Club” with an eye catching css animation which technique is borrowed from again “Love Running” project in Code Institute. . ( Credit section ) 
+The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [Credit - Editing and proofreading](#credit)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” project in Code Institute. [Credit - Hero Image CSS Animation](#credit)
 
 
 ## Upcoming Session Info Section
@@ -193,8 +204,8 @@ This category is for those who have just become interested in, but feel expensiv
 ## The Sign-up Form
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
-Sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session if they would like to take part in or joining the community mailing list. The user will be asked to submit, their full name and email address for required information and phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me “pattern” attribute for this form inputs. This can prevent incorrect user inputs to submit. ( Credit section )
+The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
+My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. ( Credit section )
 
 * First name, Last name : Texts only
 * Phone number : Numbers only
@@ -236,21 +247,21 @@ For future growth, an online session feature might be good idea for meeting peop
 # TECHNOLOGY USED
 
 ## HTML
-> Used to structure my webpages
+> Used to structure my webpages  
 
 ## CSS
-> Used to style and add layout
+> Used to style and add layout  
 
 ## Font Awesome
-> Used for all the icons in this project
-
-<a name="google-fonts"></a>
+> Used for all the icons in this project  
 
 ## Google Fonts
-> Used for all the fonts used in this project and to compare potential fonts.
+> Used for all the fonts used in this project and to compare potential fonts.  
 
-## Google Map API
+## Google Map API 
 > 
+
+
 <a name="testing"></a>
 
 
@@ -291,14 +302,32 @@ For future growth, an online session feature might be good idea for meeting peop
 
 
 ## W3 Validator
-![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")
-![W3 validator info.html](assets/images/readme-img/test-w3validator-info.png "W3 validator info.html")
-![W3 validator signup.html](assets/images/readme-img/test-w3validator-signup.png "W3 validator signup.html")
+
+* Top page - index.html  
+![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")  
+
+* Information page - info.html  
+![W3 validator info.html](assets/images/readme-img/test-w3validator-info.png "W3 validator info.html")  
+
+* Sign-up page - signup.html  
+![W3 validator signup.html](assets/images/readme-img/test-w3validator-signup.png "W3 validator signup.html")  
+
 ## W3 CSS Validator
-![W3 validator css](assets/images/readme-img/test-w3validator-css.png "W3 validator css")
+
+* Style sheet - style.css
+![W3 validator css](assets/images/readme-img/test-w3validator-css.png "W3 validator css")  
+
+
 ## Google Lighthouse Testing
-![Lighthouse validator index.html](assets/images/readme-img/test-lighthouse-index.png "Lighthouse validator index.html")
-![Lighthouse validator info.html](assets/images/readme-img/test-lighthouse-info.png "Lighthouse validator info.html")
+
+* Top page - index.html  
+![Lighthouse validator index.html](assets/images/readme-img/test-lighthouse-index.png "Lighthouse validator index.html")  
+
+* Information page - info.html  
+![Lighthouse validator info.html](assets/images/readme-img/test-lighthouse-info.png "Lighthouse validator info.html")  
+
+* Sign-up page - signup.html  
+![Lighthouse validator sign-up.html](assets/images/readme-img/test-lighthouse-signup.png "Lighthouse validator sign-up.html")  
 
 
 <a name="bugs"></a>
@@ -330,15 +359,17 @@ I struggled again to set this `<iframe>` `align:center`, without using `text-ali
 
 ## Hero Image CSS Animation Scale 1 to 1.1 
 
-caused excess space around the page  
+I realised that this CSS animation caused excess space around the page as the hero image was literally enlarged by CSS.  
+I was too excited to use this technipue to check carefully the parents `<div>` setting.  
+
 Solution : `overflow: hidden` for outside `<div>`  
 
-![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
+![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
 
 
 ## Youtube Video Optimizing For Lighthouse
-Google Lighthouse audit told me, the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt it’s true, I think it’s necessary when user start video.  
-Alternatively we can stop reading Java Script when page loading, with using the source=doc attribute.  
+Google Lighthouse audit told me that the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt if it’s true, I think it’s necessary when users start a video.  
+Alternatively we can stop reading Java Script when the page is loading, using the source=doc attribute.  
 
 ![Youtube video optimizing for lighthouse](assets/images/readme-img/bug-youtube-js.png "Youtube video optimizing for lighthouse")
 
@@ -382,6 +413,7 @@ At beginning I had five third-party cookies related to google map. This cause SE
 # CREDITS
 
 ## Code Institute Learning Material
+
 
 
 ## CSS `[attribute="value"]` Selector
@@ -432,7 +464,8 @@ The hero image is not a small size image. After I read this article, I tried to 
 
 * [Optimize Largest Contentful Paint](https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=lr#optimize_when_the_resource_is_discovered "Optimize Largest Contentful Paint")
 
-
+## Editing and proofreading
+Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)
 
 ## Imagery
 
@@ -492,10 +525,12 @@ A healthy diet, a healthier world (WHO)
 
 <a name="acknowledgements"></a>
 
-# ACKNOWLEDGEMENTS
+# ACKNOWLEDGEMENTS  
+
 I would like to great thank my mentor Alan Bushell for his exellent advise and support.  
-Also my cohort facilitator Amy Richardson for all the support and a lot of usuful information.  
-And I'm appreciated with my family to check my Engllish and testing website, and all the support.
+Also my cohort facilitator Amy Richardson for all the support and information.  
+
+And great thank my family to check my Engllish proofreading and testing website, and all the support.
 
 
 <!-- 
