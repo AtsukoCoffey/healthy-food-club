@@ -1,7 +1,7 @@
 # Healthy Food Club
-The Healthy Food Club is a community that hosts cooking sessions with brief health-related lectures and introduces alternative menus to promote a healthier lifestyle.  
+The "Healthy Food Club" is a community that hosts cooking sessions with brief health-related lectures and introduces alternative menus to promote a healthier lifestyle.  
   
-During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact, specially focus on the food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
+During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact; with special focus on food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
 
 ![ Live site view ](assets/images/readme-img/amiresponsive.png "Live site view")
 ## **[Live site](https://atsukocoffey.github.io/healthy-food-club/)**
@@ -31,11 +31,11 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 ### User value 
 1.	Users can access and learn crucial information that could have an impact on their health and well-being.
-2.	Users can find the community which is promoting everyone’s health through lectures and cooking lessons.
-3.	Users can learn alternative cooking knowledge to avoid potentially dangerous food additives and unnaturally excessive processed food.
+2.	Users can find a community which promotes everyone’s health through lectures and cooking lessons.
+3.	Users can learn alternative cooking knowledge to avoid potentially dangerous food additives and unnaturally excessively processed food.
 
 ### Difference from competitors and substitutions
-1.  The Healthy Food Club is not just recipes, but has more emphasis on learning.
+1.  The "Healthy Food Club" is not just recipes, but has more emphasis on learning.
 2.  The cooking menu for the session is aligned with the lecture content, making it more practical.
 
 
@@ -44,35 +44,36 @@ During our activities, we strive to raise awareness about the prevalence of chem
 *	As a user, I want to clearly understand what services are offered on this website.
 *	As a user, I want to be able to easily navigate through to find contents.
 *	As a user, I want the website to work on different devices and formats that I use.
-*	As a user, I want a simple sign-up process with selecting my preferred option.
+*	As a user, I want a simple sign-up process allowing me to select my preferred option.
 *	As a user, I want to feel that healthy cooking is interesting and not difficult.
-*	As a user, I want to see articles that offer a variety of perspectives on health to fit my problem awareness.
+*	As a user, I want to see articles that offer a variety of perspectives on health to increase my awareness and knowledge.
 
 ### Target users and who are interested in this website
-*	As a user, I want to find out when the next cooking session is and what the lecture subject will be clearly..
-* As a user, I want to find what kind of people are organising the Healthy Food Club and are they trustworthy or not.
+*	As a user, I want to find out when the next cooking session is and clearly identify what the lecture subject will be.
+* As a user, I want to find out what kind of people are organising the "Healthy Food Club" and whether they are trustworthy or not.
 * As a user, I want to find out the schedules of future sessions.
 
 ### The website owner stories
 *	As a site owner, I want to gather people for cooking & lecture sessions.
 *	As a site owner, I want to convey clearly who we are and our purpose, to give users a sense of trust and confidence.
-*	As a site owner, I want to share useful information and chemical studies.
+*	As a site owner, I want to share useful information and food science studies.
 *	As a site owner, I want to encourage people’s awareness about chemicals in our life.
 *	As a site owner, I want to inform and educate about European and national regulations on food additives.
 *	As a site owner, I want to provide inspiration for alternative cooking ideas.
-*	As a site owner, I want to convey clearly that the Healthy Food Club is not just recipes cooking club.
+*	As a site owner, I want to convey clearly that the "Healthy Food Club" is not just about recipes and cooking.
+
 
 ## 3. Structure Plane
 
 * The website should have a Navigation menu that is consistent across all pages.
 * The website should have a fixed footer to access anytime to see this site's SNS.  
 * The website should give the user a way to contact through a form.
-* The website should have breadcrumbs to help users feel a strong sense of place and also give access to former pages when it expands to become a larger website.
+* The website should have breadcrumbs to help users feel a strong sense of place and also give access to previous pages when it expands to become a larger website.
 *	The website should have hover interaction for links, abbreviation, and tooltips with additional information to enhance user experience.
 * The landing page should show what this site is offering intuitively.
 * The Info page should have a variety of articles that are categorized by different perspectives.
-* Burger icon is commonly used to smaller screen, so using this convention to represent the navigation suits users' expectations.
-*	The Sign-up page submit button should be clearly visible and interactive when mouse hover it. It should also change colour and text after submitting to indicate that the form was sent.
+* Burger icon is commonly used on smaller screens, so using this convention suits users' expectations.
+*	The Sign-up page submit button should be clearly visible and interactive when the mouse hovers over it. It should also change colour and text after submitting to indicate that the form was sent.
 
 
 ## 4. Skeleton Plane
@@ -95,7 +96,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 ## 5. Surface Plane
 
 ### Colour
-At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website.  
+At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [Credit](#adobe-api) 
   
 ![Colour scheme](assets/images/readme-img/colour-scheme1.png "Colour scheme")
 
@@ -107,7 +108,7 @@ However, using only these colors couldn’t provide enough contrast, so I adjust
 ### Typography
 
 I selected "Poiret One" for the “Healthy Food Club” Logo from Google font API. It is attractive and has sharp features and it’s not too heavy.  
-I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. 
+I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [Technology](#google-fonts)
 * "Poiret One"
 * "Josefin Sans"
 
@@ -119,23 +120,23 @@ I was considering using "Quicksand" for the best readability, however our target
 ## The Header And Navigation Bar
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
-The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme to appeal, along with unique logo. This header includes the navigation bar which is full responsive to all size of devices and it swaps to the toggle button to hide and show the navigation links for small screen sizes, less than 768px width. I borrowed this toggle button technic from “Love Running” project in Code Institute LMS. ( Credit section )  
-The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognize icons.  
+The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit] (#credit)  
+The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.
 
 
 ## The Landing Page Hero Image
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
-The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture that a smiling girl preparing food in the kitchen.  
-The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish so I asked my family for help to consider making it more natural phrase. ( Credit section )  
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen.  
+The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish so I asked my family for help to consider making it more natural phrase.  [Credit] (#credit )  
 This section introduces the user to “Healthy Food Club” with an eye catching css animation which technique is borrowed from again “Love Running” project in Code Institute. . ( Credit section ) 
 
 
 ## Upcoming Session Info Section
 ![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
 
-This section Informs about the next closest cooking session summary with a link to draw into the session schedule page.  
+This section Informs about the next cooking session with a link to the session schedule page.  
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
 About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. ( Credit section )
@@ -143,7 +144,7 @@ About this coding part, I consider using the `<figure>` element for an image sin
 ## About Us Section
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
 
-Introduce about us and our purpose to give user feel confidence. Also if the user is living around Athlone town, we’d like to let them know this community session is holding at Technological University of the Shannon (TUS) where everybody can visit freely.
+Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.
 
 ## Article YouTube Section
 ![Article Youtube](assets/images/readme-img/feat-article-youtube.png "Article Youtube")
@@ -242,6 +243,8 @@ For future growth, an online session feature might be good idea for meeting peop
 
 ## Font Awesome
 > Used for all the icons in this project
+
+<a name="google-fonts"></a>
 
 ## Google Fonts
 > Used for all the fonts used in this project and to compare potential fonts.
@@ -359,6 +362,9 @@ At beginning I had five third-party cookies related to google map. This cause SE
 
 # CREDITS
 
+## Code Institute Learning Material
+
+
 ## CSS `[attribute="value"]` Selector
 
 I leaned this selector at “Love Running” walk through project, using this for button’s functions. For making it my tool, I checked at W3 schools web site for further more information.
@@ -447,7 +453,7 @@ Photo by Gil Goldman: [https://www.pexels.com/photo/fresh-bread-loafs-on-table-i
 <a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
 
 
-
+<a name="adobe-api"></a>
 
 ## Adobe color API  
 [ Adobe Color EXPLORE 'food' keyword ](https://color.adobe.com/search?q=food "Adobe Color EXPLORE 'food' keyword")
@@ -460,11 +466,17 @@ A healthy diet, a healthier world (WHO)
 ## Map of TUS  
 [https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
 
+<a name=""></a>
+
+## 
+
 
 <a name="acknowledgements"></a>
 
 # ACKNOWLEDGEMENTS
-
+I would like to great thank my mentor Alan Bushell for his exellent advise and support.  
+Also my cohort facilitator Amy Richardson for all the support and a lot of usuful information.  
+And I'm appreciated with my family to check my Engllish and testing website, and all the support.
 
 
 <!-- 
