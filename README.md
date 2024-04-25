@@ -18,9 +18,11 @@ During our activities, we strive to raise awareness about the prevalence of chem
 5.	[ TESTING ](#testing)
 6.	[ BUGS ](#bugs)
 7.	[ DEPLOYMENT ](#deployment)
-8.  [ CREDITS ](#credits)
-9.  [ CONTENT ](#content)
-10. [ ACKNOWLEDGEMENTS](#acknowledgements)
+8.  [ CREDITS - Code references](#credits)
+9.  [ CREDITS - Content References](#credits-content)
+10. [ CREDITS - Imagery](#imagery)
+11. [ CREDITS - Editing And Proofreading](#credits-edit)
+12. [ ACKNOWLEDGEMENTS](#acknowledgements)
 
 
 <a id="ux"></a>
@@ -454,7 +456,7 @@ At beginning I had five third-party cookies related to google map. This cause SE
 
 # CREDITS
 
-## Code references
+## Code References
 
 ### CSS `[attribute="value"]` Selector
 
@@ -529,7 +531,7 @@ The hero image is not a small size image. After I read this article, I tried to 
 
 <a id="credits-content"></a>
 
-## Content references
+## Content References
 
 ### Code Institute Learning Material
 [Code Institute Full-Stack Software Development Program](https://codeinstitute.net/?nab=0 "Code Institute Full-Stack Software Development Program")
@@ -551,10 +553,8 @@ A healthy diet, a healthier world (WHO)
 ### MDN, W3schools
 > Used to research codes
 
-<a id="credits-edit"></a>
 
-## Editing and proofreading
-Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)
+<a id="imagery"></a>
 
 ## Imagery
 
@@ -592,6 +592,12 @@ Photo by Gil Goldman: [https://www.pexels.com/photo/fresh-bread-loafs-on-table-i
 
 * vegetables  
 <a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
+
+
+<a id="credits-edit"></a>
+
+## Editing And Proofreading
+Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)  
 
 
 <a id="acknowledgements"></a>
