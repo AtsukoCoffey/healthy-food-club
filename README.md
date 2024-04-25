@@ -142,7 +142,9 @@ This feature is on all three pages and is identical in each page to allow for ea
 ## The Landing Page Hero Image
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
-The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. I used the CSS animation technique which I learned at the "Love Running" (Deprecated version) project to enlarge this background image.  [Credit - Code Institute learning material CSS animation](#credits-heroanime) , [Bugs - Code Institute learning material CSS animation](#bugs-heroanime)
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [Credit - Editing and proofreading](#credits-edit)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [Credit - Hero Image CSS animation  Code Institute learning material](#credits-heroanime), Also [Bugs - Code Institute learning material CSS animation](#bugs-heroanime)
+
 
 ## Upcoming Session Info Section
 ![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
@@ -549,7 +551,7 @@ A healthy diet, a healthier world (WHO)
 ### MDN, W3schools
 > Used to research codes
 
-
+<a id="credits-edit"></a>
 
 ## Editing and proofreading
 Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)
