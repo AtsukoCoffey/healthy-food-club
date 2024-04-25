@@ -4,7 +4,7 @@ The "Healthy Food Club" is a community that hosts cooking sessions with brief he
 During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact; with special focus on food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
 
 ![ Live site view ](assets/images/readme-img/amiresponsive.png "Live site view")
-## **[Live site](https://atsukocoffey.github.io/healthy-food-club/)**
+## **[Live site - https://atsukocoffey.github.io/healthy-food-club/](https://atsukocoffey.github.io/healthy-food-club/)**
 
 
 ## Table Of Contents
@@ -20,7 +20,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 10. [ ACKNOWLEDGEMENTS](#acknowledgements)
 
 
-<a name="ux"></a>
+<a id="ux"></a>
 
 # UX DESIGN
 
@@ -124,14 +124,14 @@ I was considering using "Quicksand" for the best readability, however our target
 ![Typography Josefin Sans](assets/images/readme-img/typo-josefinsans.png "Typography Josefin Sans")
 
 
-<a name="features"></a>
+<a id="features"></a>
 
 # EXISTING FEATURES
 
 ## The Header And Navigation Bar
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
-The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit - Code Institute learning material](#credit)  
+The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit - Code Institute learning material](#credits)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.
 
@@ -224,11 +224,11 @@ This feature informs future session dates, lecture titles and cooking menus with
 This feature is showing contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.
 
-I had a problem with google map ( Bugs section ) Lighthouse auditing told me about third party cookies in this map. 
+I had a problem with google map [Bugs](#bugs), Lighthouse auditing told me about third party cookies in this map. 
 
 
 
-<a name="featureleft"></a>
+<a id="featureleft"></a>
 
 # FEATURES LEFT TO IMPLEMENT
 
@@ -242,7 +242,7 @@ For future growth, an online session feature might be good idea for meeting peop
 
 ------------------------------------------
 
-<a name="tech"></a>
+<a id="tech"></a>
 
 # TECHNOLOGY USED
 
@@ -258,11 +258,23 @@ For future growth, an online session feature might be good idea for meeting peop
 ## Google Fonts
 > Used for all the fonts used in this project and to compare potential fonts.  
 
-## Google Map API 
-> 
+## Google Map - MAPS.IE 
+> Used for the map of the venue in "Where to find us" section
+
+## tinify - Smart WebP, PNG and JPEG Compression for Faster Websites
+> Used for compress all the image files
+
+## FreeConvert - WebP Converter
+> Used for generating webp format
+
+## Am I Responsive? 
+> Used for creating responsivity example image
+
+## favicon.cc
+> Used for creating original favicon icon
 
 
-<a name="testing"></a>
+<a id="testing"></a>
 
 
 # TESTING
@@ -330,7 +342,7 @@ For future growth, an online session feature might be good idea for meeting peop
 ![Lighthouse validator sign-up.html](assets/images/readme-img/test-lighthouse-signup.png "Lighthouse validator sign-up.html")  
 
 
-<a name="bugs"></a>
+<a id="bugs"></a>
 
 # BUGS
 
@@ -338,7 +350,7 @@ For future growth, an online session feature might be good idea for meeting peop
 
 I found unexpected spaces around the title and toggle button. It was making problem for middle size screen.
   
-Solution : I found my mistake with “Flex justify-content” was “space-around”, I meant to set “space-between”. It took time to find out though it was good opportunity to use Google dev tool to inspect the css.
+Solution : I found my mistake with “Flex justify-content” was `"space-around"`, I meant to set `"space-between"`. It took time to find out though it was good opportunity to use Google dev tool to inspect the css.
 
 
 ## Youtube-iframe Video
@@ -382,7 +394,7 @@ At beginning I had five third-party cookies related to google map. This cause SE
 * [MAPS.IE](https://www.maps.ie/ "MAPS.IE")
 
 
-<a name="deployment"></a>
+<a id="deployment"></a>
 
 
 # DEPLOYMENT
@@ -408,7 +420,7 @@ At beginning I had five third-party cookies related to google map. This cause SE
 
 
 
-<a name="credits"></a>
+<a id="credits"></a>
 
 # CREDITS
 
@@ -442,7 +454,7 @@ When I learned this css animation technique through the “Love Running” proje
 ![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/credit-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
 
 ## Breadcrumb
-I looked for what is suitable element for the breadcrumb links. In W3 website the answer was <nav> and using aria attribute for describing the location so I referred this css code.  
+I looked for what is suitable element for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location so I referred this css code.  
 
 ![Breadcrumb](assets/images/readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")
 ![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")
@@ -523,7 +535,7 @@ A healthy diet, a healthier world (WHO)
 ## 
 
 
-<a name="acknowledgements"></a>
+<a id="acknowledgements"></a>
 
 # ACKNOWLEDGEMENTS  
 
@@ -531,46 +543,3 @@ I would like to great thank my mentor Alan Bushell for his exellent advise and s
 Also my cohort facilitator Amy Richardson for all the support and information.  
 
 And great thank my family to check my Engllish proofreading and testing website, and all the support.
-
-
-<!-- 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
- -->
