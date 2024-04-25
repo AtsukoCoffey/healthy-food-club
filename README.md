@@ -224,7 +224,7 @@ This feature informs future session dates, lecture titles and cooking menus with
 This feature is showing contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.
 
-I had a problem with google map [Bugs](#bugs), Lighthouse auditing told me about third party cookies in this map. 
+I had a problem with google map, Lighthouse auditing told me about third party cookies in this map. [Bugs](#bugs) 
 
 
 
@@ -252,6 +252,12 @@ For future growth, an online session feature might be good idea for meeting peop
 ## CSS
 > Used to style and add layout  
 
+## GitHub 
+> Used for our project's platform 
+
+## GitPod 
+> Used as my  Integrated Development Environment (IDE) system
+
 ## Font Awesome
 > Used for all the icons in this project  
 
@@ -272,6 +278,13 @@ For future growth, an online session feature might be good idea for meeting peop
 
 ## favicon.cc
 > Used for creating original favicon icon
+
+## perplexity
+> Used for general questions
+
+## MDN, W3schools
+> Used to research codes
+
 
 
 <a id="testing"></a>
