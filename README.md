@@ -136,7 +136,7 @@ For the site's basic font, I was considering using "Quicksand" for the best read
 ## The Header And Navigation Bar
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
-The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [Credit - Code Institute learning material](#credits-content)  
+The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [CREDITS - Code Institute learning material](#credits-content)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.
 
@@ -144,8 +144,8 @@ This feature is on all three pages and is identical in each page to allow for ea
 ## The Landing Page Hero Image
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
-The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [Credit - Editing and Proofreading](#credits-edit)
-This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [Credit - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime), Also [Bugs -  Hero Image CSS Animation](#bugs-heroanime)
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime), Also [BUGS - Hero Image CSS Animation](#bugs-heroanime)
 
 
 ## Upcoming Session Info Section
@@ -154,7 +154,7 @@ This section introduces the user to “Healthy Food Club” with an eye-catching
 This section Informs about the next cooking session with a link to the session schedule page.  
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
-About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites.[Credit - stackoverflow, perplexity](#credits-figure)
+About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites.[CREDITS - stackoverflow, perplexity](#credits-figure)
 
 ## About Us Section
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
@@ -165,10 +165,13 @@ This TUS map is not a necessary item where the screen space is valuable in small
 
 
 ## Article YouTube Section
-![Article Youtube](assets/images/readme-img/feat-article-youtube.png "Article Youtube")
+![Article YouTube](assets/images/readme-img/feat-article-youtube.png "Article YouTube")
 
-This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.
+This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.  
 
+I used iframe for this YouTube video and I had some problems to display properly.   
+
+[BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) , also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)
 
 ## The Footer
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
@@ -211,7 +214,7 @@ This category is for those who have just become interested in, but feel expensiv
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [Credit - Pattern attribute](#credit-form), also Autocomplete was suggested by Lighthouse [Credit - Form Autocomplete](#credit-form)
+My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form), also Autocomplete was suggested by Lighthouse [CREDITS - Form Autocomplete](#credit-form)
 
 ** Form input criteria **
 * First name, Last name : Texts only
@@ -231,7 +234,7 @@ This feature informs future session dates, lecture titles and cooking menus with
 This feature is showing contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.
 
-I had a problem with google map, Lighthouse auditing told me about third party cookies in this map. [Bugs](#bugs) 
+I had a problem with google map, Lighthouse auditing told me about third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Map](#bugs-map) 
 
 
 
@@ -239,12 +242,13 @@ I had a problem with google map, Lighthouse auditing told me about third party c
 
 # FEATURES LEFT TO IMPLEMENT
 
-## Information Architecture (IA)
+## The article pages of the information page  
+The information page has four categories and those article pages have not been built yet. Therefore the next feature that should be done must be to finish those article pages.
 
+## Information Architecture (IA)
 In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organizational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
 
 ## Online Session Feature
-
 For future growth, an online session feature might be good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
 
 ------------------------------------------
@@ -366,31 +370,32 @@ My header nav toggle button was missing in the small screen size view. Then I fo
   
 Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
 
+<a id="#bugs-youtube"></a>
 
-## Youtube-iframe Video
+## YouTube-iframe Setting Height Automatically
 
 I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.   
 
-Solution : Set parent `<div> padding-bottom ` the Youtube video size ratio 56.25% (16:9)
+Solution : Set parent `<div> padding-bottom ` the YouTube video size ratio 56.25% (16:9)
 
 <details>
-<summary>Youtube iframe height technique - stackoverflow >> </summary>  
+<summary>YouTube iframe height technique - stackoverflow >> </summary>  
 
-![Youtube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height.png "Youtube iframe height technique")  
-![Youtube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height2.png "Youtube iframe height technique")
+![YouTube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height.png "YouTube iframe height technique")  
+![YouTube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height2.png "YouTube iframe height technique")
 </details>
 
-## Youtube-iframe Align Center
+## YouTube-iframe Align Center
 
 I struggled again to set this `<iframe>` `align:center`, without using `text-align` of `flex` to the parent `<article>` element or outer `<div>` element’s properties setting. This simple and fantastic technique persuaded me very well.  
 
 Solution : Add `display: block` to the  `<iframe>`
 
 <details>
-<summary>Youtube iframe align center technique - stackoverflow >> </summary>  
+<summary>YouTube iframe align center technique - stackoverflow >> </summary>  
 
-![Youtube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe1.png "Youtube iframe align center")
-![Youtube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe2.png "Youtube iframe align center")
+![YouTube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe1.png "YouTube iframe align center")
+![YouTube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe2.png "YouTube iframe align center")
 </details>  
 
 <a id="bugs-heroanime"></a>
@@ -408,18 +413,20 @@ Solution : `overflow: hidden` for outside `<div>`
 ![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
 </details>
 
-## Youtube Video Optimizing For Lighthouse
+## YouTube Video Optimizing For Lighthouse
 Google Lighthouse audit told me that the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt if it’s true, I think it’s necessary when users start a video.  
 Alternatively we can stop reading Java Script when the page is loading, using the `source=doc` attribute.  
 
 Solution : Put the HTML link element inside the `source=doc` attribute 
 
 <details>
-<summary>Youtube video optimizing for lighthouse - stackoverflow >> </summary>  
+<summary>YouTube video optimizing for lighthouse - stackoverflow >> </summary>  
 
-![Youtube video optimizing for lighthouse](assets/images/readme-img/bug-youtube-js.png "Youtube video optimizing for lighthouse")
-</details>
+![YouTube video optimizing for lighthouse](assets/images/readme-img/bug-youtube-js.png "YouTube video optimizing for lighthouse")
+</details>  
 
+
+<a id="#bugs-map"></a>
 ## Google Map – Remove Third-party Cookies
 
 At beginning I had five third-party cookies related to google map. This cause SEO score of Lighthouse audit not high - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article, I consider to sign up to google map API for cookie-less map, however I had to register my credit card which I wasn’t willing to. Therefore I had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit Lighthouse with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
@@ -592,7 +599,7 @@ The hero image is not a small size image. After I read this article, I tried to 
 ### Adobe color API  
 * [Link to Adobe Color EXPLORE 'food' keyword ](https://color.adobe.com/search?q=food "Adobe Color EXPLORE 'food' keyword")
 
-### Youtube: 
+### YouTube: 
 A healthy diet, a healthier world (WHO)  
 * [Link to A healthy diet, a healthier world (WHO) ](https://www.youtube.com/watch?v=XMcab1MFaLc "A healthy diet, a healthier world (WHO) ")
 
