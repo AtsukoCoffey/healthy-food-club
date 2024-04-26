@@ -31,7 +31,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 ## 1. Strategy Plane
 ### Target users 
-1.	Young people who are about to start living independently, as well as their parents
+1.	Young people who are about to start living independently, as well as their parents.
 2.	Everyone who cares about food additives, health and simply enjoys cooking.
 
 ### User value 
@@ -108,7 +108,7 @@ For PC monitor wireframe, I wanted to fit the contents for any width using flex 
 ## 5. Surface Plane
 
 ### Colour
-At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [TECHNOLOGY USED - Adobe Color API](#tech) 
+At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [CREDITS Content References - Adobe Color API](#credits-content) 
   
 ![Colour scheme](assets/images/readme-img/colour-scheme1.png "Colour scheme")
 
@@ -508,7 +508,7 @@ I researched that what is this meta tag for, I guess we might not need this tag 
 
 ### Figure And Picture Element 
 
-In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around but couldn’t find out using both in the W3 school or MDN. I asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
+In the upcoming session section, I consider using the `<figure>` element for an image and the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around. I couldn’t find out using both in the W3 school or MDN though there were some coversations at stackoverflow and I also asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
 <details>
 <summary>Figure And Picture Element - stuckoverflow, perplexity</summary>
 
@@ -533,14 +533,34 @@ When I learned this css animation technique through the “Love Running” proje
 ### Breadcrumb
 I looked for what is suitable element for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location so I referred this css code.  
 
+
 <details>
-<summary>Breadcrumb - W3school</summary>
+<summary>Breadcrumb, what element and attributes - W3school</summary>
 
-![Breadcrumb](assets/images/readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")
-![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")
-
+![Breadcrumb](assets/images/readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")  
 </details>
 
+<details>
+<summary>Breadcrumb, specify which list item - stackoverflow</summary>
+
+![Breadcrumb - specify the list item](assets/images/readme-img/credit-breadcrumb-li-specify.png  "Breadcrumb - specify the list item")  
+</details>
+
+
+<details>
+<summary>Breadcrumb, "/" between list item - MDN</summary>
+
+![Breadcrumb - border right / slash](assets/images/readme-img/credit-breadcrumb-border-right.png "Breadcrumb - border right / slash")   
+</details>
+
+
+<details>
+<summary>Breadcrumb, `::before` selector - W3 school</summary>
+
+![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")  
+</details>
+
+ 
 
 
 ### Form  Autocomplete Attribute
@@ -565,17 +585,17 @@ The hero image is not a small size image. After I read this article, I tried to 
 ## Content References
 
 ### Code Institute Learning Material
-[Code Institute Full-Stack Software Development Program](https://codeinstitute.net/?nab=0 "Code Institute Full-Stack Software Development Program")
+* [Link to Code Institute Full-Stack Software Development Program](https://codeinstitute.net/?nab=0 "Code Institute Full-Stack Software Development Program")
 
 ### Adobe color API  
-[ Adobe Color EXPLORE 'food' keyword ](https://color.adobe.com/search?q=food "Adobe Color EXPLORE 'food' keyword")
+* [Link to Adobe Color EXPLORE 'food' keyword ](https://color.adobe.com/search?q=food "Adobe Color EXPLORE 'food' keyword")
 
 ### Youtube: 
 A healthy diet, a healthier world (WHO)  
-[A healthy diet, a healthier world (WHO) ](https://www.youtube.com/watch?v=XMcab1MFaLc "A healthy diet, a healthier world (WHO) ")
+* [Link to A healthy diet, a healthier world (WHO) ](https://www.youtube.com/watch?v=XMcab1MFaLc "A healthy diet, a healthier world (WHO) ")
 
 ### Map of TUS  
-[https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
+* [Link to https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
 
 
 ### perplexity
