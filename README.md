@@ -433,23 +433,52 @@ At beginning I had five third-party cookies related to google map. This cause SE
 
 > "Deployment" in web application development refers to the process of making a web application available for end users to access on the internet.  
 
+<details>
+<summary>Git hub - log in >> </summary>  
+
+![Git hub - log in view](assets/images/readme-img/deploy-1.webp "Git hub - log in view ")
+</details>  
+
 1. Log in Git hub and access to purpose repository.
-2. Click on 'Settings'.
-3. On the left-hand sidebar, click on 'Pages'.
+
+<details>
+<summary>In the purpose repository click on.. >> </summary>  
+
+![Top navigaton bar (2), side navigation bar (3)](assets/images/readme-img/deploy-2.3.webp "Top navigaton bar (2), side navigation bar (3)")
+</details>
+
+2. Click on 'Settings' in the top navigaton bar.
+3. On the left-hand sidebar, Click on 'Pages'.
+
+<details>
+<summary>In the GitHub Pages, Build and deployment >> </summary>  
+
+![Source (4), 'Main' branch (5), 'root'(6),  'save'(7)](assets/images/readme-img/deploy-4.5.6.7.webp "Source (4), 'Main' branch (5), 'root'(6),  'save'(7)")
+</details>
+
 4. Source is 'Deploy from Branch'.
 5. Select 'Main' branch.
 6. Folder is 'root'.
 7. Click 'Save'.
+
+<details>
+<summary>Back to top navigaton bar, left hand side.. >> </summary>  
+
+![Top navigaton bar (8)](assets/images/readme-img/deploy-8.webp "Top navigaton bar (8)")
+</details>
+
 8. Click on 'Code'. After a few minutes refresh your repo.
+
+<details>
+<summary>Right hand side, aside section.. >> </summary>  
+
+![Right hand side, aside section (9)](assets/images/readme-img/deploy-9.webp "Right hand side, aside section (9)")
+</details>
+
 9. On the right-hand side, in the Environments section, click on 'github-pages'.
+
+
 10. Deployments page click the link to see the live site.
-
-![Deployment pic1](assets/images/readme-img/deploy1.png)
-
-![Deployment pic2](assets/images/readme-img/deploy2.png)
-
-![Deployment pic3](assets/images/readme-img/deploy3.png)
-
 
 
 <a id="credits"></a>
@@ -479,11 +508,13 @@ I researched that what is this meta tag for, I guess we might not need this tag 
 
 ### Figure And Picture Element 
 
-In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around but couldn’t find out using both. I asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
+In the upcoming session section, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around but couldn’t find out using both in the W3 school or MDN. I asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
 <details>
 <summary>Figure And Picture Element - stuckoverflow, perplexity</summary>
 
 ![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture.png "Figure tag and picture tag")
+![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture2.png "Figure tag and picture tag")
+![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture3.png "Figure tag and picture tag")
 ![Figure tag and picture tag](assets/images/readme-img/credit-perplex-figure.png "Figure tag and picture tag")
 </details>
 
