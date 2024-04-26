@@ -120,7 +120,7 @@ However, using only these colors couldn’t provide enough contrast, so I adjust
 ### Typography
 
 I selected "Poiret One" for the “Healthy Food Club” Logo from Google font API. It is attractive and has sharp features and it’s not too heavy.  
-I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [TECHNOLOGY USED - Google Fonts](#tech)  
+For the site's basic font, I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [TECHNOLOGY USED - Google Fonts](#tech)  
 
 * "Poiret One"  
 ![Typography Poiret One](assets/images/readme-img/typo-poiret1.png "Typography Poiret One")  
@@ -144,8 +144,8 @@ This feature is on all three pages and is identical in each page to allow for ea
 ## The Landing Page Hero Image
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
-The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [Credit - Editing and proofreading](#credits-edit)
-This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [Credit - Hero Image CSS animation  Code Institute learning material](#credits-heroanime), Also [Bugs - Code Institute learning material CSS animation](#bugs-heroanime)
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [Credit - Editing and Proofreading](#credits-edit)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [Credit - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime), Also [Bugs -  Hero Image CSS Animation](#bugs-heroanime)
 
 
 ## Upcoming Session Info Section
@@ -159,7 +159,10 @@ About this coding part, I consider using the `<figure>` element for an image sin
 ## About Us Section
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
 
-Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.
+Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.  
+
+This TUS map is not a necessary item where the screen space is valuable in small screens. So it will be invisible on screens less than 320px.  
+
 
 ## Article YouTube Section
 ![Article Youtube](assets/images/readme-img/feat-article-youtube.png "Article Youtube")
@@ -179,42 +182,41 @@ This feature lets users know which page they are on, giving a strong sense of pl
 
 ## Information Page
 
-This page is for the varieties of health information, they are categorised and present some leading text that explains what kind of information in here. There are only 4 categories at the moment with sample pictures, however this page will be expand over the time with more information. 
+This page is for the varieties of health information, they are categorised and present some leading text that explains what kind of information in here. There are only 4 categories at the moment with sample pictures, however this page will be expand over the time with more information.  
 
-
-
-### Cooking basic knowledge
+* Cooking basic knowledge
 ![Info - Cooking basic knowledge](assets/images/readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
 
 This category is for beginners ( young people who don’t have much cooking experiences ). Talk about tips like “Use different cutting board for meat and vegetables - preventing bacterial transmitting”…
 
-### Healthy gut
+* Healthy gut
 ![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
 
 This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.  
 This is a kind of general knowledge for who's interested in our body systems.
 
-### Study on food additives and sickness
+* Study on food additives and sickness
 ![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
 This category Introduces some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
 I'd like to find the sources from Academic papers and public trusted information.
 
-### Tips and tricks! 
+* Tips and tricks! 
 ![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
 
-This category is for those who have just become interested in, but feel expensive or difficult. It shows the first easy steps to start.
+This category is for those who have just become interested in, but feel expensive or difficult. It shows the first easy steps to start.  
 
 
 ## The Sign-up Form
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. ( Credit section )
+My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [Credit - Pattern attribute](#credit-form), also Autocomplete was suggested by Lighthouse [Credit - Form Autocomplete](#credit-form)
 
+** Form input criteria **
 * First name, Last name : Texts only
 * Phone number : Numbers only
-* Email address : Need "@" mark
+* Email address : "@" mark necessary
 
 
 ## Session Schedule
@@ -561,7 +563,7 @@ I looked for what is suitable element for the breadcrumb links. In W3 website th
 </details>
 
  
-
+<a id="credit-form"></a>
 
 ### Form  Autocomplete Attribute
 Lighthouse validator suggested me to use autocomplete attribute for form, and I found this is really helpful for user.  
@@ -647,7 +649,7 @@ Photo by Gil Goldman: [https://www.pexels.com/photo/fresh-bread-loafs-on-table-i
 
 <a id="credits-edit"></a>
 
-## Editing And Proofreading
+## Editing and Proofreading
 Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)  
 
 
