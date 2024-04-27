@@ -145,7 +145,7 @@ This feature is on all three pages and is identical in each page to allow for ea
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
-This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime), Also [BUGS - Hero Image CSS Animation](#bugs-heroanime)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)
 
 
 ## Upcoming Session Info Section
@@ -169,9 +169,10 @@ This TUS map is not a necessary item where the screen space is valuable in small
 
 This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.  
 
-I used iframe for this YouTube video and I had some problems to display properly.   
+I used iframe for this YouTube video and I had some problems to display it properly.[BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-[BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) , also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)
+Additionally in the auditing term, Lighthouse scored this page really low because of the iframe using the unnecessary Java Script.[YouTube Video Optimizing For Lighthouse](#bugs-heroanime)  
+
 
 ## The Footer
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
@@ -372,7 +373,7 @@ My header nav toggle button was missing in the small screen size view. Then I fo
   
 Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
 
-<a id="#bugs-youtube"></a>
+<a id="bugs-youtube"></a>
 
 ## YouTube-iframe Setting Height Automatically
 
