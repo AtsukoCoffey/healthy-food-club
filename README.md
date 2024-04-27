@@ -45,7 +45,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 
 
 ## 2. Scope Plane 
-### General user stories
+### First time visitor
 *	As a user, I want to clearly understand what services are offered on this website.
 *	As a user, I want to be able to easily navigate through to find contents.
 *	As a user, I want the website to work on different devices and formats that I use.
@@ -53,7 +53,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 *	As a user, I want to feel that healthy cooking is interesting and not difficult.
 *	As a user, I want to see articles that offer a variety of perspectives on health to increase my awareness and knowledge.
 
-### Target users and who are interested in this website
+### Returning and frequent visitor
 *	As a user, I want to find out when the next cooking session is and clearly identify what the lecture subject will be.
 * As a user, I want to find out what kind of people are organising the "Healthy Food Club" and whether they are trustworthy or not.
 * As a user, I want to find out the schedules of future sessions.
@@ -225,7 +225,9 @@ My mentor Alan taught me `pattern` attribute for this form inputs. This can prev
 ## Session Schedule
 ![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
 
-This feature informs future session dates, lecture titles and cooking menus with pictures. 
+This feature informs future session dates, lecture titles and cooking menus with pictures.  
+
+In my wireframe, I was thinking the sesseion schedule layout would be the same as the info page content's layout because both are list items. But the session schedule won't be a long list, so kept diagonally layout for larger screen size for more atractive looking.  
 
 ## Where To Find us
 ![Where to find us](assets/images/readme-img/feat-wheretofind1.png "Where to find us")
