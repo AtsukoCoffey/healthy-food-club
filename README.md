@@ -134,90 +134,79 @@ For the site's basic font, I was considering using "Quicksand" for the best read
 # EXISTING FEATURES
 
 ## The Header And Navigation Bar
-![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
-
 The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [CREDITS - Code Institute learning material](#credits-content)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.
+![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
 
 ## The Landing Page Hero Image
-![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
-
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
 This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)
+![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
 
 ## Upcoming Session Info Section
-![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
-
 This section Informs about the next cooking session with a link to the session schedule page.  
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
 About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. [CREDITS - stackoverflow, perplexity](#credits-figure)
+![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
+
 
 ## About Us Section
-![About us](assets/images/readme-img/feat-aboutus.png "About us")
-
 Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.  
 
 This TUS map is not a necessary item where the screen space is valuable in small screens. So it will be invisible on screens less than 320px.  
+![About us](assets/images/readme-img/feat-aboutus.png "About us")
 
 
 ## Article YouTube Section
-![Article YouTube](assets/images/readme-img/feat-article-youtube.png "Article YouTube")
-
 This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.  
 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-Additionally in the auditing term, Lighthouse scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Lighthouse](#bugs-heroanime)  
+Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-heroanime)  
+![Article YouTube](assets/images/readme-img/feat-article-youtube.png "Article YouTube")
 
 
 ## The Footer
+The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
 
-The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.
 
 ## Breadcrumb
-![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
-
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
 Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)
+![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
+
 
 ## Information Page
 
 This page is for the varieties of health information, they are categorised and present some leading text that explains what kind of information in here. There are only 4 categories at the moment with sample pictures, however this page will be expand over the time with more information.  
 
-* Cooking basic knowledge
+* Cooking basic knowledge  
+This category is for beginners, I'm thinking about young people who don’t have much cooking experiences.  
 ![Info - Cooking basic knowledge](assets/images/readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
 
-This category is for beginners, I'm thinking about young people who don’t have much cooking experiences.  
-
-* Healthy gut
-![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
-
+* Healthy gut  
 This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.  
 This is a kind of general knowledge for who's interested in our body systems.
+![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
 
-* Study on food additives and sickness
-![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
-
+* Study on food additives and sickness  
 This category Introduces some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
 I'd like to find the sources from Academic papers and public trusted information.  
+![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
-* Tips and tricks! 
+* Tips and tricks!  
+This category is for those who have just become interested in. For encouraging them without feeling expensive or difficult, this topic shows the first easy steps to start.  
 ![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
 
-This category is for those who have just become interested in. For encouraging them without feeling expensive or difficult, this topic shows the first easy steps to start.  
-
-
 ## The Sign-up Form
-![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
-
 The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Lighthouse. [CREDITS - Form Autocomplete](#credit-form)
+My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Google Lighthouse audit. [CREDITS - Form Autocomplete](#credit-form)
 
 | Form input | Criteria |
 | -- | -- |
@@ -225,23 +214,23 @@ My mentor Alan taught me `pattern` attribute for these form inputs. This can pre
 | Last name | Texts only |
 | Phone number | Numbers only |
 | Email address | "@" mark necessary |
+![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 
 ## Session Schedule
-![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
-
 This feature informs future session dates, lecture titles and cooking menus that are aligned with the lecture content.  
 
 In my wireframe, I was thinking the sesseion schedule layout would be the same as the info page content's layout because both are list items. But the session schedule won't be a long list, so kept diagonally layout for larger screen size for more atractive looking.  
+![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
+
 
 ## Where To Find us
+This feature is showing contact information and map of the venue.  
+Added a link under the contact information section, I want to lead users back into the form section again.  
+
+I had a problem with google map, Google Lighthouse audit pointed out about third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Map](#bugs-map) 
 ![Where to find us](assets/images/readme-img/feat-wheretofind1.webp "Where to find us")
 ![Where to find us](assets/images/readme-img/feat-wheretofind2.webp "Where to find us")
-
-This feature is showing contact information and map of the venue.  
-Added a link under the contact information section, I want to lead users back into the form section again.
-
-I had a problem with google map, Lighthouse auditing told me about third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Map](#bugs-map) 
 
 
 
@@ -355,16 +344,16 @@ For future growth, an online session feature might be good idea for meeting peop
 ![W3 validator css](assets/images/readme-img/test-w3validator-css.png "W3 validator css")  
 
 
-## Google Lighthouse Testing
+## Google Lighthouse Audit
 
 * Top page - index.html  
-![Lighthouse validator index.html](assets/images/readme-img/test-lighthouse-index.png "Lighthouse validator index.html")  
+![Google Lighthouse audit index.html](assets/images/readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html")  
 
 * Information page - info.html  
-![Lighthouse validator info.html](assets/images/readme-img/test-lighthouse-info.png "Lighthouse validator info.html")  
+![Google Lighthouse audit info.html](assets/images/readme-img/test-lighthouse-info.png "Google Lighthouse audit info.html")  
 
 * Sign-up page - signup.html  
-![Lighthouse validator sign-up.html](assets/images/readme-img/test-lighthouse-signup.png "Lighthouse validator sign-up.html")  
+![Google Lighthouse audit sign-up.html](assets/images/readme-img/test-lighthouse-signup.png "Google Lighthouse audit sign-up.html")  
 
 
 <a id="bugs"></a>
@@ -434,9 +423,10 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 
 
 <a id="#bugs-map"></a>
+
 ## Google Map – Remove Third-party Cookies
 
-At beginning I had five third-party cookies related to google map. This cause SEO score of Lighthouse audit not high - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article, I consider to sign up to google map API for cookie-less map, however I had to register my credit card which I wasn’t willing to. Therefore I had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit Lighthouse with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
+At beginning I had five third-party cookies related to google map. This caused Google Lighthouse audit's SEO score low - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article, I consider to sign up to google map API for cookie-less map, however I had to register my credit card which I wasn’t willing to. Therefore I had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
 
 * [Link - Google Map remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Map – remove third-party cookies")  
 * [Link - MAPS.IE](https://www.maps.ie/ "MAPS.IE")
@@ -576,11 +566,13 @@ I looked for what is suitable element for the breadcrumb links. In W3 website th
 ![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")  
 </details>
 
+* [Link to "::before / ::after" - CSS TRICKS ](https://css-tricks.com/almanac/selectors/a/after-and-before/)
+
  
 <a id="credit-form"></a>
 
 ### Form  Autocomplete Attribute
-Lighthouse validator suggested me to use autocomplete attribute for form, and I found this is really helpful for user.  
+Google Lighthouse audit suggested me to use autocomplete attribute for form, and I found this is really helpful for user.  
 
 * [Link to MDN website - Form autocomplete attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete "Form autocomplete attributer")
 
