@@ -306,6 +306,7 @@ nav.breadcrumb li {
   display: inline;
 }
 
+/* Decoration - the left side of second list item */
 nav.breadcrumb li+li::before {
   display: inline-block;
   margin: 0 0.25em;

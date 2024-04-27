@@ -154,7 +154,7 @@ This section introduces the user to “Healthy Food Club” with an eye-catching
 This section Informs about the next cooking session with a link to the session schedule page.  
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
-About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites.[CREDITS - stackoverflow, perplexity](#credits-figure)
+About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. [CREDITS - stackoverflow, perplexity](#credits-figure)
 
 ## About Us Section
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
@@ -169,20 +169,22 @@ This TUS map is not a necessary item where the screen space is valuable in small
 
 This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.  
 
-I used iframe for this YouTube video and I had some problems to display it properly.[BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
+I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-Additionally in the auditing term, Lighthouse scored this page really low because of the iframe using the unnecessary Java Script.[YouTube Video Optimizing For Lighthouse](#bugs-heroanime)  
+Additionally in the auditing term, Lighthouse scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Lighthouse](#bugs-heroanime)  
 
 
 ## The Footer
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
 
-The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website open and allow easy navigation for anytime user can visit the social media sites.
+The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.
 
 ## Breadcrumb
 ![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
 
-This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.
+This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
+
+Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)
 
 ## Information Page
 
@@ -215,7 +217,7 @@ This category is for those who have just become interested in, but feel expensiv
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form), also Autocomplete was suggested by Lighthouse [CREDITS - Form Autocomplete](#credit-form)
+My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Lighthouse. [CREDITS - Form Autocomplete](#credit-form)
 
 ** Form input criteria **
 * First name, Last name : Texts only
@@ -543,7 +545,7 @@ When I learned this css animation technique through the “Love Running” proje
 
 
 ### Breadcrumb
-I looked for what is suitable element for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location so I referred this css code.  
+I looked for what is suitable element for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo-element in relation to this.  
 
 
 <details>
