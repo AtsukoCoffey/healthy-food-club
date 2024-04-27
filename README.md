@@ -193,7 +193,7 @@ This page is for the varieties of health information, they are categorised and p
 * Cooking basic knowledge
 ![Info - Cooking basic knowledge](assets/images/readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
 
-This category is for beginners ( young people who don’t have much cooking experiences ). Talk about tips like “Use different cutting board for meat and vegetables - preventing bacterial transmitting”…
+This category is for beginners, I'm thinking about young people who don’t have much cooking experiences.  
 
 * Healthy gut
 ![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
@@ -205,30 +205,32 @@ This is a kind of general knowledge for who's interested in our body systems.
 ![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
 This category Introduces some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
-I'd like to find the sources from Academic papers and public trusted information.
+I'd like to find the sources from Academic papers and public trusted information.  
 
 * Tips and tricks! 
 ![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
 
-This category is for those who have just become interested in, but feel expensive or difficult. It shows the first easy steps to start.  
+This category is for those who have just become interested in. For encouraging them without feeling expensive or difficult, this topic shows the first easy steps to start.  
 
 
 ## The Sign-up Form
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for this form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Lighthouse. [CREDITS - Form Autocomplete](#credit-form)
+My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Lighthouse. [CREDITS - Form Autocomplete](#credit-form)
 
-** Form input criteria **
-* First name, Last name : Texts only
-* Phone number : Numbers only
-* Email address : "@" mark necessary
+| Form input | Criteria |
+| -- | -- |
+| First name| Texts only |
+| Last name | Texts only |
+| Phone number | Numbers only |
+| Email address | "@" mark necessary |
 
 
 ## Session Schedule
 ![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
 
-This feature informs future session dates, lecture titles and cooking menus with pictures.  
+This feature informs future session dates, lecture titles and cooking menus that are aligned with the lecture content.  
 
 In my wireframe, I was thinking the sesseion schedule layout would be the same as the info page content's layout because both are list items. But the session schedule won't be a long list, so kept diagonally layout for larger screen size for more atractive looking.  
 
