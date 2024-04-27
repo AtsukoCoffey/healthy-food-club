@@ -235,8 +235,8 @@ This feature informs future session dates, lecture titles and cooking menus that
 In my wireframe, I was thinking the sesseion schedule layout would be the same as the info page content's layout because both are list items. But the session schedule won't be a long list, so kept diagonally layout for larger screen size for more atractive looking.  
 
 ## Where To Find us
-![Where to find us](assets/images/readme-img/feat-wheretofind1.png "Where to find us")
-![Where to find us](assets/images/readme-img/feat-wheretofind2.png "Where to find us")
+![Where to find us](assets/images/readme-img/feat-wheretofind1.webp "Where to find us")
+![Where to find us](assets/images/readme-img/feat-wheretofind2.webp "Where to find us")
 
 This feature is showing contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.
