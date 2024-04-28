@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&display=swap');
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -373,7 +373,7 @@ nav.breadcrumb [aria-current="page"] {
 }
 
 #form-outer input:hover,
-#form-outer select:hover{
+#form-outer select:hover {
   border-color: #A9E560;
 }
 
@@ -384,10 +384,11 @@ nav.breadcrumb [aria-current="page"] {
 
 .text-input {
   padding: 3px;
-  margin: 2px;
+  margin: 4px;
   color: rgb(59, 115, 57);
-  font-family: "Quicksand";
-  border: rgb(59, 115, 57) 1px solid;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 100%;
+  border: rgb(59, 115, 57) 2px solid;
   border-radius: 4px;
 }
 
