@@ -21,8 +21,8 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-  <link rel="preload" fetchpriority="high" as="image" href="assets/images/hero-young-smiling-woman-making-bruschetta-w2400.webp"
-    type="image/webp">
+  <link rel="preload" fetchpriority="high" as="image"
+    href="assets/images/hero-young-smiling-woman-making-bruschetta-w2400.webp" type="image/webp">
 </head>
 
 <body>
@@ -31,7 +31,8 @@
     <h1 id="logo"><a href="" aria-label="This is Home - Top page" title="This is Home - Top page">Healthy Food Club</a>
     </h1>
     <input type="checkbox" id="nav-toggle" name="nav-toggle" aria-label="Access the main navigation links">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" title="Access the main navigation links"></i></label>
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"
+        title="Access the main navigation links"></i></label>
     <nav class="global">
       <ul id="menu">
         <li><a href="" class="active" aria-label="This is Home - Top page" title="This is Home - Top page"><i
@@ -58,19 +59,19 @@
       <!-- Up coming section -->
       <section id="upcoming-info">
         <h2><i class="fa-solid fa-utensils"></i> Upcoming session</h2>
+        <!-- Figure And Picture Element - Credits stackoverflow, perplexity -->
         <figure>
           <picture>
             <source media="(min-width: 1024px)" srcset="assets/images/sliced-beef-pastrami-300x200.webp" width="300">
             <source media="(min-width: 424px)" srcset="assets/images/sliced-beef-pastrami-200x150.webp" width="200">
             <source media="(min-width: 300px)" srcset="assets/images/sliced-beef-pastrami-w159xh239.webp" width="100">
-            <img src="assets/images/sliced-beef-pastrami-w159xh239.webp" width="85" height="128" alt="Sliced beef pastrami"
-              aria-label="Sliced beef pastrami" title="Sliced beef pastrami">
+            <img src="assets/images/sliced-beef-pastrami-w159xh239.webp" width="85" height="128"
+              alt="Sliced beef pastrami" aria-label="Sliced beef pastrami" title="Sliced beef pastrami">
           </picture>
           <figcaption>Beef&nbsp;pastrami</figcaption>
         </figure>
-        <p>Let&apos;s create a healthy, non-toxic beef pastrami ! <br>Join our cooking session and learn about Sodium
-          nitrite &amp; nitrates.
-        </p>
+        <p>Let&apos;s create a healthy, non-toxic beef pastrami ! <br>
+          Join our cooking session and learn about Sodium nitrite &amp; nitrates.</p>
         <p>On May 2nd, 2024</p>
         <p class="more-info"><a href="signup.html#session-schedule"
             aria-label="Link to Sign Up page - Session schedule section"
@@ -79,6 +80,7 @@
       <!-- About us section -->
       <section id="about-us">
         <h2><i class="fa-solid fa-user-group"></i> About Us</h2>
+        <!-- Figure And Picture Element - Credits stackoverflow, perplexity -->
         <figure>
           <picture>
             <source media="(min-width: 1024px)" srcset="assets/images/tus-campus-map-233x260.webp" width="233">
@@ -90,16 +92,15 @@
           </picture>
           <figcaption>Map of TUS campus</figcaption>
         </figure>
-        <p>We are an ordinary mum&apos;s group dedicated to promoting a healthy lifestyle for young people, based in
-          Athlone in
-          the midlands. Lectures and cooking sessions take place at the Technological University of the Shannon (TUS).
-        </p>
+        <p>We are an ordinary mum&apos;s group dedicated to promoting a healthy lifestyle for young people,
+          based in Athlone in the midlands. Lectures and cooking sessions take place
+          at the Technological University of the Shannon (TUS).</p>
         <p class="more-info"><a href="signup.html#where-to-find-us"
             aria-label="Link to Sign Up page - Where to find us section"
             title="Link to Sign Up page - Where to find us section">More information >></a></p>
       </section>
     </div>
-    <!-- Youtube video -->
+    <!-- Youtube video - BUGS : YouTube-iframe Setting Height Automatically, YouTube-iframe Align Center -->
     <article id="youtube">
       <h2><i class="fa-solid fa-film"></i> A healthy diet, a healthier world (<abbr
           title="World Health Organization">WHO</abbr>)
@@ -133,14 +134,13 @@
           title="A healthy diet, a healthier world - YouTube video by (WHO) 'We can create a healthier world together' "
           aria-label="A healthy diet, a healthier world - YouTube video by (WHO) 'We can create a healthier world together' ">
         </iframe>
-        <!-- Original Youtube iframe <iframe width="1076" height="605" src="https://www.youtube.com/embed/XMcab1MFaLc" title="A healthy diet, a healthier world" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
       </div>
       <p class="more-info"><a href="info.html" aria-label="Link to Information page"
           title="Link to Information page">More information >></a>
       </p>
     </article>
   </main>
-  <!-- Footer -->
+  <!-- Footer - Reference : Love Running [Code Institute] -->
   <footer>
     <ul id="social-networks">
       <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
