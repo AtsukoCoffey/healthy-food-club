@@ -141,7 +141,7 @@ This feature is on all three pages and is identical in each page to allow for ea
 
 
 ## The Landing Page Hero Image
-The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find out a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
+The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
 This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
@@ -157,12 +157,12 @@ About this coding part, I consider using the `<figure>` element for an image sin
 ## About Us Section
 Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.  
 
-This TUS map is not a necessary item where the screen space is valuable in small screens. So it will be invisible on screens less than 320px.  
+This TUS map is not a necessary item where the screen space is valuable in small screens. So it will not be visible on screens less than 320px.  
 ![About us](assets/images/readme-img/feat-aboutus.png "About us")
 
 
 ## Article YouTube Section
-This section shows a health related video that made by WHO, it promotes the overview of healthy life styles. I am aiming this will pique user’s interest and redirect them to the information page.  
+This section shows a health related video made by WHO; it promotes the overview of healthy life styles. I am aiming for this to pique user’s interest and redirect them to the information page.  
 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
@@ -195,17 +195,17 @@ This category is talking about our microbes which we can't see exactly but there
 This is a kind of general knowledge for who's interested in our body systems.
 ![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
 
-* Study on food additives and sickness  
-This category Introduces some studies on how our food development activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
+* Studies on food additives and sickness  
+This category Introduces some studies on how our food-related activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
 I'd like to find the sources from Academic papers and public trusted information.  
 ![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
 * Tips and tricks!  
-This category is for those who have just become interested in. For encouraging them without feeling expensive or difficult, this topic shows the first easy steps to start.  
+This category is for those who have just become interested in food. To encourage them without making it feel costly or difficult, this topic shows the first easy steps to start.  
 ![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
 
 ## The Sign-up Form
-The sign-up form is interactive for user experience with mouse hovering colour, also submission button has same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
+The sign-up form is interactive for user experience with mouse hovering colour, also the submission button has the same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
 My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Google Lighthouse audit. [CREDITS - Form Autocomplete](#credit-form)
 
 | Form input | Criteria |
@@ -226,10 +226,10 @@ In my wireframe, I was thinking the sesseion schedule layout would be the same a
 
 
 ## Where To Find us
-This feature is showing contact information and map of the venue.  
+This feature shows contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.  
 
-I had a problem with google map, Google Lighthouse audit pointed out about third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Map](#bugs-map) 
+I had a problem with Google Maps, Google Lighthouse audit pointed out third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Maps](#bugs-map) 
 ![Where to find us](assets/images/readme-img/feat-wheretofind1.webp "Where to find us")
 ![Where to find us](assets/images/readme-img/feat-wheretofind2.webp "Where to find us")
 
@@ -243,10 +243,10 @@ I had a problem with google map, Google Lighthouse audit pointed out about third
 The information page has four categories and those article pages have not been built yet. Therefore the next feature that should be done must be to finish those article pages.
 
 ## Information Architecture (IA)
-In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organizational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
+In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organisational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
 
 ## Online Session Feature
-For future growth, an online session feature might be good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
+For future growth, an online session feature might be a good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
 
 ------------------------------------------
 
@@ -272,7 +272,7 @@ For future growth, an online session feature might be good idea for meeting peop
 * Google Fonts
 > Used for all the fonts used in this project and to compare potential fonts.  
 
-* Google Map - MAPS.IE 
+* Google Maps - MAPS.IE 
 > Used for the map of the venue in "Where to find us" section
 
 * tinify - Smart WebP, PNG and JPEG Compression for Faster Websites
@@ -369,7 +369,7 @@ For future growth, an online session feature might be good idea for meeting peop
 
 ## Header
 
-My header nav toggle button was missing in the small screen size view. Then I found it was caused unexpected spaces around the title and the toggle button. It took a long time to find out what was happening though it was a good lesson to use the Google dev tool to inspect the CSS. I found my mistake with `Flex justify-content` was `space-around`, I meant to set `space-between`. 
+My header nav toggle button was missing in the small screen size view. Then I found it was caused by unexpected spaces around the title and the toggle button. It took a long time to find out what was happening though it was a good lesson to use the Google dev tool to inspect the CSS. I found my mistake with `Flex justify-content` was `space-around`, I meant to set `space-between`. 
   
 Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
 
@@ -377,7 +377,7 @@ Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
 
 ## YouTube-iframe Setting Height Automatically
 
-I struggled with figuring out how to set the video height automatically to fit the screen size. After tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.   
+I struggled with figuring out how to set the video height automatically to fit the screen size. After I tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.   
 
 Solution : Set parent `<div> padding-bottom ` the YouTube video size ratio 56.25% (16:9)
 
@@ -431,11 +431,11 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 
 <a id="bugs-map"></a>
 
-## Google Map – Remove Third-party Cookies
+## Google Maps – Remove Third-party Cookies
 
-At beginning I had five third-party cookies related to google map. This caused Google Lighthouse audit's SEO score low - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article. Acording to this All the Chrome users Third-party cookie phase out from next year. I might have to use google map API for cookie-less map, but I had to register my credit card which I wasn’t willing to. Therefore I gave up this time and had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
+At the beginning I had five third-party cookies related to Google Maps. This caused Google Lighthouse audit's SEO score to be low - around 70. After looking for the solution, I found this “ Prepare for third-party cookie restrictions “ article. Acording to this, all Chrome user third-party cookies phase out from next year. I might have to use Google Maps API for cookie-free map, but I had to register my credit card which I wasn’t willing to do. Therefore I gave up this time and had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit with no third party cookie problem. However this cookie warning appeared again after my browser’s third-party cookies turned on.  
 
-* [Link - Google Map remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Map – remove third-party cookies")  
+* [Link - Google Maps remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Maps – remove third-party cookies")  
 * [Link - MAPS.IE](https://www.maps.ie/ "MAPS.IE")
 
 
@@ -502,13 +502,13 @@ At beginning I had five third-party cookies related to google map. This caused G
 
 ### CSS `[attribute="value"]` Selector
 
-I leaned this selector at “Love Running” walk through project, using this for button’s functions. For making it my tool, I checked at W3schools website for further more information.
+I learned this selector at “Love Running” walk through project, using this for button’s functions. For making it my tool, I checked at W3schools website for further more information.
 * [Link to W3school website - CSS Attribute Selectors](https://www.w3schools.com/css/css_attribute_selectors.asp "CSS Attribute Selectors")
 
 
 ### Meta Element `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
 
-I researched that what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who still using old version of IE, it might be better to help them.   
+I researched what is this meta tag for, I guess we might not need this tag anymore though, just in case for the people who are still using old version of IE, it might be better to help them.   
 <details>
 <summary>Meta Element X-UA-Compatible - stackoverflow, perplexity</summary>
 
@@ -521,7 +521,7 @@ I researched that what is this meta tag for, I guess we might not need this tag 
 
 ### Figure And Picture Element 
 
-In the upcoming session section, I consider using the `<figure>` element for an image and the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints around. I couldn’t find out using both in the W3 school or MDN though there were some coversations at stackoverflow and I also asked perplexity whether I could include picture element in the figure element. It seems no problem to include it. 
+In the upcoming session section, I consider using the `<figure>` element for an image and the `<picture>` element for UI responsivity. But I wasn’t familiar with both elements to use so I looked for some hints. I couldn’t find out how to use both in the W3 school or MDN though there were some coversations at stackoverflow and I also asked perplexity whether I could include picture element in the figure element. It doesn't seem to be a problem to include it. 
 <details>
 <summary>Figure And Picture Element - stuckoverflow, perplexity</summary>
 
@@ -544,7 +544,7 @@ When I learned this css animation technique through the “Love Running” proje
 
 
 ### Breadcrumb
-I looked for what is suitable element for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo-element in relation to this.  
+I looked for suitable elements for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo-element in relation to this.  
 
 
 <details>
@@ -584,7 +584,7 @@ Google Lighthouse audit suggested me to use autocomplete attribute for form, and
 * [Link to MDN website - Form autocomplete attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete "Form autocomplete attributer")
 
 ### Form Input Pattern Attribute
-My mentor Alan taught me about this `<input>` pattern attribute for preventing invalid form data to submit.
+My mentor Alan taught me about this `<input>` pattern attribute for preventing invalid form data submission.
 EG. for alphabet only and 3 letters `pattern="[A-Za-z]{3}"`  
 
 * [Link to W3schools website - Form input pattern attribute](https://www.w3schools.com/tags/att_input_pattern.asp#:~:text=The%20pattern%20attribute%20specifies%20a,pattern%20to%20help%20the%20user "Form input pattern attribute")
@@ -670,7 +670,7 @@ Since I am not native Irish I asked my family for help with more natural phrasin
 
 # ACKNOWLEDGEMENTS  
 
-I would like to great thank my mentor Alan Bushell for his exellent advise and support.  
-Also my cohort facilitator Amy Richardson for all the support and information.  
+I would like to give great thanks to my mentor Alan Bushell for his exellent advice and support.  
+Also my cohort facilitator Amy Richardson for all the support and assistance.  
 
-And great thank my family to check my Engllish proofreading and testing website, and all the support.
+And great thanks to my family for proofreading and checking the website.
