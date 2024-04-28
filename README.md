@@ -178,7 +178,7 @@ The footer section includes links to the relevant social media sites. The links 
 ## Breadcrumb
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
-Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)
+Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)   
 ![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
 
 
@@ -213,7 +213,8 @@ My mentor Alan taught me `pattern` attribute for these form inputs. This can pre
 | First name| Texts only |
 | Last name | Texts only |
 | Phone number | Numbers only |
-| Email address | "@" mark necessary |
+| Email address | "@" mark necessary |  
+
 ![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
 
 
@@ -284,7 +285,13 @@ For future growth, an online session feature might be good idea for meeting peop
 > Used for creating responsivity example image
 
 * favicon.cc
-> Used for creating original favicon icon
+> Used for creating an original favicon icon
+
+* Adobe Illustrator
+> Used for creating wireframes
+
+* Adobe Photoshop
+> Used for editing pictures
 
 
 
@@ -296,35 +303,35 @@ For future growth, an online session feature might be good idea for meeting peop
 **Testing for links and Form**
 | Test |Outcome  |
 |--|--|
-|All links on Navigation lead to their correct pages| OK |
-|More information >> leads to the each target pages| OK |
-|Footer social links all lead to their respective social media sites | OK |
-|Contact form submits when all criteria is filled correctly| OK |
-|User prevented from submitting form without correct elements| OK |
-|Form Validation presents when incorrect input type is entered | OK |
+|All links on Navigation lead to their correct pages| Pass |
+|More information >> leads to the each target pages| Pass |
+|Footer social links all lead to their respective social media sites | Pass |
+|Contact form submits when all criteria is filled correctly| Pass |
+|User prevented from submitting form without correct elements| Pass |
+|Form Validation presents when incorrect input type is entered | Pass |
 
 **Testing for responsiveness**
 | OS | Browser | Test | Outcome |
 |--|--|--|--|
-| Windows | Chrome | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens larger than 320px | OK |
-|  |  | All three pages display correctly on screens smaller than 320px | OK |
-|  | Edge | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens smaller than 768px | OK |
-|  | Firefox | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens smaller than 768px | OK |
-| Mac | Chrome | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens smaller than 768px | OK |
-|  | Safari | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens smaller than 768px | OK |
-|  | Firefox | All three pages display correctly on screens larger than 1024px | OK |
-|  |  | All three pages display correctly on screens larger than 768px | OK |
-|  |  | All three pages display correctly on screens smaller than 768px | OK |
+| Windows | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens larger than 320px | Pass |
+|  |  | All three pages display correctly on screens smaller than 320px | Pass |
+|  | Edge | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+|  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+| Mac | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+|  | Safari | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+|  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All three pages display correctly on screens larger than 768px | Pass |
+|  |  | All three pages display correctly on screens smaller than 768px | Pass |
 
 
 ## W3 Validator
@@ -409,7 +416,7 @@ Solution : `overflow: hidden` for outside `<div>`
 ![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
 </details>
 
-## YouTube Video Optimizing For Lighthouse
+## YouTube Video Optimizing For Google Lighthouse audit
 Google Lighthouse audit told me that the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt if it’s true, I think it’s necessary when users start a video.  
 Alternatively we can stop reading Java Script when the page is loading, using the `source=doc` attribute.  
 
@@ -422,11 +429,11 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 </details>  
 
 
-<a id="#bugs-map"></a>
+<a id="bugs-map"></a>
 
 ## Google Map – Remove Third-party Cookies
 
-At beginning I had five third-party cookies related to google map. This caused Google Lighthouse audit's SEO score low - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article, I consider to sign up to google map API for cookie-less map, however I had to register my credit card which I wasn’t willing to. Therefore I had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
+At beginning I had five third-party cookies related to google map. This caused Google Lighthouse audit's SEO score low - around 70. After looked around the solution, I found this “ Prepare for third-party cookie restrictions “ article. Acording to this All the Chrome users Third-party cookie phase out from next year. I might have to use google map API for cookie-less map, but I had to register my credit card which I wasn’t willing to. Therefore I gave up this time and had just tried to set my browser’s cookie blocked, and get the map URL from other map website. ( I got from MAPS.IE - My mentor showed me this website in my second project meeting - ) In this way I can audit with no third party cookie problem. However this cookies warning appeared again after my browser’s third-party cookies on.  
 
 * [Link - Google Map remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Map – remove third-party cookies")  
 * [Link - MAPS.IE](https://www.maps.ie/ "MAPS.IE")
