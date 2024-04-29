@@ -3,7 +3,7 @@ The "Healthy Food Club" is a community that hosts cooking sessions with brief he
   
 During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact; with special focus on food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
 
-![ Live site view ](assets/images/readme-img/amiresponsive.png "Live site view")
+![ Live site view ](readme-img/amiresponsive.png "Live site view")
 
 
 ## Live site
@@ -13,7 +13,7 @@ During our activities, we strive to raise awareness about the prevalence of chem
 ## Table Of Contents
 1.	[ UX DESIGN ](#ux)
 2.	[ EXISTING FEATURES ](#features)
-3.	[ FEATURES LEFT TO IMPLEMENT ](#featureleft)
+3.	[ FUTURE FEATURES ](#futurefeature)
 4.	[ TECHNOLOGY USED ](#tech)
 5.	[ TESTING ](#testing)
 6.	[ BUGS ](#bugs)
@@ -89,7 +89,7 @@ For the mobile screen wireframe, I simply lined up important and necessary infor
 <details open>
 <summary>Mobile - 320px - Wireframe</summary>
 
-![Home page mobile Wireframe](assets/images/wireframe/wireframe1.gif "Home page mobile Wireframe")
+![Home page mobile Wireframe](readme-img/wireframe/wireframe1.gif "Home page mobile Wireframe")
 </details>  
 
 I planned consciously to create contrast in sizes, information, and images for the tablet screen wireframe.  
@@ -100,7 +100,7 @@ For PC monitor wireframe, I wanted to fit the contents for any width using flex 
 <details>
 <summary>Tablet - 768px - and PC - 1440px - Wireframes</summary>
 
-![Home page tablet and PC Wireframe](assets/images/wireframe/wireframe2.gif "Home page tablet and PC Wireframe")
+![Home page tablet and PC Wireframe](readme-img/wireframe/wireframe2.gif "Home page tablet and PC Wireframe")
 </details>
 
   
@@ -110,11 +110,11 @@ For PC monitor wireframe, I wanted to fit the contents for any width using flex 
 ### Colour
 At the planning stage, I chose this colour scheme, which has a healthy, lively, clear and optimistic feeling, from the Adobe colour website. [CREDITS Content References - Adobe Color API](#credits-content) 
   
-![Colour scheme](assets/images/readme-img/colour-scheme1.png "Colour scheme")
+![Colour scheme](readme-img/colour-scheme1.png "Colour scheme")
 
 However, using only these colors couldn’t provide enough contrast, so I adjusted the color scheme as below.  
   
-![Colour scheme 2](assets/images/readme-img/colour-scheme2.png "Colour scheme 2")
+![Colour scheme 2](readme-img/colour-scheme2.png "Colour scheme 2")
 
 
 ### Typography
@@ -123,10 +123,10 @@ I selected "Poiret One" for the “Healthy Food Club” Logo from Google font AP
 For the site's basic font, I was considering using "Quicksand" for the best readability, however our target users are young people and since it’s not a huge business website so a little bit unique font like "Josefin Sans" might appeal well to this unique community. [TECHNOLOGY USED - Google Fonts](#tech)  
 
 * "Poiret One"  
-![Typography Poiret One](assets/images/readme-img/typo-poiret1.png "Typography Poiret One")  
+![Typography Poiret One](readme-img/typo-poiret1.png "Typography Poiret One")  
 
 * "Josefin Sans"  
-![Typography Josefin Sans](assets/images/readme-img/typo-josefinsans.png "Typography Josefin Sans")
+![Typography Josefin Sans](readme-img/typo-josefinsans.png "Typography Josefin Sans")
 
 
 <a id="features"></a>
@@ -137,13 +137,13 @@ For the site's basic font, I was considering using "Quicksand" for the best read
 The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [CREDITS - Code Institute learning material](#credits-content)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
 This feature is on all three pages and is identical in each page to allow for easy navigation.  
-![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
+![Header and Navigation Bar](readme-img/feat-header.png "Header and Navigation Bar")
 
 
 ## The Landing Page Hero Image
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
 This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)  
-![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
+![Hero Image](readme-img/feat-hero.png "Hero Image")
 
 
 ## Upcoming Session Info Section
@@ -151,14 +151,14 @@ This section Informs about the next cooking session with a link to the session s
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
 About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. [CREDITS - stackoverflow, perplexity](#credits-figure)  
-![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
+![Upcoming Session info](readme-img/feat-upcoming.png "Upcoming Session info")
 
 
 ## About Us Section
 Introduction about us and our purpose to give user feel confidence. Also if users live around Athlone town, we’d like to let them know this community session is being held at Technological University of the Shannon (TUS) where anyone can come.  
 
 This TUS map is not a necessary item where the screen space is valuable in small screens. So it will not be visible on screens less than 320px.  
-![About us](assets/images/readme-img/feat-aboutus.png "About us")
+![About us](readme-img/feat-aboutus.png "About us")
 
 
 ## Article YouTube Section
@@ -167,19 +167,19 @@ This section shows a health related video made by WHO; it promotes the overview 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
 Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-heroanime)   
-![Article YouTube](assets/images/readme-img/feat-article-youtube.png "Article YouTube")
+![Article YouTube](readme-img/feat-article-youtube.png "Article YouTube")
 
 
 ## The Footer
 The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.  
-![The footer](assets/images/readme-img/feat-footer.png "The footer")
+![The footer](readme-img/feat-footer.png "The footer")
 
 
 ## Breadcrumb
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
 Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)    
-![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
+![Breadcrumb](readme-img/feat-breadcrumb.png "Breadcrumb")
 
 
 ## Information Page
@@ -188,21 +188,21 @@ This page is for the varieties of health information, they are categorised and p
 
 * Cooking basic knowledge  
 This category is for beginners, I'm thinking about young people who don’t have much cooking experiences.  
-![Info - Cooking basic knowledge](assets/images/readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
+![Info - Cooking basic knowledge](readme-img/feat-info-basic.png "Info - Cooking basic knowledge")
 
 * Healthy gut  
 This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.  
 This is a kind of general knowledge for who's interested in our body systems.  
-![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
+![Info - Healthy gut](readme-img/feat-info-gut.png "Info - Healthy gut")
 
 * Studies on food additives and sickness  
 This category Introduces some studies on how our food-related activities, such as excessive refining of ingredients or breeding improvement, can actually cause illness at the genetic level.  
 I'd like to find the sources from Academic papers and public trusted information.  
-![Info - Study on food additives and sickness](assets/images/readme-img/feat-info-research.png "Info - Study on food additives and sickness")
+![Info - Study on food additives and sickness](readme-img/feat-info-research.png "Info - Study on food additives and sickness")
 
 * Tips and tricks!  
 This category is for those who have just become interested in food. To encourage them without making it feel costly or difficult, this topic shows the first easy steps to start.  
-![Info - Tips and tricks!](assets/images/readme-img/feat-info-tip.png "Tips and tricks!")
+![Info - Tips and tricks!](readme-img/feat-info-tip.png "Tips and tricks!")
 
 ## The Sign-up Form
 The sign-up form is interactive for user experience with mouse hovering colour, also the submission button has the same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
@@ -215,14 +215,14 @@ My mentor Alan taught me `pattern` attribute for these form inputs. This can pre
 | Phone number | Numbers only |
 | Email address | "@" mark necessary |  
 
-![The sign-up form](assets/images/readme-img/feat-signup.png "The sign-up form")
+![The sign-up form](readme-img/feat-signup.png "The sign-up form")
 
 
 ## Session Schedule
 This feature informs future session dates, lecture titles and cooking menus that are aligned with the lecture content.  
 
 In my wireframe, I was thinking the sesseion schedule layout would be the same as the info page content's layout because both are list items. But the session schedule won't be a long list, so kept diagonally layout for larger screen size for more atractive looking.  
-![Session schedule](assets/images/readme-img/feat-session-schedule.png "Session schedule")
+![Session schedule](readme-img/feat-session-schedule.png "Session schedule")
 
 
 ## Where To Find us
@@ -230,14 +230,14 @@ This feature shows contact information and map of the venue.
 Added a link under the contact information section, I want to lead users back into the form section again.  
 
 I had a problem with Google Maps, Google Lighthouse audit pointed out third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Maps](#bugs-map)   
-![Where to find us](assets/images/readme-img/feat-wheretofind1.webp "Where to find us")
-![Where to find us](assets/images/readme-img/feat-wheretofind2.webp "Where to find us")
+![Where to find us](readme-img/feat-wheretofind1.webp "Where to find us")
+![Where to find us](readme-img/feat-wheretofind2.webp "Where to find us")
 
 
 
-<a id="featureleft"></a>
+<a id="futurefeature"></a>
 
-# FEATURES LEFT TO IMPLEMENT
+# FUTURE FEATURES
 
 ## The article pages of the information page  
 The information page has four categories and those article pages have not been built yet. Therefore the next feature that should be done must be to finish those article pages.  
@@ -341,18 +341,18 @@ For future growth, an online session feature might be a good idea for meeting pe
 ## W3 Validator
 
 * Top page - index.html  
-![W3 validator index.html](assets/images/readme-img/test-w3validator-index.png "W3 validator index.html")  
+![W3 validator index.html](readme-img/test-w3validator-index.png "W3 validator index.html")  
 
 * Information page - info.html  
-![W3 validator info.html](assets/images/readme-img/test-w3validator-info.png "W3 validator info.html")  
+![W3 validator info.html](readme-img/test-w3validator-info.png "W3 validator info.html")  
 
 * Sign-up page - signup.html  
-![W3 validator signup.html](assets/images/readme-img/test-w3validator-signup.png "W3 validator signup.html")  
+![W3 validator signup.html](readme-img/test-w3validator-signup.png "W3 validator signup.html")  
 
 ## W3 CSS Validator
 
 * Style sheet - style.css
-![W3 validator css](assets/images/readme-img/test-w3validator-css.png "W3 validator css")  
+![W3 validator css](readme-img/test-w3validator-css.png "W3 validator css")  
 
 
 ## Google Lighthouse Audit
@@ -362,13 +362,13 @@ For future growth, an online session feature might be a good idea for meeting pe
 <details>
 <summary>Google Lighthouse audit index.html - Device Desktop >> </summary>  
 
-![Google Lighthouse audit index.html - Device Desktop](assets/images/readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html - Device Desktop")  
+![Google Lighthouse audit index.html - Device Desktop](readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html - Device Desktop")  
 </details>  
 
 <details>
 <summary>Google Lighthouse audit index.html - Device Mobile >> </summary>  
 
-![Google Lighthouse audit index.html - Device Mobile](assets/images/readme-img/test-lighthouse-index-m.png "Google Lighthouse audit index.html - Device Mobile")  
+![Google Lighthouse audit index.html - Device Mobile](readme-img/test-lighthouse-index-m.png "Google Lighthouse audit index.html - Device Mobile")  
 </details>  
 
 
@@ -378,13 +378,13 @@ For future growth, an online session feature might be a good idea for meeting pe
 <details>
 <summary>Google Lighthouse audit info.html - Device Desktop >> </summary>  
 
-![Google Lighthouse audit info.html - Device Desktop](assets/images/readme-img/test-lighthouse-info.png "Google Lighthouse audit info.html - Device Desktop")  
+![Google Lighthouse audit info.html - Device Desktop](readme-img/test-lighthouse-info.png "Google Lighthouse audit info.html - Device Desktop")  
 </details>  
 
 <details>
 <summary>Google Lighthouse audit info.html - Device Mobile >> </summary>  
 
-![Google Lighthouse audit info.html - Device Mobile](assets/images/readme-img/test-lighthouse-info-m.png "Google Lighthouse audit info.html - Device Mobile")  
+![Google Lighthouse audit info.html - Device Mobile](readme-img/test-lighthouse-info-m.png "Google Lighthouse audit info.html - Device Mobile")  
 </details>   
 
 
@@ -394,13 +394,13 @@ For future growth, an online session feature might be a good idea for meeting pe
 <details>
 <summary>Google Lighthouse audit signup.html - Device Desktop >> </summary>  
 
-![Google Lighthouse audit signup.html - Device Desktop](assets/images/readme-img/test-lighthouse-signup.png "Google Lighthouse audit signup.html - Device Desktop")  
+![Google Lighthouse audit signup.html - Device Desktop](readme-img/test-lighthouse-signup.png "Google Lighthouse audit signup.html - Device Desktop")  
 </details>  
 
 <details>
 <summary>Google Lighthouse audit signup.html - Device Mobile >> </summary>  
 
-![Google Lighthouse audit signup.html - Device Mobile](assets/images/readme-img/test-lighthouse-sign-m.png "Google Lighthouse audit signup.html - Device Mobile")  
+![Google Lighthouse audit signup.html - Device Mobile](readme-img/test-lighthouse-sign-m.png "Google Lighthouse audit signup.html - Device Mobile")  
 </details>   
 
 
@@ -426,8 +426,8 @@ Solution : Set parent `<div> padding-bottom ` the YouTube video size ratio 56.25
 <details>
 <summary>YouTube iframe height technique - stackoverflow >> </summary>  
 
-![YouTube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height.png "YouTube iframe height technique")  
-![YouTube iframe height technique](assets/images/readme-img/bug-stackoverflow-youtube-height2.png "YouTube iframe height technique")
+![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height.png "YouTube iframe height technique")  
+![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height2.png "YouTube iframe height technique")
 </details>
 
 ## YouTube-iframe Align Center
@@ -439,8 +439,8 @@ Solution : Add `display: block` to the  `<iframe>`
 <details>
 <summary>YouTube iframe align center technique - stackoverflow >> </summary>  
 
-![YouTube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe1.png "YouTube iframe align center")
-![YouTube iframe align center](assets/images/readme-img/bug-stackoverflow-howtoalign-iframe2.png "YouTube iframe align center")
+![YouTube iframe align center](readme-img/bug-stackoverflow-howtoalign-iframe1.png "YouTube iframe align center")
+![YouTube iframe align center](readme-img/bug-stackoverflow-howtoalign-iframe2.png "YouTube iframe align center")
 </details>  
 
 <a id="bugs-heroanime"></a>
@@ -455,7 +455,7 @@ Solution : `overflow: hidden` for outside `<div>`
 <details>
 <summary>Hero image CSS animation scale 1 to 1.1 - "Love Running" walkthrough project (deprecated) >> </summary>  
 
-![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
+![Hero image CSS animation scale 1 to 1.1](readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
 </details>
 
 ## YouTube Video Optimizing For Google Lighthouse audit
@@ -467,7 +467,7 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 <details>
 <summary>YouTube video optimizing for lighthouse - stackoverflow >> </summary>  
 
-![YouTube video optimizing for lighthouse](assets/images/readme-img/bug-youtube-js.png "YouTube video optimizing for lighthouse")
+![YouTube video optimizing for lighthouse](readme-img/bug-youtube-js.png "YouTube video optimizing for lighthouse")
 </details>  
 
 
@@ -488,13 +488,13 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>Display Error in iPad screen - Before >> </summary>  
 
-![Google Chrome and Safari browser had the same issue - Display error](assets/images/readme-img/bug-layout-position1.jpeg "Google Chrome and Safari browser had the same issue - Display error")
+![Google Chrome and Safari browser had the same issue - Display error](readme-img/bug-layout-position1.jpeg "Google Chrome and Safari browser had the same issue - Display error")
 </details>  
 
 <details>
 <summary>Display Error in iPad screen - After >> </summary>  
 
-![Position layout fixed this issue](assets/images/readme-img/bug-layout-position2.jpeg "Position layout fixed this issue")
+![Position layout fixed this issue](readme-img/bug-layout-position2.jpeg "Position layout fixed this issue")
 </details>   
 
 
@@ -508,7 +508,7 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>Git hub - log in >> </summary>  
 
-![Git hub - log in view](assets/images/readme-img/deploy-1.webp "Git hub - log in view ")
+![Git hub - log in view](readme-img/deploy-1.webp "Git hub - log in view ")
 </details>  
 
 1. Log in Git hub and access to purpose repository.
@@ -516,7 +516,7 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>In the purpose repository click on.. >> </summary>  
 
-![Top navigaton bar (2), side navigation bar (3)](assets/images/readme-img/deploy-2.3.webp "Top navigaton bar (2), side navigation bar (3)")
+![Top navigaton bar (2), side navigation bar (3)](readme-img/deploy-2.3.webp "Top navigaton bar (2), side navigation bar (3)")
 </details>
 
 2. Click on 'Settings' in the top navigaton bar.
@@ -525,7 +525,7 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>In the GitHub Pages, Build and deployment >> </summary>  
 
-![Source (4), 'Main' branch (5), 'root'(6),  'save'(7)](assets/images/readme-img/deploy-4.5.6.7.webp "Source (4), 'Main' branch (5), 'root'(6),  'save'(7)")
+![Source (4), 'Main' branch (5), 'root'(6),  'save'(7)](readme-img/deploy-4.5.6.7.webp "Source (4), 'Main' branch (5), 'root'(6),  'save'(7)")
 </details>
 
 4. Source is 'Deploy from Branch'.
@@ -536,7 +536,7 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>Back to top navigaton bar, left hand side.. >> </summary>  
 
-![Top navigaton bar (8)](assets/images/readme-img/deploy-8.webp "Top navigaton bar (8)")
+![Top navigaton bar (8)](readme-img/deploy-8.webp "Top navigaton bar (8)")
 </details>
 
 8. Click on 'Code'. After a few minutes refresh your repo.
@@ -544,7 +544,7 @@ In the testing phase of the Useful information page, I found the display error i
 <details>
 <summary>Right hand side, aside section.. >> </summary>  
 
-![Right hand side, aside section (9)](assets/images/readme-img/deploy-9.webp "Right hand side, aside section (9)")
+![Right hand side, aside section (9)](readme-img/deploy-9.webp "Right hand side, aside section (9)")
 </details>
 
 9. On the right-hand side, in the Environments section, click on 'github-pages'.
@@ -571,8 +571,8 @@ I researched what is this meta tag for, I guess we might not need this tag anymo
 <details>
 <summary>Meta Element X-UA-Compatible - stackoverflow, perplexity</summary>
 
-![Meta tag X-UA-compatible - stackoverflow](assets/images/readme-img/credit-perplex-meta-xua-compatible1.png "Meta tag X-UA-compatible - stackoverflow")
-![Meta tag X-UA-compatible - perplexity](assets/images/readme-img/credit-perplex-meta-xua-compatible2.png "Meta tag X-UA-compatible - perplexity")
+![Meta tag X-UA-compatible - stackoverflow](readme-img/credit-perplex-meta-xua-compatible1.png "Meta tag X-UA-compatible - stackoverflow")
+![Meta tag X-UA-compatible - perplexity](readme-img/credit-perplex-meta-xua-compatible2.png "Meta tag X-UA-compatible - perplexity")
 
 </details>
 
@@ -584,10 +584,10 @@ In the upcoming session section, I consider using the `<figure>` element for an 
 <details>
 <summary>Figure And Picture Element - stuckoverflow, perplexity</summary>
 
-![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture.png "Figure tag and picture tag")
-![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture2.png "Figure tag and picture tag")
-![Figure tag and picture tag](assets/images/readme-img/credit-figure-picture3.png "Figure tag and picture tag")
-![Figure tag and picture tag](assets/images/readme-img/credit-perplex-figure.png "Figure tag and picture tag")
+![Figure tag and picture tag](readme-img/credit-figure-picture.png "Figure tag and picture tag")
+![Figure tag and picture tag](readme-img/credit-figure-picture2.png "Figure tag and picture tag")
+![Figure tag and picture tag](readme-img/credit-figure-picture3.png "Figure tag and picture tag")
+![Figure tag and picture tag](readme-img/credit-perplex-figure.png "Figure tag and picture tag")
 </details>
 
 <a id="credits-heroanime"></a>
@@ -598,7 +598,7 @@ When I learned this css animation technique through the “Love Running” proje
 <details>
 <summary>Hero Image CSS Animation - “Love Running” project in Code Institute</summary>
 
-![Hero image CSS animation scale 1 to 1.1](assets/images/readme-img/credit-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
+![Hero image CSS animation scale 1 to 1.1](readme-img/credit-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
 </details>
 
 
@@ -609,27 +609,27 @@ I looked for suitable elements for the breadcrumb links. In W3 website the answe
 <details>
 <summary>Breadcrumb, what element and attributes - W3school</summary>
 
-![Breadcrumb](assets/images/readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")  
+![Breadcrumb](readme-img/credit-breadcrumb-w3c2.png "Breadcrumb")  
 </details>
 
 <details>
 <summary>Breadcrumb, specify which list item - stackoverflow</summary>
 
-![Breadcrumb - specify the list item](assets/images/readme-img/credit-breadcrumb-li-specify.png  "Breadcrumb - specify the list item")  
+![Breadcrumb - specify the list item](readme-img/credit-breadcrumb-li-specify.png  "Breadcrumb - specify the list item")  
 </details>
 
 
 <details>
 <summary>Breadcrumb, "/" between list item - MDN</summary>
 
-![Breadcrumb - border right / slash](assets/images/readme-img/credit-breadcrumb-border-right.png "Breadcrumb - border right / slash")   
+![Breadcrumb - border right / slash](readme-img/credit-breadcrumb-border-right.png "Breadcrumb - border right / slash")   
 </details>
 
 
 <details>
 <summary>Breadcrumb, `::before` selector - W3 school</summary>
 
-![Breadcrumb before selector](assets/images/readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")  
+![Breadcrumb before selector](readme-img/credit-breadcrumb-before-selector.png "Breadcrumb before selector")  
 </details>
 
 * [Link to "::before / ::after" - CSS TRICKS ](https://css-tricks.com/almanac/selectors/a/after-and-before/)
