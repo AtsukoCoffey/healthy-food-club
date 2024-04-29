@@ -458,6 +458,13 @@ input[type="submit"]:hover {
   box-shadow: 3px 3px 3px rgb(24, 48, 24);
 }
 
+/* Clear fix - reference http://web.simmons.edu/~grovesd/comm328/modules/layout/clearfix#:~:text=Clearing%20Floats,the%20sidebar%20and%20main%20content */
+#session-schedule>div#flex-outer::after {
+  content: "";
+  display: block;
+  clear: right;
+}
+
 /* Where to find us section */
 .address-item {
   font-weight: 800;
