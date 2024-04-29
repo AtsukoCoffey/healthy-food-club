@@ -654,6 +654,14 @@ The hero image is not a small size image. After I read this article, I tried to 
 * [Link to web.dev - Optimize Largest Contentful Paint](https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=lr#optimize_when_the_resource_is_discovered "Optimize Largest Contentful Paint")
 
 
+### Clearfix using ::after pseudo selector
+I was thinking where to set clearfix for the session schedule's float in the signup page. Also after I learned `::before` pseudo selector, I'd like to try to use `::after` selector. Then I found this page. 
+
+* [Clearing and Containing Floats - Responsive Web Design](http://web.simmons.edu/~grovesd/comm328/modules/layout/clearfix#:~:text=Clearing%20Floats,the%20sidebar%20and%20main%20content "Clearing and Containing Floats - Responsive Web Design")
+
+
+
+
 <a id="credits-content"></a>
 
 ## Content References
