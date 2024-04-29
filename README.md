@@ -136,13 +136,13 @@ For the site's basic font, I was considering using "Quicksand" for the best read
 ## The Header And Navigation Bar
 The header, with the logo, is the face of the website. So I chose the strongest colour in my colour scheme for appeal, along with unique logo. This header includes the navigation bar which is fully responsive to all sizes of devices and it swaps to the toggle button to hide and show navigation links for smaller screen sizes, less than 768px width. I borrowed this toggle button technique from “Love Running” project in Code Institute LMS. [CREDITS - Code Institute learning material](#credits-content)  
 The navigation bar has links to the logo, home page, information page and sign-up page and also has an easy to recognise icons.  
-This feature is on all three pages and is identical in each page to allow for easy navigation.
+This feature is on all three pages and is identical in each page to allow for easy navigation.  
 ![Header and Navigation Bar](assets/images/readme-img/feat-header.png "Header and Navigation Bar")
 
 
 ## The Landing Page Hero Image
 The landing hero image is really important as it should convey clearly the website purpose and show the atmosphere of this community, I am happy that I could find a picture of a smiling girl preparing food in the kitchen. The overlay text also conveys logically what this site is about, my main message was basically like this “let’s study together for a healthier life together”. Since I am not native Irish I asked my family for help with more natural phrasing. [CREDITS - Editing and Proofreading](#credits-edit)
-This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)
+This section introduces the user to “Healthy Food Club” with an eye-catching css animation which technique is borrowed from again “Love Running” (Deprecated version) project in Code Institute. [CREDITS - Hero Image CSS animation  Code Institute learning Material](#credits-heroanime) Afterwards, I found a critical mistake in this. [BUGS - Hero Image CSS Animation](#bugs-heroanime)  
 ![Hero Image](assets/images/readme-img/feat-hero.png "Hero Image")
 
 
@@ -150,7 +150,7 @@ This section introduces the user to “Healthy Food Club” with an eye-catching
 This section Informs about the next cooking session with a link to the session schedule page.  
 This section is deliberately placed just under the hero image with outstanding background colour to be visible in the first loading view angle. The reason is that this info shows clearly what activities exactly the “Healthy Food club” is offering in this website.  
 
-About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. [CREDITS - stackoverflow, perplexity](#credits-figure)
+About this coding part, I consider using the `<figure>` element for an image since it is a part of the other page's content also it contains independent information. At same time, I wanted to use the `<picture>` element for responsivity though I wasn't familier with these codes so referenced other websites. [CREDITS - stackoverflow, perplexity](#credits-figure)  
 ![Upcoming Session info](assets/images/readme-img/feat-upcoming.png "Upcoming Session info")
 
 
@@ -166,19 +166,19 @@ This section shows a health related video made by WHO; it promotes the overview 
 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-heroanime)  
+Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-heroanime)   
 ![Article YouTube](assets/images/readme-img/feat-article-youtube.png "Article YouTube")
 
 
 ## The Footer
-The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.
+The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.  
 ![The footer](assets/images/readme-img/feat-footer.png "The footer")
 
 
 ## Breadcrumb
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
-Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)   
+Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)    
 ![Breadcrumb](assets/images/readme-img/feat-breadcrumb.png "Breadcrumb")
 
 
@@ -192,7 +192,7 @@ This category is for beginners, I'm thinking about young people who don’t have
 
 * Healthy gut  
 This category is talking about our microbes which we can't see exactly but there're a lot of studies published and spotlighting these areas.  
-This is a kind of general knowledge for who's interested in our body systems.
+This is a kind of general knowledge for who's interested in our body systems.  
 ![Info - Healthy gut](assets/images/readme-img/feat-info-gut.png "Info - Healthy gut")
 
 * Studies on food additives and sickness  
@@ -206,7 +206,7 @@ This category is for those who have just become interested in food. To encourage
 
 ## The Sign-up Form
 The sign-up form is interactive for user experience with mouse hovering colour, also the submission button has the same function with changing background colour. This section will allow users to get signed up along with specifying which session they would like to take part in or join the community mailing list. The user will be asked to submit their full name and email address for required information, phone number and cooking experience inputs are optional information.  
-My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Google Lighthouse audit. [CREDITS - Form Autocomplete](#credit-form)
+My mentor Alan taught me `pattern` attribute for these form inputs. This can prevent incorrect user inputs to submit. [CREDITS - Pattern attribute](#credit-form) Also Autocomplete was suggested by Google Lighthouse audit. [CREDITS - Form Autocomplete](#credit-form)  
 
 | Form input | Criteria |
 | -- | -- |
@@ -229,7 +229,7 @@ In my wireframe, I was thinking the sesseion schedule layout would be the same a
 This feature shows contact information and map of the venue.  
 Added a link under the contact information section, I want to lead users back into the form section again.  
 
-I had a problem with Google Maps, Google Lighthouse audit pointed out third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Maps](#bugs-map) 
+I had a problem with Google Maps, Google Lighthouse audit pointed out third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Maps](#bugs-map)   
 ![Where to find us](assets/images/readme-img/feat-wheretofind1.webp "Where to find us")
 ![Where to find us](assets/images/readme-img/feat-wheretofind2.webp "Where to find us")
 
@@ -240,13 +240,13 @@ I had a problem with Google Maps, Google Lighthouse audit pointed out third part
 # FEATURES LEFT TO IMPLEMENT
 
 ## The article pages of the information page  
-The information page has four categories and those article pages have not been built yet. Therefore the next feature that should be done must be to finish those article pages.
+The information page has four categories and those article pages have not been built yet. Therefore the next feature that should be done must be to finish those article pages.  
 
 ## Information Architecture (IA)
-In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organisational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding. 
+In the info page, categories and articles will be expanding over time, so new pages will be created in each category folder for organisational purposes. Or if possible, develop the system using a technology like DOM to generate HTML pages by coding.   
 
 ## Online Session Feature
-For future growth, an online session feature might be a good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.
+For future growth, an online session feature might be a good idea for meeting people who live far away from Athlone town. Also it might be better for new users who want to listen to lectures only or just learn the cooking part to feel free to join in.  
 
 ------------------------------------------
 
@@ -326,12 +326,16 @@ For future growth, an online session feature might be a good idea for meeting pe
 | Mac | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All three pages display correctly on screens larger than 768px | Pass |
 |  |  | All three pages display correctly on screens smaller than 768px | Pass |
-|  | Safari | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+|  | Safari v13 | All three pages display correctly on screens larger than 1024px |   |
+|  |  | All three pages display correctly on screens larger than 768px |   |
+|  |  | All three pages display correctly on screens smaller than 768px |   |
 |  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All three pages display correctly on screens larger than 768px | Pass |
 |  |  | All three pages display correctly on screens smaller than 768px | Pass |
+| iPad | Chrome | All three pages display correctly on screens larger than 768px | Pass |
+|  | Safari v14 | All three pages display correctly on screens smaller than 768px | Pass |
+
+
 
 
 ## W3 Validator
@@ -354,13 +358,51 @@ For future growth, an online session feature might be a good idea for meeting pe
 ## Google Lighthouse Audit
 
 * Top page - index.html  
-![Google Lighthouse audit index.html](assets/images/readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html")  
+
+<details>
+<summary>Google Lighthouse audit index.html - Device Desktop >> </summary>  
+
+![Google Lighthouse audit index.html - Device Desktop](assets/images/readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html - Device Desktop")  
+</details>  
+
+<details>
+<summary>Google Lighthouse audit index.html - Device Mobile >> </summary>  
+
+![Google Lighthouse audit index.html - Device Mobile](assets/images/readme-img/test-lighthouse-index-m.png "Google Lighthouse audit index.html - Device Mobile")  
+</details>  
+
+
 
 * Information page - info.html  
-![Google Lighthouse audit info.html](assets/images/readme-img/test-lighthouse-info.png "Google Lighthouse audit info.html")  
+
+<details>
+<summary>Google Lighthouse audit info.html - Device Desktop >> </summary>  
+
+![Google Lighthouse audit info.html - Device Desktop](assets/images/readme-img/test-lighthouse-info.png "Google Lighthouse audit info.html - Device Desktop")  
+</details>  
+
+<details>
+<summary>Google Lighthouse audit info.html - Device Mobile >> </summary>  
+
+![Google Lighthouse audit info.html - Device Mobile](assets/images/readme-img/test-lighthouse-info-m.png "Google Lighthouse audit info.html - Device Mobile")  
+</details>   
+
+
 
 * Sign-up page - signup.html  
-![Google Lighthouse audit sign-up.html](assets/images/readme-img/test-lighthouse-signup.png "Google Lighthouse audit sign-up.html")  
+
+<details>
+<summary>Google Lighthouse audit signup.html - Device Desktop >> </summary>  
+
+![Google Lighthouse audit signup.html - Device Desktop](assets/images/readme-img/test-lighthouse-signup.png "Google Lighthouse audit signup.html - Device Desktop")  
+</details>  
+
+<details>
+<summary>Google Lighthouse audit signup.html - Device Mobile >> </summary>  
+
+![Google Lighthouse audit signup.html - Device Mobile](assets/images/readme-img/test-lighthouse-sign-m.png "Google Lighthouse audit signup.html - Device Mobile")  
+</details>   
+
 
 
 <a id="bugs"></a>
@@ -437,6 +479,23 @@ At the beginning I had five third-party cookies related to Google Maps. This cau
 
 * [Link - Google Maps remove third-party cookies](https://developers.google.com/privacy-sandbox/3pcd?utm_source=lighthouse&utm_medium=devtools "Google Maps – remove third-party cookies")  
 * [Link - MAPS.IE](https://www.maps.ie/ "MAPS.IE")
+
+
+## Display Error in iPad screen
+
+In the testing phase of the Useful information page, I found the display error in my iPad; both Google Chrome and Safari browsers had the same issue. So I changed the part that was using margin for the layout to use position to ensure that this page renders correctly. 
+
+<details>
+<summary>Display Error in iPad screen - Before >> </summary>  
+
+![Google Chrome and Safari browser had the same issue - Display error](assets/images/readme-img/bug-layout-position1.jpeg "Google Chrome and Safari browser had the same issue - Display error")
+</details>  
+
+<details>
+<summary>Display Error in iPad screen - After >> </summary>  
+
+![Position layout fixed this issue](assets/images/readme-img/bug-layout-position2.jpeg "Position layout fixed this issue")
+</details>   
 
 
 <a id="deployment"></a>
