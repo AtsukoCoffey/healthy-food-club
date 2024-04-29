@@ -310,7 +310,7 @@ nav.breadcrumb [aria-current="page"] {
   text-decoration: none;
 }
 
-/* Flex box outer div */
+/* Flex box outer div - used in Useful Info page & Sign up page */
 #flex-outer {
   display: flex;
   flex-wrap: wrap;
@@ -319,6 +319,10 @@ nav.breadcrumb [aria-current="page"] {
 #flex-outer h3 {
   margin: 1rem 0;
   line-height: 150%;
+}
+
+#flex-outer figure {
+  margin: 0 1rem;
 }
 
 /* Useful Info page */
@@ -330,9 +334,10 @@ nav.breadcrumb [aria-current="page"] {
 #healthy-gut,
 #research-sickness,
 #tips-tricks {
+  position: relative;
   border: 3px solid #ffffff;
   flex: 1 1 300px;
-  background-color: #ffffff;
+  overflow: hidden;
 }
 
 #basic-knowledge {
@@ -451,10 +456,6 @@ input[type="submit"]:hover {
 #session-schedule img {
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgb(24, 48, 24);
-}
-
-#flex-outer figure {
-  margin: 0 1rem;
 }
 
 /* Where to find us section */
@@ -601,24 +602,20 @@ input[type="submit"]:hover {
   #healthy-gut>div,
   #research-sickness>div,
   #tips-tricks>div {
-    background-size: contain;
+    position: absolute;
     width: 50%;
+    height: 100%;
   }
 
-  #basic-knowledge,
-  #research-sickness {
-    background-position: right;
+  #basic-knowledge div,
+  #research-sickness div {
+    right: 0;
   }
 
-  #healthy-gut,
-  #tips-tricks {
-    background-position: left;
-  }
-
-  #healthy-gut>div,
-  #tips-tricks>div {
-    margin-left: 50%;
-  }
+  /* #healthy-gut div,
+  #tips-tricks div {
+    left: 0;
+  } */
 
   /* Sign up page */
   #form-outer {
@@ -640,7 +637,6 @@ input[type="submit"]:hover {
   margin-right: 50%;
 }
 }
-
 
 /* Media query: General smart phone (1024px and up) */
 @media screen and (min-width:1024px) {
@@ -668,51 +664,39 @@ input[type="submit"]:hover {
   }
 
   /* Useful Info page */
-  #flex-outer {
+  #useful-info>#flex-outer {
     flex-direction: row;
   }
 
+  #useful-info>#flex-outer>div {
+    flex: 1 1 400px;
+    height: 430px;
+  }
+
   #basic-knowledge {
-    background: url(../images/kitchen-7471627_640-gra.webp) no-repeat top center/100%;
+    background: url(../images/kitchen-7471627_640-gra.webp) no-repeat top center/contain;
   }
 
   #healthy-gut {
-    background: url(../images/womans-hands-belly_640-gra.webp) no-repeat top center/100%;
+    background: url(../images/womans-hands-belly_640-gra.webp) no-repeat top center/contain;
   }
 
   #research-sickness {
-    background: url(../images/stethoscope-prescription-laptop_640-gra.webp) no-repeat top center/100%;
+    background: url(../images/stethoscope-prescription-laptop_640-gra.webp) no-repeat top center/contain;
   }
 
   #tips-tricks {
-    background: url(../images/vegetables-6064523_640-gra.webp) no-repeat top center/100%;
-  }
-
-  #flex-outer>div {
-    flex: 1 1 400px;
-    height: 430px;
+    background: url(../images/vegetables-6064523_640-gra.webp) no-repeat top center/contain;
   }
 
   #flex-outer>.useful-empty-div {
     height: 30px;
   }
 
-  #flex-outer>div>div {
+  #useful-info>#flex-outer>div>div {
     width: 100%;
     height: 53%;
-    margin-top: 35%;
-  }
-
-  #basic-knowledge,
-  #research-sickness,
-  #healthy-gut,
-  #tips-tricks {
-    background-position: top;
-  }
-
-  #healthy-gut>div,
-  #tips-tricks>div {
-    margin-left: 0%;
+    bottom: 0;
   }
 
   /* Sign up page */
