@@ -741,7 +741,7 @@ Since I am not native Irish I asked my family for help with more natural phrasin
 
 # ACKNOWLEDGEMENTS  
 
-I would like to give great thanks to my mentor Alan Bushell for his exellent advice and support.  
+I would like to give great thanks to my mentor Alan Bushell and cover session's mentor Chris Quinn for their exellent advice and support.  
 Also my cohort facilitator Amy Richardson for all the support and assistance.  
 
 And great thanks to my family for proofreading and checking the website.
