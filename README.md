@@ -326,17 +326,18 @@ For future growth, an online session feature might be a good idea for meeting pe
 | Mac | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All three pages display correctly on screens larger than 768px | Pass |
 |  |  | All three pages display correctly on screens smaller than 768px | Pass |
-|  | Safari v13 | All three pages display correctly on screens larger than 1024px |   |
-|  |  | All three pages display correctly on screens larger than 768px |   |
-|  |  | All three pages display correctly on screens smaller than 768px |   |
+|  | Safari v13 | All three pages display correctly on screens larger than 1024px | Fail |
+|  |  | All three pages display correctly on screens larger than 768px | Fail |
+|  |  | All three pages display correctly on screens smaller than 768px | Fail |
 |  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All three pages display correctly on screens larger than 768px | Pass |
 |  |  | All three pages display correctly on screens smaller than 768px | Pass |
 | iPad | Chrome | All three pages display correctly on screens larger than 768px | Pass |
 |  | Safari v14 | All three pages display correctly on screens smaller than 768px | Pass |
 
-
-
+I found the Mac OS Safari v13 browser is not supporting webp image format.
+I talked with my cover mentor, Chris, about this, and then I decided not to address this issue.
+Additionally, my iPad Safari v14 has no problem browsing, which was released nearly 4 years ago. 
 
 ## W3 Validator
 
@@ -468,7 +469,10 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 <summary>YouTube video optimizing for lighthouse - stackoverflow >> </summary>  
 
 ![YouTube video optimizing for lighthouse](readme-img/bug-youtube-js.png "YouTube video optimizing for lighthouse")
-</details>  
+</details>   
+<br>  
+
+After the endpoint cover-meeting with Chris, I thought I didn't need to address the point that the Lighthouse pointed out. Chris's advise was that I don't have to worry about the score so much and should avoid to have inline CSS in the HTML. So I decided to back to original code.
 
 
 <a id="bugs-map"></a>

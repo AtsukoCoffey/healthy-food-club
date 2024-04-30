@@ -727,6 +727,6 @@ input[type="submit"]:hover {
 .error-page {
   width: 100%;
   height: 50%;
-  padding-top: 50%;
+  padding-top: 15%;
   text-align: center;
 }
