@@ -146,7 +146,7 @@ nav.global {
 #hero-image {
   width: 100%;
   min-height: 70vh;
-  background: url(../images/hero-young-smiling-woman-525x350px.webp) center center/cover no-repeat;
+  background: url(../images/th-young-smiling-woman-525x350px.webp) center center/cover no-repeat;
 
   /* animates zoom effect on loading page : refer to Love Running - Code Institute*/
   animation-name: hero-zoom;
@@ -342,19 +342,19 @@ nav.breadcrumb [aria-current="page"] {
 }
 
 #basic-knowledge {
-  background: url(../images/kitchen-7471627_640.webp) no-repeat top center/cover;
+  background: url(../images/iu-kitchen-cutting-640.webp) no-repeat top center/cover;
 }
 
 #healthy-gut {
-  background: url(../images/womans-hands-belly_640.webp) no-repeat top center/cover;
+  background: url(../images/iu-health-gut-belly-640.webp) no-repeat top center/cover;
 }
 
 #research-sickness {
-  background: url(../images/stethoscope-prescription-laptop_640.webp) no-repeat top center/cover;
+  background: url(../images/iu-health-prescription-research-w640.webp) no-repeat top center/cover;
 }
 
 #tips-tricks {
-  background: url(../images/vegetables-6064523_640.webp) no-repeat top center/cover;
+  background: url(../images/iu-vegetable-wash-640.webp) no-repeat top center/cover;
 }
 
 #basic-knowledge>div,
@@ -438,7 +438,7 @@ input[type="submit"]:hover {
 
 /* Session schedule section */
 #session-schedule>div#flex-outer {
-  background: url(../images/vege-human-body.webp) center center/cover no-repeat;
+  background: url(../images/ss-bg-vege-human-body.webp) center center/cover no-repeat;
 }
 
 #session-schedule>div#flex-outer>div {
@@ -515,7 +515,7 @@ input[type="submit"]:hover {
   /* Main */
 
   #hero-image {
-    background: url(../images/hero-young-smiling-woman-making-bruschetta-w2400.webp) center center/cover no-repeat;
+    background: url(../images/th-young-smiling-woman-w2400.webp) center center/cover no-repeat;
   }
 
   section,
@@ -683,19 +683,19 @@ input[type="submit"]:hover {
   }
 
   #basic-knowledge {
-    background: url(../images/kitchen-7471627_640-gra.webp) no-repeat top center/contain;
+    background: url(../images/iu-kitchen-cutting-640-gra.webp) no-repeat top center/contain;
   }
 
   #healthy-gut {
-    background: url(../images/womans-hands-belly_640-gra.webp) no-repeat top center/contain;
+    background: url(../images/iu-health-gut-belly-640-gra.webp) no-repeat top center/contain;
   }
 
   #research-sickness {
-    background: url(../images/stethoscope-prescription-laptop_640-gra.webp) no-repeat top center/contain;
+    background: url(../images/iu-health-prescription-research-w640-gra.webp) no-repeat top center/contain;
   }
 
   #tips-tricks {
-    background: url(../images/vegetables-6064523_640-gra.webp) no-repeat top center/contain;
+    background: url(../images/iu-vegetable-wash-640-gra.webp) no-repeat top center/contain;
   }
 
   #flex-outer>.useful-empty-div {
