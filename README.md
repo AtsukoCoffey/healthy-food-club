@@ -299,48 +299,55 @@ For future growth, an online session feature might be a good idea for meeting pe
 
 
 # TESTING
+> I performed most of the testing myself and had some support from family members with different mobile devices.
 
-**Testing for links and Form**
+**Testing for links, Form and mouse hover reactions**
 | Test |Outcome  |
 |--|--|
-|All links on Navigation lead to their correct pages| Pass |
-|More information >> leads to the each target pages| Pass |
-|Footer social links all lead to their respective social media sites | Pass |
-|Contact form submits when all criteria is filled correctly| Pass |
+|All links on Navigation and title logo lead to their correct pages| Pass |
+|More information >> leads to the each correct page| Pass |
+|Footer social links all lead to their respective social media sites in new tabs | Pass |
+|Information and sign-up page's breadcrumb leads to the top page | Pass |
+|Under the Where to find us section, Sign up form >> leads to Form area | Pass |
+|Contact form can be submited when all criteria is filled correctly| Pass |
 |User prevented from submitting form without correct elements| Pass |
 |Form Validation presents when incorrect input type is entered | Pass |
+|All the links and the form have mouse hover reactions | Pass |
 
-**Testing for responsiveness**
+**Testing for responsiveness and appearance**
 | OS | Browser | Test | Outcome |
 |--|--|--|--|
-| Windows | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens larger than 320px | Pass |
-|  |  | All three pages display correctly on screens smaller than 320px | Pass |
-|  | Edge | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens smaller than 768px | Pass |
-|  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens smaller than 768px | Pass |
-| Mac | Chrome | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens smaller than 768px | Pass |
+| Windows | Chrome | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 768px | Pass |
+|  |  | All pages display correctly on screens larger than 320px | Pass |
+|  |  | All pages display correctly on screens smaller than 320px | Pass |
+|  | Edge | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 768px | Pass |
+|  |  | All pages display correctly on screens smaller than 768px | Pass |
+|  | Firefox | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 768px | Pass |
+|  |  | All pages display correctly on screens smaller than 768px | Pass |
+| Mac | Chrome | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 768px | Pass |
+|  |  | All pages display correctly on screens smaller than 768px | Pass |
 |  | Safari v13 | All three pages display correctly on screens larger than 1024px | Fail |
-|  |  | All three pages display correctly on screens larger than 768px | Fail |
-|  |  | All three pages display correctly on screens smaller than 768px | Fail |
+|  |  | All pages display correctly on screens larger than 768px | Fail |
+|  |  | All pages display correctly on screens smaller than 768px | Fail |
 |  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
-|  |  | All three pages display correctly on screens larger than 768px | Pass |
-|  |  | All three pages display correctly on screens smaller than 768px | Pass |
-| iPad 8th generation| Chrome | All three pages display correctly on screens logical 810px
+|  |  | All pages display correctly on screens larger than 768px | Pass |
+|  |  | All pages display correctly on screens smaller than 768px | Pass |
+| iPad 8th gen| Chrome | All pages display correctly on screens logical 810px
 Physical 1620px | Pass |
-|  | Safari v14 | All three pages display correctly on screens logical 810px
+|  | Safari v14 | All pages display correctly on screens logical 810px
 Physical 1620px | Pass |
-| Android Xperia | Chrome | All three pages display correctly | Pass |
-|  | Edge | All three pages display correctly | Pass |
+| Android Xperia | Chrome | All pages display correctly | Pass |
+|  | Edge | All pages display correctly | Pass |
+| iPhone 13 | Chrome | All pages display correctly | Pass |
+|  | Safari | All pages display correctly | Pass |
+| Android Xaomi Pocophone | Chrome | All pages display correctly | Pass |
 
 
-I found the Mac OS Safari v13 browser is not supporting webp image format.
+I found that the Mac OS Safari v13 browser does not support webp image format.
 I talked with my cover mentor, Chris, about this, and then I decided not to address this issue.
 Additionally, my iPad Safari v14 has no problem browsing, which was released nearly 4 years ago. 
 
