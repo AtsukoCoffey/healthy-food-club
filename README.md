@@ -612,7 +612,7 @@ When I learned this css animation technique through the “Love Running” proje
 
 
 ### Breadcrumb
-I looked for suitable elements for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo-element in relation to this.  
+I looked for suitable elements for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo selector in relation to this.  
 
 
 <details>
