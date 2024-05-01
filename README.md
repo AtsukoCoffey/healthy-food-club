@@ -332,8 +332,13 @@ For future growth, an online session feature might be a good idea for meeting pe
 |  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All three pages display correctly on screens larger than 768px | Pass |
 |  |  | All three pages display correctly on screens smaller than 768px | Pass |
-| iPad | Chrome | All three pages display correctly on screens larger than 768px | Pass |
-|  | Safari v14 | All three pages display correctly on screens smaller than 768px | Pass |
+| iPad 8th generation| Chrome | All three pages display correctly on screens logical 810px
+Physical 1620px | Pass |
+|  | Safari v14 | All three pages display correctly on screens logical 810px
+Physical 1620px | Pass |
+| Android Xperia | Chrome | All three pages display correctly | Pass |
+|  | Edge | All three pages display correctly | Pass |
+
 
 I found the Mac OS Safari v13 browser is not supporting webp image format.
 I talked with my cover mentor, Chris, about this, and then I decided not to address this issue.
@@ -472,7 +477,7 @@ Solution : Put the HTML link element inside the `source=doc` attribute
 </details>   
 <br>  
 
-After the endpoint cover-meeting with Chris, I thought I didn't need to address the point that the Lighthouse pointed out. Chris's advise was that I don't have to worry about the score so much and should avoid to have inline CSS in the HTML. So I decided to back to original code.
+After the endpoint cover-meeting with Chris, I thought I didn't need to address the point that the Lighthouse pointed out. Chris's advice was that I don't have to worry about the score so much and should avoid to have inline CSS in the HTML. So I decided to go back to the original code.
 
 
 <a id="bugs-map"></a>
@@ -487,7 +492,7 @@ At the beginning I had five third-party cookies related to Google Maps. This cau
 
 ## Display Error in iPad screen
 
-In the testing phase of the Useful information page, I found the display error in my iPad; both Google Chrome and Safari browsers had the same issue. So I changed the part that was using margin for the layout to use position to ensure that this page renders correctly. 
+In the testing phase of the Useful information page, I found a display error in my iPad; both Google Chrome and Safari browsers had the same issue. So I changed the part that was using margin for the layout to use position to ensure that this page renders correctly. 
 
 <details>
 <summary>Display Error in iPad screen - Before >> </summary>  
@@ -680,15 +685,29 @@ I was thinking where to set clearfix for the session schedule's float in the sig
 A healthy diet, a healthier world (WHO)  
 * [Link to A healthy diet, a healthier world (WHO) ](https://www.youtube.com/watch?v=XMcab1MFaLc "A healthy diet, a healthier world (WHO) ")
 
-### Map of TUS  
-* [Link to https://maps.app.goo.gl/yFF4T7ChemuH2YJt5](https://maps.app.goo.gl/yFF4T7ChemuH2YJt5)
+### Google Maps of TUS from MAPS.IE
+* [Link to https://www.maps.ie/](https://www.maps.ie/)
 
+### W3schools
+> Used to research codes
+
+### MDN
+> Used to research codes
+
+### stackoverflow
+> Used to research codes
+
+### CSS TRICKS
+> Used to research codes
+
+### web.dev
+> Used to research code and knowledge
+
+### Responsive Web Design
+> Used to research codes
 
 ### perplexity
 > Used for general questions
-
-### MDN, W3schools
-> Used to research codes
 
 
 <a id="imagery"></a>
@@ -730,11 +749,15 @@ Photo by Gil Goldman: [https://www.pexels.com/photo/fresh-bread-loafs-on-table-i
 * vegetables  
 <a href="https://www.freepik.com/free-ai-image/world-health-day-celebration-with-healthy-food_138542824.htm#query=healthy%20food&position=7&from_view=keyword&track=ais&uuid=ab2f5d84-4557-4db6-a6b3-9449a4cfd196">Image by freepik</a>
 
+* Map of Technological University of the Shannon (TUS) campus
+<a href="https://tus.ie/estates/athlone/campus-maps/">Athlone Campus Map - Technological University of the Shannon</a>
+
 
 <a id="credits-edit"></a>
 
 ## Editing and Proofreading
-Since I am not native Irish I asked my family for help with more natural phrasing. [ACKNOWLEDGEMENTS](#acknowledgements)  
+Since I am not a native English speaker, my family assisted me with editing and proofreading.
+ [ACKNOWLEDGEMENTS](#acknowledgements)  
 
 
 <a id="acknowledgements"></a>
@@ -744,4 +767,4 @@ Since I am not native Irish I asked my family for help with more natural phrasin
 I would like to give great thanks to my mentor Alan Bushell and cover session's mentor Chris Quinn for their exellent advice and support.  
 Also my cohort facilitator Amy Richardson for all the support and assistance.  
 
-And great thanks to my family for proofreading and checking the website.
+And great thanks to my family Sean Coffey and Dean Coffey for all the support.
