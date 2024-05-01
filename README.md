@@ -171,7 +171,10 @@ Additionally in the auditing term, Google Lighthouse audit scored this page real
 
 
 ## The Footer
-The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.  
+The footer section includes links to the relevant social media sites. The links will open to a new tab to keep this website still. When this community's activity gets busier this footer allow users easy navigation for anytime they can check recent updates.   
+
+I used the X icon for Twitter at the beginning, but the Lighthouse validator showed that this icon loads slow. I hypothesised that high traffic icons might load faster, so I used the original Twitter icon.  
+
 ![The footer](readme-img/feat-footer.png "The footer")
 
 
@@ -317,34 +320,38 @@ For future growth, an online session feature might be a good idea for meeting pe
 **Testing for responsiveness and appearance**
 | OS | Browser | Test | Outcome |
 |--|--|--|--|
-| Windows | Chrome | All pages display correctly on screens larger than 1024px | Pass |
+| Windows | Chrome Dev Tools | All pages display correctly on screens larger than 1024px | Pass |
 |  |  | All pages display correctly on screens larger than 768px | Pass |
 |  |  | All pages display correctly on screens larger than 320px | Pass |
 |  |  | All pages display correctly on screens smaller than 320px | Pass |
-|  | Edge | All pages display correctly on screens larger than 1024px | Pass |
+|  | Edge Dev Tools | All pages display correctly on screens larger than 1024px | Pass |
 |  |  | All pages display correctly on screens larger than 768px | Pass |
-|  |  | All pages display correctly on screens smaller than 768px | Pass |
-|  | Firefox | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 320px | Pass |
+|  |  | All pages display correctly on screens smaller than 320px | Pass |
+|  | Firefox Dev Tools| All pages display correctly on screens larger than 1024px | Pass |
 |  |  | All pages display correctly on screens larger than 768px | Pass |
-|  |  | All pages display correctly on screens smaller than 768px | Pass |
-| Mac | Chrome | All pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 320px | Pass |
+|  |  | All pages display correctly on screens smaller than 320px | Pass |
+| Mac | Chrome Dev Tools | All pages display correctly on screens larger than 1024px | Pass |
 |  |  | All pages display correctly on screens larger than 768px | Pass |
-|  |  | All pages display correctly on screens smaller than 768px | Pass |
-|  | Safari v13 | All three pages display correctly on screens larger than 1024px | Fail |
-|  |  | All pages display correctly on screens larger than 768px | Fail |
-|  |  | All pages display correctly on screens smaller than 768px | Fail |
-|  | Firefox | All three pages display correctly on screens larger than 1024px | Pass |
+|  |  | All pages display correctly on screens larger than 320px | Pass |
+|  |  | All pages display correctly on screens smaller than 320px | Pass |
+|  | Firefox Dev Tools | All three pages display correctly on screens larger than 1024px | Pass |
 |  |  | All pages display correctly on screens larger than 768px | Pass |
-|  |  | All pages display correctly on screens smaller than 768px | Pass |
-| iPad 8th gen| Chrome | All pages display correctly on screens logical 810px
-Physical 1620px | Pass |
-|  | Safari v14 | All pages display correctly on screens logical 810px
-Physical 1620px | Pass |
-| Android Xperia | Chrome | All pages display correctly | Pass |
+|  |  | All pages display correctly on screens larger than 320px | Pass |
+|  |  | All pages display correctly on screens smaller than 320px | Pass |
+|  | Safari v13 | All three pages display correctly on any screens sizes | Fail |
+| iPad 8th gen| Chrome | All pages display correctly on screens logical 810px(1620px) | Pass |
+|  | Safari v14 | All pages display correctly on screens logical 810px(1620px) | Pass |
+| Android Sony Xperia | Chrome | All pages display correctly | Pass |
 |  | Edge | All pages display correctly | Pass |
+|  | DuckDuckGo | All pages display correctly | Pass |
+| Android Xaomi Pocophone | Chrome | All pages display correctly | Pass |
+|  | Firefox | All pages display correctly | Pass |
 | iPhone 13 | Chrome | All pages display correctly | Pass |
 |  | Safari | All pages display correctly | Pass |
-| Android Xaomi Pocophone | Chrome | All pages display correctly | Pass |
+| iPhone Xr | Chrome | All pages display correctly | Pass |
+|  | Safari | All pages display correctly | Pass |
 
 
 I found that the Mac OS Safari v13 browser does not support webp image format.
