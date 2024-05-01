@@ -401,6 +401,7 @@ nav.breadcrumb [aria-current="page"] {
 select.text-input {
   width: 150px;
   margin-bottom: 20px;
+  background: none;
 }
 
 fieldset {
