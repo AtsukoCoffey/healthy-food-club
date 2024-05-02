@@ -170,7 +170,7 @@ This section shows a health related video made by WHO; it promotes the overview 
 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-heroanime)   
+Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-sourcedoc)   
 ![Article YouTube](readme-img/feat-article-youtube.png "Article YouTube")
 
 
@@ -185,7 +185,7 @@ I used the X icon for Twitter at the beginning, but the Lighthouse validator sho
 ## Breadcrumb
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
-Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-heroanime)    
+Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-breadcrumb)    
 ![Breadcrumb](readme-img/feat-breadcrumb.png "Breadcrumb")
 
 
@@ -238,11 +238,9 @@ Added a link under the contact information section, I want to lead users back in
 
 I had a problem with Google Maps, Google Lighthouse audit pointed out third party cookies in this map. [BUGS - Remove Third-party Cookies, Google Maps](#bugs-map)   
 ![Where to find us](readme-img/feat-wheretofind1.webp "Where to find us")
-![Where to find us](readme-img/feat-wheretofind2.webp "Where to find us")
+![Where to find us](readme-img/feat-wheretofind2.webp "Where to find us")  
 
-
-
-<a id="futurefeature"></a>
+<a id="futurefeature"></a>  
 
 # FUTURE FEATURES
 
@@ -298,12 +296,9 @@ For future growth, an online session feature might be a good idea for meeting pe
 > Used for creating wireframes
 
 * Adobe Photoshop
-> Used for editing pictures
-
-
+> Used for editing pictures  
 
 <a id="testing"></a>
-
 
 # TESTING
 > I performed most of the testing myself and had some support from family members with different mobile devices.
@@ -376,8 +371,7 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 ## W3 CSS Validator
 
 * Style sheet - style.css
-![W3 validator css](readme-img/test-w3validator-css.png "W3 validator css")  
-
+![W3 validator css](readme-img/test-w3validator-css.png "W3 validator css")   
 
 ## Google Lighthouse Audit
 
@@ -393,9 +387,7 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 <summary>Google Lighthouse audit index.html - Device Mobile >> </summary>  
 
 ![Google Lighthouse audit index.html - Device Mobile](readme-img/test-lighthouse-index-m.png "Google Lighthouse audit index.html - Device Mobile")  
-</details>  
-
-
+</details>   
 
 * Information page - info.html  
 
@@ -411,8 +403,6 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 ![Google Lighthouse audit info.html - Device Mobile](readme-img/test-lighthouse-info-m.png "Google Lighthouse audit info.html - Device Mobile")  
 </details>   
 
-
-
 * Sign-up page - signup.html  
 
 <details>
@@ -427,8 +417,6 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 ![Google Lighthouse audit signup.html - Device Mobile](readme-img/test-lighthouse-sign-m.png "Google Lighthouse audit signup.html - Device Mobile")  
 </details>   
 
-
-
 <a id="bugs"></a>
 
 # BUGS
@@ -437,7 +425,7 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 
 My header nav toggle button was missing in the small screen size view. Then I found it was caused by unexpected spaces around the title and the toggle button. It took a long time to find out what was happening though it was a good lesson to use the Google dev tool to inspect the CSS. I found my mistake with `Flex justify-content` was `space-around`, I meant to set `space-between`. 
   
-Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
+Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`  
 
 <a id="bugs-youtube"></a>
 
@@ -445,14 +433,14 @@ Solution : Fix CSS `Flex justify-content` `space-around` to `space-between`
 
 I struggled with figuring out how to set the video height automatically to fit the screen size. After I tried and failed, I found a good technique that involves using padding-bottom with the ratio of the video width at stackoverflow.   
 
-Solution : Set parent `<div> padding-bottom ` the YouTube video size ratio 56.25% (16:9)
+Solution : Set parent `<div> padding-bottom ` the YouTube video size ratio 56.25% (16:9)  
 
 <details>
 <summary>YouTube iframe height technique - stackoverflow >> </summary>  
 
-![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height.png "YouTube iframe height technique")  
-![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height2.png "YouTube iframe height technique")
-</details>
+![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height.png "YouTube iframe height technique")    
+![YouTube iframe height technique](readme-img/bug-stackoverflow-youtube-height2.png "YouTube iframe height technique")  
+</details>  
 
 ## YouTube-iframe Align Center
 
@@ -481,6 +469,8 @@ Solution : `overflow: hidden` for outside `<div>`
 
 ![Hero image CSS animation scale 1 to 1.1](readme-img/bug-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")  
 </details>
+
+<a id="bugs-sourcedoc"></a>
 
 ## YouTube Video Optimizing For Google Lighthouse audit
 Google Lighthouse audit told me that the YouTube Java Script is unnecessary and it’s better to remove it for faster loading. I searched about it and doubt if it’s true, I think it’s necessary when users start a video.  
@@ -628,6 +618,7 @@ When I learned this css animation technique through the “Love Running” proje
 ![Hero image CSS animation scale 1 to 1.1](readme-img/credit-hero-css-anima.png "Hero image CSS animation scale 1 to 1.1")
 </details>
 
+<a id="credits-breadcrumb"></a>
 
 ### Breadcrumb
 I looked for suitable elements for the breadcrumb links. In W3 website the answer was `<nav>` and using aria attribute for describing the location. Moreover I got an opportunity to learn about `::before` pseudo selector in relation to this.  
