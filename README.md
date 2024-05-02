@@ -170,7 +170,7 @@ This section shows a health related video made by WHO; it promotes the overview 
 
 I used iframe for this YouTube video and I had some problems to display it properly. [BUGS - Setting Height Automatically, YouTube-iframe](#bugs-youtube) Also [BUGS - Align Center, YouTube-iframe](#bugs-youtube)  
 
-Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [YouTube Video Optimizing For Google Lighthouse audit](#bugs-sourcedoc)   
+Additionally in the auditing term, Google Lighthouse audit scored this page really low because of the iframe using the unnecessary Java Script. [BUGS - YouTube Video Optimizing For Google Lighthouse audit](#bugs-sourcedoc)   
 ![Article YouTube](readme-img/feat-article-youtube.png "Article YouTube")
 
 
@@ -185,7 +185,7 @@ I used the X icon for Twitter at the beginning, but the Lighthouse validator sho
 ## Breadcrumb
 This feature lets users know which page they are on, giving a strong sense of place. It will be important if the site becomes larger.  
 
-Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [Breadcrumb, what element and attributes - W3school](#credits-breadcrumb)    
+Since HTML5 added new usefull elements, so I searched what's the suitable element for this. [CREDITS - Breadcrumb, what element and attributes - W3school](#credits-breadcrumb)    
 ![Breadcrumb](readme-img/feat-breadcrumb.png "Breadcrumb")
 
 
