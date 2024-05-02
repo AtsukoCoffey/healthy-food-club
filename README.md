@@ -667,7 +667,7 @@ EG. for alphabet only and 3 letters `pattern="[A-Za-z]{3}"`
 * [Link to W3schools website - Form input pattern attribute](https://www.w3schools.com/tags/att_input_pattern.asp#:~:text=The%20pattern%20attribute%20specifies%20a,pattern%20to%20help%20the%20user "Form input pattern attribute")
 
 ### Hero Image Optimizing For LCP
-The hero image is not a small size image. After I read this article, I tried to optimize the reading time of the hero image using `<link rel="preload">’ for increasing LCP score.  
+The hero image is not a small size image. After I read this article, I tried to optimize the reading time of the hero image using `<link rel="preload">` for increasing LCP score.  
 
 * [Link to web.dev - Optimize Largest Contentful Paint](https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=lr#optimize_when_the_resource_is_discovered "Optimize Largest Contentful Paint")
 
