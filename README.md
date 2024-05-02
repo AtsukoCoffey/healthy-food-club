@@ -1,7 +1,11 @@
 # Healthy Food Club
 The "Healthy Food Club" is a community that hosts cooking sessions with brief health-related lectures and introduces alternative menus to promote a healthier lifestyle.  
   
-During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact; with special focus on food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.
+During our activities, we strive to raise awareness about the prevalence of chemicals in our lives and their impact; with special focus on food additives, fertilizers, pesticide, and those regulations, to monitor them for a safer society and healthier life collectively.   
+
+> This website is built for academic purpose only.  
+
+
 
 ![ Live site view ](readme-img/amiresponsive.png "Live site view")
 
@@ -379,7 +383,7 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 
 * Top page - index.html  
 
-<details>
+<details open>
 <summary>Google Lighthouse audit index.html - Device Desktop >> </summary>  
 
 ![Google Lighthouse audit index.html - Device Desktop](readme-img/test-lighthouse-index.png "Google Lighthouse audit index.html - Device Desktop")  
@@ -414,7 +418,7 @@ Additionally, my iPad Safari v14 has no problem browsing, which was released nea
 <details>
 <summary>Google Lighthouse audit signup.html - Device Desktop >> </summary>  
 
-![Google Lighthouse audit signup.html - Device Desktop](readme-img/test-lighthouse-signup.png "Google Lighthouse audit signup.html - Device Desktop")  
+![Google Lighthouse audit signup.html - Device Desktop](readme-img/test-lighthouse-sign.png "Google Lighthouse audit signup.html - Device Desktop")  
 </details>  
 
 <details>
