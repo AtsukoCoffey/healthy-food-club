@@ -671,7 +671,6 @@ The hero image is not a small size image. After I read this article, I tried to 
 
 * [Link to web.dev - Optimize Largest Contentful Paint](https://web.dev/articles/optimize-lcp?utm_source=lighthouse&utm_medium=lr#optimize_when_the_resource_is_discovered "Optimize Largest Contentful Paint")
 
-
 ### Clearfix using ::after pseudo selector
 I was thinking where to set clearfix for the session schedule's float in the signup page. Also after I learned `::before` pseudo selector, I'd like to try to use `::after` selector. Then I found this page. 
 
